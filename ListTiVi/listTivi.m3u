@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V1" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V2e" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -101,17 +101,17 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HOMESHOPPING-SD-ABR/HTV-ABR/HOMESH
 #EXTINF:-1 tvg-id="htvc_coop" group-title="HTV" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/06/05/200872-HTVCoop.png",HTV Co.op
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/chunks.m3u8
 
-#EXTINF: -1 tvg-id = "sctv1hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/62/Logo_SCTV1.png/revision/latest/scale-to-width-down/200?cb=20191009032130", SCTV1
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/62/Logo_SCTV1.png/revision/latest/scale-to-width-down/200?cb=20191009032130", SCTV1
 http://203.162.123.188:21585/sctv1/tracks-v1a1/mono.m3u8
-#EXTINF: -1 tvg-id = "sctv2hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3b/SCTV2_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20201119114104&path-prefix=vi", SCTV2
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3b/SCTV2_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20201119114104&path-prefix=vi", SCTV2
 https://8387d1dfc2.vws.vegacdn.vn/live/sctv2-netstars/chunklist_2.m3u8
-#EXTINF: -1 tvg-id = "sctv5hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e7/SCTV5.png/revision/latest/scale-to-width-down/200?cb=20210819100021&path-prefix=vi", SCTV5
-https://vtsstr3.tv24.vn/elive/_definst_/SCTV5_SD_Sh.smil/chunklist_w1847983708_b4692000.m3u8?
-#EXTINF: -1 tvg-id = "sctv8hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d2/SCTV8_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20210819103024&path-prefix=vi", SCTV8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e7/SCTV5.png/revision/latest/scale-to-width-down/200?cb=20210819100021&path-prefix=vi", SCTV5
+https://vtsstr3.tv24.vn/elive/_definst_/SCTV5_SD_Sh.smil/chunklist_w1847983708_b4692000.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d2/SCTV8_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20210819103024&path-prefix=vi", SCTV8
 http://210.86.230.202:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
-#EXTINF: -1 tvg-id = "sctv12hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/ab/SCTV12_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20201127035429&path-prefix=vi", SCTV12
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/a/ab/SCTV12_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20201127035429&path-prefix=vi", SCTV12
 http://27.67.50.142:18080/60_0.m3u8?Range=9691161-9691162&SessionID=00a2048f-e4d1-48c8-82ea-89c5dd16d069
-#EXTINF: -1 tvg-id = "sctv16hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/8f/SCTV16-2.png/revision/latest/scale-to-width-down/200?cb=20210820043927&path-prefix=vi", SCTV16
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/8/8f/SCTV16-2.png/revision/latest/scale-to-width-down/200?cb=20210820043927&path-prefix=vi", SCTV16
 http://27.67.50.70:18080/159_2.m3u8?Range=273433400-273433401&SessionID=1aeaeaaa-200e-435b-b03b-c30a67c439ea
 
 #EXTINF:-1 tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1564374852/cmc_new/img.live_channel/0/0/0/0/12.jpg" group-title="Địa Phương",Hà Nội 1
