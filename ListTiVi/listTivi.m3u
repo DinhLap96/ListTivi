@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V13" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V1" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -101,49 +101,17 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HOMESHOPPING-SD-ABR/HTV-ABR/HOMESH
 #EXTINF:-1 tvg-id="htvc_coop" group-title="HTV" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/06/05/200872-HTVCoop.png",HTV Co.op
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/chunks.m3u8
 
-#EXTINF: -1 tvg-id = "vtvcab1hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/97.png", VTVcab1 - Giải Trí
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab1/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab2hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/98.png", VTVcab2 - Phim Việt
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab2/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab3hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/36.png", VTVcab3 - TheThaoTV
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab3/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab4hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/194.png", VTVcab4 - Văn Hóa
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab4/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab5hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/100.png", VTVcab5
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab5/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab6hd" group-title = "VTVcab" tvg-logo = "https://assets-vtvcab.gviet.vn/images/hq/posters/Icon_355x2003.jpg", VTVcab6 - Bật Thể thao +
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab6/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab7hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/phprtQ6hB_5dae811aae9cd.png", VTVcab7 - O2 TV
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab7/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab8hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/102.png", VTVcab8 - Bibi TV
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab8/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab9hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/195.png", VTVcab9 - Thông tin TV
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab9/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab7hd" group-title = "VTVcab" tvg-logo = "https://mytv.com.vn/upload/channel/phpehBSp4_60a6127162d07.png", VTVcab10 - Phim Truyền hình
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab10/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "sctv13hd" group-title = "SCTV" tvg-logo = "https://static.wikia.nocookie.net/logopedia/images/3/39/VTVCab_13.png/revision/ mới nhất? cb = 20191208035746 ", VTVCab13
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab13/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab7hd" group-title = "VTVcab" tvg-logo = "https://static.wikia.nocookie.net/logopedia/images/1/1e/VTVCab_15.png/revision/ mới nhất? cb = 20200206095612 ", VTVcab15
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab15/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab7hd" group-title = "VTVcab" tvg-logo = "https://static.wikia.nocookie.net/logos/images/5/5a/VTVcab_18.png/revision/ mới nhất? cb = 20210909041044 & path-prefix = vi ", VTVcab18
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab18/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab7hd" group-title = "VTVcab" tvg-logo = "https://static.wikia.nocookie.net/logos/images/8/89/VTVcab_21.png/revision/ mới nhất? cb = 20210909042230 & path-prefix = vi ", VTVcab21
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab21/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab7hd" group-title = "VTVcab" tvg-logo = "https://static.wikia.nocookie.net/logopedia/images/3/3a/VTVCab_22.png/revision/ mới nhất? cb = 20200206041429 ", VTVcab22
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab22/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "vtvcab7hd" group-title = "VTVcab" tvg-logo = "https://static.wikia.nocookie.net/logos/images/9/91/VTVcab_23.png/revision/ mới nhất? cb = 20210909042542 & path-prefix = vi ", VTVcab23
-https://isptqrteg4liv.vcdn.cloud/manifest/vtvcab23/playlist_720p.m3u8
-#EXTINF: -1 tvg-id = "sctv1hd" group-title = "SCTV" tvg-logo = "https://imaginary.endpoint.cdn.sctvonline.vn/tenant/none_tenant/photos/1_cc823220.jpg", SCTV1
+#EXTINF: -1 tvg-id = "sctv1hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/62/Logo_SCTV1.png/revision/latest/scale-to-width-down/200?cb=20191009032130", SCTV1
 http://203.162.123.188:21585/sctv1/tracks-v1a1/mono.m3u8
-#EXTINF: -1 tvg-id = "sctv2hd" group-title = "SCTV" tvg-logo = "https://imaginary.endpoint.cdn.sctvonline.vn/tenant/none_tenant/photos/2_fd5dc799.jpg", SCTV2
+#EXTINF: -1 tvg-id = "sctv2hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3b/SCTV2_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20201119114104&path-prefix=vi", SCTV2
 https://8387d1dfc2.vws.vegacdn.vn/live/sctv2-netstars/chunklist_2.m3u8
-#EXTINF: -1 tvg-id = "sctv5hd" group-title = "SCTV" tvg-logo = "https://imaginary.endpoint.cdn.sctvonline.vn/tenant/none_tenant/photos/5_4efd92d7.jpg", SCTV5
+#EXTINF: -1 tvg-id = "sctv5hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e7/SCTV5.png/revision/latest/scale-to-width-down/200?cb=20210819100021&path-prefix=vi", SCTV5
 https://vtsstr3.tv24.vn/elive/_definst_/SCTV5_SD_Sh.smil/chunklist_w1847983708_b4692000.m3u8?
-#EXTINF: -1 tvg-id = "sctv8hd" group-title = "SCTV" tvg-logo = "https://imaginary.endpoint.cdn.sctvonline.vn/tenant/none_tenant/photos/8_efcc1082.jpg", SCTV8
+#EXTINF: -1 tvg-id = "sctv8hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d2/SCTV8_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20210819103024&path-prefix=vi", SCTV8
 http://210.86.230.202:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
-#EXTINF: -1 tvg-id = "sctv12hd" group-title = "SCTV" tvg-logo = "https://imaginary.endpoint.cdn.sctvonline.vn/tenant/none_tenant/photos/12_c58b7453.jpg", SCTV12
+#EXTINF: -1 tvg-id = "sctv12hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/ab/SCTV12_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20201127035429&path-prefix=vi", SCTV12
 http://27.67.50.142:18080/60_0.m3u8?Range=9691161-9691162&SessionID=00a2048f-e4d1-48c8-82ea-89c5dd16d069
-#EXTINF: -1 tvg-id = "sctv16hd" group-title = "SCTV" tvg-logo = "https://imaginary.endpoint.cdn.sctvonline.vn/tenant/none_tenant/photos/16_47eb3436.jpg", SCTV16
+#EXTINF: -1 tvg-id = "sctv16hd" group-title = "SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/8f/SCTV16-2.png/revision/latest/scale-to-width-down/200?cb=20210820043927&path-prefix=vi", SCTV16
 http://27.67.50.70:18080/159_2.m3u8?Range=273433400-273433401&SessionID=1aeaeaaa-200e-435b-b03b-c30a67c439ea
 
 #EXTINF:-1 tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1564374852/cmc_new/img.live_channel/0/0/0/0/12.jpg" group-title="Địa Phương",Hà Nội 1
