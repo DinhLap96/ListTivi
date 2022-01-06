@@ -1,4 +1,4 @@
-﻿#EXTM3U
+F﻿#EXTM3U
 
 #PLAYLISTINF:DinhLap version="V2" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
@@ -74,7 +74,7 @@ https://livecdn.fptplay.net/sdb/htv3_2000.stream/chunklist.m3u8
 https://livecdn.fptplay.net/sdb/htv4_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c6/HTV7_%282016-nay%29.png/revision/latest/scale-to-width-down/340?cb=20200608060620&path-prefix=vi",HTV7
 https://vips-livecdn.fptplay.net/hda1/htv7hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="hd" group-title="HTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/HTV9_logo.png",HTV9
+#EXTINF:-1 tvg-id="hd" group-title="HTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/41/HTV9_logo_2016.png/revision/latest?cb=20210628072506&path-prefix=vi",HTV9
 https://vips-livecdn.fptplay.net/hda1/htv9hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="htvcphimhd" group-title="HTV" tvg-logo="http://tvonline.vn/wp-content/uploads/2018/07/large_htvcphim.jpg",HTVC Phim
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/HTVC-PHIM-HD-1080p/chunks.m3u8
