@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V1" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V3" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -332,5 +332,5 @@ https://vips-livecdn.fptplay.net/hda3/dreamworks_vhls.smil/chunklist_b5000000.m3
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/chunklist_b600000.m3u8?id=coca
 #EXTINF:0 tvg-id="mtvhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/200px-MTV-2021.svg.png",MTV Asia
 https://vips-livecdn.fptplay.net/sdb/mtv_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 tvg-id="dinhlap" tvg-logo="https://google.com",Đình Lập
+#EXTINF:0 tvg-id="dinhlap" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/LogoMi.png",Đình Lập
 https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/GiaoDien.mp4
