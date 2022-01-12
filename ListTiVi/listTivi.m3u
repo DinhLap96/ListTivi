@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V9" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V10" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -338,23 +338,24 @@ https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3
 http://vips-livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="hbohd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142",HBO
 http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0 tvg-id="hollywoodclassics" tvg-logo="https://www.intheboxtv.eu/content/uploads/2019/01/channel_card_hwc.jpg",Hollywood Classics
+#EXTINF:0 tvg-id="hollywoodclassics" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742687c_Hollywood-201.png",Hollywood Classics
 #http://gg.gg/ccbholly|Referer=http://sctvonline.vn/
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="boxmovie1" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/540x540_BM1_2.png",BOX Movie¹
+#EXTINF:0 tvg-id="boxmovie1" tvg-logo="https://sites.google.com/site/vtvcaber/box-movies-1-vtvcab.png",BOX Movie¹
 #http://gg.gg/ccbmovie|Referer=http://sctvonline.vn/
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="boxhits" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/Kartica_BHits.jpg",BOX Hits
-http://gg.gg/ccbhits
+#EXTINF:0 tvg-id="boxhits" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1626834088channel3_BoxHit.png",BOX Hits
+https://nethubtv.vn/xem-truyen-hinh/box-hits|Referer=https://nethubtv.vn/
+#http://gg.gg/ccbhits|Referer=http://sctvonline.vn/
 #https://e4.endpoint.cdn.sctvonline.vn/hls/boxhits/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="inthebox" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/KARTICA_BOXChannel_V1.jpg",BOX Channel
+#EXTINF:0 tvg-id="inthebox" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623926686c_BOX%20W.png",BOX Channel
 http://gg.gg/ccbbox|Referer=http://sctvonline.vn/
 #https://e4.endpoint.cdn.sctvonline.vn/hls/boxchannel/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0  tvg-id="musicbox" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/MUSICBOX_KARTICA_V4.jpg",BOX Music
+#EXTINF:0  tvg-id="musicbox" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623738727c_Music%20Box.png",BOX Music
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0  tvg-id="man" tvg-logo="https://www.intheboxtv.eu/content/uploads/2018/10/KARTICA_MAN_V3.png",Man
-http://gg.gg/ccbman
-#EXTINF:0  tvg-id="woman" tvg-logo="https://www.intheboxtv.eu/content/uploads/2019/01/channel_card_woman.jpg",Woman
+#EXTINF:0  tvg-id="man" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742934c_Man.png",Man
+http://gg.gg/ccbman|Referer=http://sctvonline.vn/
+#EXTINF:0  tvg-id="woman" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743214c_Woman-193.png",Woman
 https://e4.endpoint.cdn.sctvonline.vn/hls/woman/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="happykids"  tvg-logo="https://www.intheboxtv.eu/content/uploads/2019/01/channel_card_happy_kids.jpg",Happy Kids
 https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8|Referer=http://sctvonline.vn/
