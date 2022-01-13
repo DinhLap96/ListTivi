@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V130" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V100" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -456,6 +456,14 @@ https://vips-livecdn.fptplay.net/sdb/mtv_hls.smil/chunklist_b2500000.m3u8
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 #EXTINF:0 tvg-logo="https://i.postimg.cc/3wK9RJTZ/kpopsexy2.png",KPOP Sexy
 https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
+#EXTINF:-1 tvg-id="KpopTVPlay.br" tvg-country="BR" tvg-language="Korean" tvg-logo="https://kpoptv.live/wp-content/uploads/2021/10/logokpoptvplay.png" group-title="Music",KpopTV Play
+https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
+#EXTINF:0 group-title="🅰️| Art", tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_1yBW7A8_bb1IF9UtaC5c3izus4RKFFxJ49qnKPrgVj0jKMIKYuum1ZIGyvpSVi9WWe4&usqp=CAU",Jasmin TV
+http://109.71.162.112:1935/live/hd.jasminchannel.stream/chunklist.m3u8
+#EXTINF:0 group-title="🅰️| Art", tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMksaUXLmf5y_SCdCMRhYNVdcN3qdQ83R4NA&usqp=CAU",Kaloopy
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/274eb05b-7332-4a40-831a-cee9b0878469/0.m3u8
+#EXTINF:0 group-title="🅰️| Art", tvg-logo="https://lh3.googleusercontent.com/dvkA_O2l5QM9I04JMbQ_1D5ZO1hfN6XIOULKeS8C5Wgb-LxoaQo1oFnKnG7HVtrn1g",Midnite Secrets
+http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
 #EXTINF:0  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png",Animax
 https://vips-livecdn.fptplay.net/hda3/animaxport_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-logo="https://upload.wikimedia.org/wikipedia/tr/b/b1/Babyfirst.png",Baby First
@@ -484,11 +492,60 @@ https://admdn4.cdn.mangomolo.com/majid/smil:majid.stream.smil/playlist.m3u8
 https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8
 #EXTINF:0 tvg-logo="https://cdn6.aptoide.com/imgs/5/1/7/51713cb38f60e82562a65727ce7d5493_icon.png",Love Nature UHD
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:0 group-title="🅰️| Art", tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_1yBW7A8_bb1IF9UtaC5c3izus4RKFFxJ49qnKPrgVj0jKMIKYuum1ZIGyvpSVi9WWe4&usqp=CAU",Jasmin TV
-http://109.71.162.112:1935/live/hd.jasminchannel.stream/chunklist.m3u8
-#EXTINF:0 group-title="🅰️| Art", tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMksaUXLmf5y_SCdCMRhYNVdcN3qdQ83R4NA&usqp=CAU",Kaloopy
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/274eb05b-7332-4a40-831a-cee9b0878469/0.m3u8
-#EXTINF:0 group-title="🅰️| Art", tvg-logo="https://lh3.googleusercontent.com/dvkA_O2l5QM9I04JMbQ_1D5ZO1hfN6XIOULKeS8C5Wgb-LxoaQo1oFnKnG7HVtrn1g",Midnite Secrets
-http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
+#EXTINF:-1 tvg-id="Babyfirst.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png" group-title="Kids",Babyfirst (720p)
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f4fb4cf605ddf000748e16f/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+#EXTINF:-1 tvg-id="BabyFirstTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/50338/s50338_h3_aa.png" group-title="Kids",BabyFirst TV (1080p)
+https://babyfirst.akamaized.net/hls/live/2028842/bftvusaott/playlist.m3u8
+#EXTINF:-1 tvg-id="BatteryPopXUMO.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/5VUZTa1.png" group-title="Kids",Battery Pop (XUMO) (720p)
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbatterypop/CDN/playlist.m3u
+#EXTINF:-1 tvg-id="BratTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lhjj94a.png" group-title="Kids",Brat TV (1080p)
+https://brat-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BumblebeeTVCountryBoyKidsVideo.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/p14DjHo.png" group-title="Kids",Bumblebee TV Country Boy Kids Video (720p)
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf225aed5eeee0f5a4094bd/playlist.m3u8
+#EXTINF:-1 tvg-id="BumblebeeTVFunZone.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/SfJuMjV.png" group-title="Kids",Bumblebee TV Fun Zone (720p)
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2625030145130f25474622/playlist.m3u8
+#EXTINF:-1 tvg-id="CampSpoopy.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/t3Jsks7.png" group-title="Kids",Camp Spoopy (486p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
+#EXTINF:-1 tvg-id="DuckTV.sk" tvg-country="SK" tvg-language="English" tvg-logo="https://i.imgur.com/Qw8x6Os.png" group-title="Kids",Duck TV (720p)
+https://mmm-ducktv-2-it.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="EBSKIDS.kr" tvg-country="KR" tvg-language="Korean" tvg-logo="https://global.ebs.co.kr/global/img/sub/Channels_IPTV_04.png" group-title="Kids",EBS KIDS (360p)
+http://ebsonair.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
+#EXTINF:-1 tvg-id="Gulli.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/mMWq0Kn.png" group-title="Kids",Gulli (540p)
+https://d13anarbtxy8c5.cloudfront.net/6play/short/clr/gulli/sdindex.m3u8
+#EXTINF:-1 tvg-id="HappyKids.us" tvg-country="US" tvg-language="English" tvg-logo="http://vignette3.wikia.nocookie.net/logosfake/images/9/90/Happy_Kids_logo_2004.png/revision/latest?cb=20140525234116" group-title="Kids",HappyKids (1080p)
+https://happykids-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="HappyKidsJunior.us" tvg-country="US" tvg-language="English" tvg-logo="http://vignette3.wikia.nocookie.net/logosfake/images/9/90/Happy_Kids_logo_2004.png/revision/latest?cb=20140525234116" group-title="Kids",HappyKids Junior (720p)
+https://happykidsjunior-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NewKidTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Z5t6cCe.jpg" group-title="Kids",New Kid TV (1080p)
+https://b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_NewKID/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSKidsAKST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Alaska (1080p)
+https://livestream.pbskids.org/out/v1/2963202df0c142c69b5254a546473308/akst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsEST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Eastern/Central (1080p)
+https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est.m3u8
+#EXTINF:-1 tvg-id="PBSKidsHAST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Hawaii (1080p)
+https://livestream.pbskids.org/out/v1/19d1d62bf61b4aea9ec20f83b6450a4e/hast.m3u8
+#EXTINF:-1 tvg-id="PBSKidsMST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Mountain (1080p)
+https://livestream.pbskids.org/out/v1/00a3b9014fa54c40bee6ca68a104a8a4/mst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsPST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Pacific (1080p)
+https://livestream.pbskids.org/out/v1/c707b9310f2848de849b336f9914adbc/pst.m3u8
+#EXTINF:-1 tvg-id="PinkfongBabyShark.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/1MGJg18.jpg" group-title="Kids",Pinkfong Baby Shark (1080p)
+https://fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_BabySharkTV/playlist.m3u8
+#EXTINF:-1 tvg-id="Spacetoon.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/RzPOwqI.png" group-title="Kids",Spacetoon (1080p)
+https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
+#EXTINF:-1 tvg-id="ToonGoggles.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/oyIMxzM.png" group-title="Kids",Toon Goggles (1080p)
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37
+#EXTINF:-1 tvg-id="ZooMooAustralia.nz" tvg-country="NZ" tvg-language="English" tvg-logo="https://i.imgur.com/1wYnA2i.jpg" group-title="Kids",Zoo Moo (Australia) (1080p)
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BeiJingQiaKuShaoEr.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://zuiai.tv/zb_users/upload/2021/2/2021022585174713.jpg" group-title="Kids",北京卡酷少儿 (576p)
+http://39.134.66.66/PLTV/88888888/224/3221225562/index.m3u8
+#EXTINF:-1 tvg-id="HaHaXuanDong.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/b/b5/TOONMAX_logo.png" group-title="Kids",哈哈炫动卫视 (480p)
+http://210.210.155.35/qwr9ew/s/s50/index.m3u8
+#EXTINF:-1 tvg-id="JiaJiaQiaTong.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jiajiakt.png" group-title="Kids",嘉佳卡通 (576p)
+http://223.110.245.139/PLTV/4/224/3221227009/index.m3u8
+#EXTINF:-1 tvg-id="XuanDongQiaTong.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.aikantv.org/images/dianshi/xdkt.jpg" group-title="Kids",炫动卡通 (540p)
+http://183.207.255.188/live/program/live/xdkt/1300000/mnf.m3u8
+#EXTINF:-1 tvg-id="FuZhouShaoEr.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.biubiuzhibo.com/static/picture/fzse.gif" group-title="Kids",福州少儿 (1080p)
+http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
+
 #EXTINF:0 tvg-id="dinhlap" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/mitv.png",mi.tv
 https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/GiaoDien.mp4
