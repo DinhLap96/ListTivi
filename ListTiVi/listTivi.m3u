@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V27" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V289" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -338,18 +338,11 @@ https://vips-livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3
 http://vips-livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="hbohd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142",HBO
 http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0 tvg-id="HBOFamilyEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://static.epg.best/us/HBOFamily.us.png" group-title="Family",HBO Family East (1080p) [Offline]
-#EXTINF:-1 tvg-id="K18JLD2.us" tvg-country="US;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (720p) [Not 24/7]
-https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8
-#EXTINF:-1 tvg-id="3ABNPraiseHimMusicChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/t6Ydwqg.png" group-title="Religious",3ABN Praise Him Music Channel (720p) [Not 24/7]
-https://moiptvhls-i.akamaihd.net/hls/live/554145/secure/playlist.m3u8
-#EXTINF:-1 tvg-id="3ABNKids.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/eOvzf3d.png" group-title="Religious",3ABN Kids (720p) [Not 24/7]
-https://moiptvhls-i.akamaihd.net/hls/live/652318/secure/master.m3u8
 #EXTINF:0 tvg-id="hollywoodclassics" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742687c_Hollywood-201.png",Hollywood Classics
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http://sctvonline.vn/
+
 #EXTINF:0 tvg-id="boxmovie1" tvg-logo="https://sites.google.com/site/vtvcaber/box-movies-1-vtvcab.png",BOX Movie¹
-#https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="boxhits" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1626834088channel3_BoxHit.png",BOX Hits
 http://gg.gg/ccbhits|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="inthebox" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623926686c_BOX%20W.png",BOX Channel
@@ -362,6 +355,14 @@ http://gg.gg/ccbman|Referer=http://sctvonline.vn/
 https://e4.endpoint.cdn.sctvonline.vn/hls/woman/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="drfithd" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743647c_DRFit.png",Dr. Fit
 https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/sd2/index.m3u8|Referer=http://sctvonline.vn/
+
+#EXTINF:0 tvg-id="HBOFamilyEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://static.epg.best/us/HBOFamily.us.png" group-title="Family",HBO Family East (1080p) [Offline]
+#EXTINF:-1 tvg-id="K18JLD2.us" tvg-country="US;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (720p) [Not 24/7]
+https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8
+#EXTINF:-1 tvg-id="3ABNPraiseHimMusicChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/t6Ydwqg.png" group-title="Religious",3ABN Praise Him Music Channel (720p) [Not 24/7]
+https://moiptvhls-i.akamaihd.net/hls/live/554145/secure/playlist.m3u8
+#EXTINF:-1 tvg-id="3ABNKids.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/eOvzf3d.png" group-title="Religious",3ABN Kids (720p) [Not 24/7]
+https://moiptvhls-i.akamaihd.net/hls/live/652318/secure/master.m3u8
 #EXTINF:0 tvg-id="planetearthhd" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743369c_Planet%20Earth-205.png",Planet Earth
 https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="bbcearth" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1622020554channel2_BBC%20EARTH.png",BBC Earth
