@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V22" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V24" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -347,16 +347,12 @@ https://moiptvhls-i.akamaihd.net/hls/live/554145/secure/playlist.m3u8
 https://moiptvhls-i.akamaihd.net/hls/live/652318/secure/master.m3u8
 #EXTINF:0 tvg-id="hollywoodclassics" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742687c_Hollywood-201.png",Hollywood Classics
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#http://gg.gg/ccbholly|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="boxmovie1" tvg-logo="https://sites.google.com/site/vtvcaber/box-movies-1-vtvcab.png",BOX Movie¹
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#http://gg.gg/ccbmovie|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="boxhits" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1626834088channel3_BoxHit.png",BOX Hits
 http://gg.gg/ccbhits|Referer=http://sctvonline.vn/
-#https://e4.endpoint.cdn.sctvonline.vn/hls/boxhits/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="inthebox" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623926686c_BOX%20W.png",BOX Channel
 http://gg.gg/ccbbox|Referer=http://sctvonline.vn/
-#https://e4.endpoint.cdn.sctvonline.vn/hls/boxchannel/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="musicbox" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623738727c_Music%20Box.png",BOX Music
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="man" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742934c_Man.png",Man
