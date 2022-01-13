@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V290" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V18" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -354,7 +354,7 @@ http://gg.gg/ccbbox|Referer=http://sctvonline.vn/
 #http://gg.gg/ccbmusic|Referer=http://sctvonline.vn/
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/sd2/index.m3u8?bycoca|Referer=http://sctvonline.vn/
 #EXTINF:0  tvg-id="man" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742934c_Man.png",Man
-http://gg.gg/ccbman
+http://gg.gg/ccbman|Referer=http://sctvonline.vn/
 #https://e4.endpoint.cdn.sctvonline.vn/hls/man-tv/sd2/index.m3u8?bycoca|Referer=http://sctvonline.vn/
 #EXTINF:0  tvg-id="woman" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743214c_Woman-193.png",Woman
 #http://gg.gg/ccbwoman|Referer=http://sctvonline.vn/
