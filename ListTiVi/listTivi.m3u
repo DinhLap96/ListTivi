@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V24" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V26" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -359,8 +359,6 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/sd2/index.m3u8|Referer=http:/
 http://gg.gg/ccbman|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="woman" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743214c_Woman-193.png",Woman
 https://e4.endpoint.cdn.sctvonline.vn/hls/woman/sd2/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="happykids" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623744040c_Kids.png",Happy Kids
-https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="drfithd" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743647c_DRFit.png",Dr. Fit
 https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="planetearthhd" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743369c_Planet%20Earth-205.png",Planet Earth
@@ -462,6 +460,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8
 #EXTINF:0  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Animax.png",Animax
 https://vips-livecdn.fptplay.net/hda3/animaxport_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0 tvg-id="happykids" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623744040c_Kids.png",Happy Kids
+https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0  tvg-logo="https://upload.wikimedia.org/wikipedia/tr/b/b1/Babyfirst.png",Baby First
 https://vips-livecdn.fptplay.net/hda1/babyfirst_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png",Baby TV
