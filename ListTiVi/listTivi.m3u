@@ -1,6 +1,6 @@
 ﻿F﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V215" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V01" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -470,6 +470,8 @@ https://30a-tv.com/music.m3u8
 https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
 #EXTINF:-1 tvg-id="KpopTVPlay.br" tvg-country="BR" tvg-language="Korean" tvg-logo="https://kpoptv.live/wp-content/uploads/2021/10/logokpoptvplay.png" group-title="Music",KpopTV Play
 https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
+#EXTINF:-1 tvg-id="NewKidTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Z5t6cCe.jpg" group-title="Kids",New Kid TV (1080p)
+https://b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_NewKID/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzzikAMVA2020.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://i.imgur.com/yRgMvpz.png" group-title="Music",Muzzik AMVA 2020 (720p) [Geo-blocked]
 https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzzikCafeClubSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Cafe&Club Serbia (720p) [Geo-blocked]
@@ -553,8 +555,6 @@ https://d13anarbtxy8c5.cloudfront.net/6play/short/clr/gulli/sdindex.m3u8
 https://happykids-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HappyKidsJunior.us" tvg-country="US" tvg-language="English" tvg-logo="http://vignette3.wikia.nocookie.net/logosfake/images/9/90/Happy_Kids_logo_2004.png/revision/latest?cb=20140525234116" group-title="Kids",HappyKids Junior (720p)
 https://happykidsjunior-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NewKidTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Z5t6cCe.jpg" group-title="Kids",New Kid TV (1080p)
-https://b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_NewKID/playlist.m3u8
 #EXTINF:-1 tvg-id="PBSKidsAKST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Alaska (1080p)
 https://livestream.pbskids.org/out/v1/2963202df0c142c69b5254a546473308/akst.m3u8
 #EXTINF:-1 tvg-id="PBSKidsEST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Eastern/Central (1080p)
