@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="A1" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="B1" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -652,5 +652,5 @@ https://livept.hanoitv.vn/hntvRadio/fm96.sdp_aac/chunklist_w305732649.m3u8
 https://strm.voh.com.vn/radio/channel3/chunklist_w1035246301.m3u8
 #EXTINF:0 tvg-id="FM" tvg-logo="https://cdn.webrad.io/images/logos/vietnamradio-org/voh-fm-95-6.png",VOH 95.6mhz
 https://strm.voh.com.vn/radio/channel1/chunklist_w242516345.m3u8
-#EXTINF:0 tvg-id="FM" tvg-logo="https://cdn.webrad.io/images/logos/vietnamradio-org/voh-fm-95-6.png",VOH 610khz
+#EXTINF:0 tvg-id="FM" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/voh610.png",VOH 610khz
 https://strm.voh.com.vn/radio/channel2/chunklist_w318605622.m3u8
