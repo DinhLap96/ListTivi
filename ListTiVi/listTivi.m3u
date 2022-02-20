@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="V9" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
+#PLAYLISTINF:DinhLap version="V11" list1="http://gg.gg/8zy29" list2="http://gg.gg/coocaa"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -638,6 +638,8 @@ http://stream2.mobiradio.vn/vovradio/vov1.stream/chunklist.m3u8
 http://stream2.mobiradio.vn/vovradio/vov2.stream/chunklist.m3u8
 #EXTINF:0 tvg-id="FM" tvg-logo="http://mobiradio.vn/theme/web/images/vov3.jpg",VOV 3
 http://stream2.mobiradio.vn/vovradio/vov3.stream/chunklist.m3u8
+#EXTINF:-1 group-title="VOV" tvg-logo="http://kythuatvov.vn/wp-content/uploads/2021/01/Logo-51.png", VOV Sức khỏe 89
+http://media.kythuatvov.vn:1936/live/VOV89.sdp/playlist.m3u8
 #EXTINF:0 tvg-id="FM" tvg-logo="http://mobiradio.vn/theme/web/images/vovgiaothong.jpg",VOV Giao Thông HN
 http://stream2.mobiradio.vn/vovradio/vovgthn.stream/chunklist.m3u8
 #EXTINF:0 tvg-id="FM" tvg-logo="http://mobiradio.vn/theme/web/images/vovgiaothonghcm.jpg",VOV Giao Thông HCM
