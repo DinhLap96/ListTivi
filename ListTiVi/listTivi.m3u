@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 
-#PLAYLISTINF:DinhLap version="B4" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="B5" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -630,7 +630,7 @@ https://content.uplynk.com/channel/3e4b9cada2b74cf18977298804134a36.m3u8
 https://dai.google.com/linear/hls/event/6RPZlzksTCyB1euPqLcBZQ/master.m3u8
 
 #EXTINF:0 tvg-id="dinhlap" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/mitv.png",mi.tv
-https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/GiaoDien.mp4
+https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/giaodien.mp4
 
 #EXTINF:0 tvg-id="FM" tvg-logo="http://kythuatvov.vn/wp-content/uploads/2021/01/Logo-27.png",VOV 1
 http://stream2.mobiradio.vn/vovradio/vov1.stream/chunklist.m3u8
