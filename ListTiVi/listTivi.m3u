@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="V8" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="V1" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -28,7 +28,7 @@ https://vips-livecdn.fptplay.net/hda1/vtc1_vhls.smil/chunklist_b5000000.m3u8
 https://vips-livecdn.fptplay.net/sdb/vtc2_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e5/VTC3.png/revision/latest/scale-to-width-down/340?cb=20201207142820&path-prefix=vi",VTC3
 https://vips-livecdn.fptplay.net/hda1/vtc3hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/dd/VTC4_2018-2020.png/revision/latest/scale-to-width-down/340?cb=20201212065736&path-prefix=vi",VTC4
+#EXTINF:-1 tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/70/VTC4_logo_2018.png/revision/latest/scale-to-width-down/1000?cb=20201212065736&path-prefix=vi",VTC4
 https://vips-livecdn.fptplay.net/hda2/vtc4_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vtc5hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/VTC5_2018.png/revision/latest/scale-to-width-down/340?cb=20200821143114",VTC5
 https://vips-livecdn.fptplay.net/sdb/vtc5_hls.smil/chunklist_b2500000.m3u8
@@ -373,8 +373,7 @@ https://pprex49o5aliv.vcdn.cloud/live/box-channel/chunklist_2.m3u8
 #http://gg.gg/ccbmusic|Referer=http://sctvonline.vn/
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0  tvg-id="man" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742934c_Man.png",Man
-https://pprex49o5aliv.vcdn.cloud/live/man-tv/chunklist_2.m3u8
-#https://e4.endpoint.cdn.sctvonline.vn/hls/man-tv/sd2/index.m3u8|Referer=http://sctvonline.vn/
+https://e4.endpoint.cdn.sctvonline.vn/hls/man-tv/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0  tvg-id="woman" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623743214c_Woman-193.png",Woman
 #http://gg.gg/ccbwoman|Referer=http://sctvonline.vn/
 https://e4.endpoint.cdn.sctvonline.vn/hls/woman/sd2/index.m3u8|Referer=http://sctvonline.vn/
@@ -414,9 +413,9 @@ http://vips-livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.
 https://vips-livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-id="ngwhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png",WILD
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8
-#EXTINF:0  tvg-id="blueantent" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Rock_Entertainment.png/1200px-Rock_Entertainment.png",Rock Entertainment
+#EXTINF:0  tvg-id="blueantent" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/dd/RTL_CBS_Entertainment.svg/revision/latest?cb=20211105035121&path-prefix=vi",Rock Entertainment
 https://vips-livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0  tvg-id="blueantext" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Rock_Extreme.png",Rock Extreme
+#EXTINF:0  tvg-id="blueantext" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/2c/RTL_CBS_Extreme.svg/revision/latest/scale-to-width-down/1000?cb=20211105035135&path-prefix=vi",Rock Extreme
 https://vips-livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-id="afnhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/1200px-Asian_Food_Network.svg.png",Asian Food Network
 https://vips-livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
