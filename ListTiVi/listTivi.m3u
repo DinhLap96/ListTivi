@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="V2" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="V3" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -60,8 +60,6 @@ https://vips-livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
 https://vips-livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
 https://vips-livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0 group-title="🥤" tvg-id="nethub" tvg-logo="https://live.xemtv24h.com/mediaz/Media/files/themes/app/logo_web_1619075290HQ-02.png",NET Hub
-https://log5uwsgbvliv.vcdn.cloud/live/thunghiem/chunklist_2.m3u8
 
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Large_htv1.png",HTV1
 https://livecdn.fptplay.net/sdb/htv1_hls.smil/chunklist_b2500000.m3u8
@@ -414,7 +412,7 @@ http://vips-livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.
 https://vips-livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-id="ngwhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Nat_Geo_Wild_logo.png/1200px-Nat_Geo_Wild_logo.png",WILD
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8
-#EXTINF:0  tvg-id="blueantent" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/dd/RTL_CBS_Entertainment.svg/revision/latest?cb=20211105035121&path-prefix=vi",Rock Entertainment
+#EXTINF:0  tvg-id="blueantent" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/21/Blue_Ant_Entertainment.png/revision/latest/scale-to-width-down/640?cb=20220305152744&path-prefix=vi",Rock Entertainment
 https://vips-livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0  tvg-id="blueantext" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/2c/RTL_CBS_Extreme.svg/revision/latest/scale-to-width-down/1000?cb=20211105035135&path-prefix=vi",Rock Extreme
 https://vips-livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b5000000.m3u8
