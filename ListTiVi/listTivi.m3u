@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="V2" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="V001" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -104,7 +104,7 @@ https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv2|Referer=http://sctvonlin
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv3|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv4hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e1/SCTV4_logo_2018.png/revision/latest/scale-to-width-down/250?cb=20220223141548&path-prefix=vi", SCTV4 HD
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv4|Referer=http://sctvonline.vn/
-#EXTINF:-1 group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e6/SCTV5_logo_2021.png/revision/latest/scale-to-width-down/250?cb=20220223141558&path-prefix=vi", SCTV5 HD - SCJ
+#EXTINF:-1 group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e6/SCTV5_logo_2021.png/revision/latest/scale-to-width-down/250?cb=20220223141558&path-prefix=vi", SCTV5 HD
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv5|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv6hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/cf/SCTV6_logo_2021.png/revision/latest/scale-to-width-down/200?cb=20220223142109&path-prefix=vi", SCTV6 HD
 http://vips-livecdn.fptplay.net/hda3/film360_vhls.smil/chunklist_b5000000.m3u8
