@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="V6" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="V1" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -140,7 +140,7 @@ https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv20|Referer=http://sctvonli
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv21|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv22hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/47/SCTV22.png/revision/latest/scale-to-width-down/200?cb=20210821043823&path-prefix=vi", SCTV22 HD
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv22|Referer=http://sctvonline.vn/
-#EXTINF:-1 tvg-id="sctvhdpth" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/71/SCTV_HD_Phim_T%E1%BB%95ng_H%E1%BB%A3p_2017.png/revision/latest/scale-to-width-down/200?cb=20220223142202&path-prefix=vi", SCTV HD Phim Tổng Hợp
+#EXTINF:-1 tvg-id="sctvhdpth" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d1/SCTV_Phim_T%E1%BB%95ng_H%E1%BB%A3p_logo.png/revision/latest/scale-to-width-down/250?cb=20220223140705&path-prefix=vi", SCTV HD Phim Tổng Hợp
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctvpth|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="btv5hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c2/BTV5.png/revision/latest?cb=20211207102746&path-prefix=vi", BTV5 HD
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/btv5|Referer=http://sctvonline.vn/
