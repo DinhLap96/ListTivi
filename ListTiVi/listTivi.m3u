@@ -1,5 +1,34 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="V02" url="http://gg.gg/dltivi" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="seaGame31" url="http://gg.gg/dltivi" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 01
+https://vips-livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 02
+https://vips-livecdn.fptplay.net/schedule/sukien02_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 03
+https://vips-livecdn.fptplay.net/schedule/sukien03_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 04
+https://vips-livecdn.fptplay.net/schedule/sukien04_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",⛳| Live 01
+https://vips-livecdn.fptplay.net/hdevent/fsport01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🏃| Live 02
+https://vips-livecdn.fptplay.net/hdevent/fsport02_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🏀| Live 03
+https://vips-livecdn.fptplay.net/hdevent/fsport03_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🏸| Live 04
+https://vips-livecdn.fptplay.net/hdevent/fsport04_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🏊️| Live 05
+https://vips-livecdn.fptplay.net/hdevent/fsport05_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🎾| Live 06
+https://vips-livecdn.fptplay.net/hdevent/fsport06_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🏓| Live 07
+https://vips-livecdn.fptplay.net/hdevent/fsport07_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🎱| Live 08
+https://vips-livecdn.fptplay.net/hdevent/fsport08_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🏐| Live 09
+https://vips-livecdn.fptplay.net/hdevent/fsport09_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",🥅| Live 10
+https://vips-livecdn.fptplay.net/hdevent/fsport10_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -302,8 +331,6 @@ https://livecdn.fptplay.net/sda/tayninhhd_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/sda/thaibinh_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1545704085/cmc_new/img.live_channel/0/0/0/0/66.jpg",Thái Nguyên 1
 http://103.90.220.236/tntvlive/tv1live.m3u8
-#EXTINF:0 group-title="Địa Phương" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e3/TN2_logo_2018.png/revision/latest/scale-to-width-down/200?cb=20211026103444&path-prefix=vi",Thái Nguyên 2
-https://8387e1fb5a.vws.vegacdn.vn/live/thainguyen2/chunklist_1.m3u8
 #EXTINF:0 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1546682518/cmc_new/img.live_channel/0/0/0/0/64.jpg",Thanh Hóa
 https://livecdn.fptplay.net/sda/thanhhoa_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1544501362/cmc_new/img.live_channel/0/0/0/0/67.jpg",Thừa Thiên Huế
