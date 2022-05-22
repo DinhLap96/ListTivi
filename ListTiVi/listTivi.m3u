@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="C2" url="http://gg.gg/dltivi" list1="http://gg.gg/vthanhtivii" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="V1" url="http://gg.gg/dltivi" list1="http://gg.gg/vthanhtivii" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 01
 https://vips-livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
@@ -368,25 +368,26 @@ https://livecdn.fptplay.net/sda/btv6_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/sda/btv11_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-http://gg.gg/boxmovie11
+http://vthanhvnpt.duckdns.org/boxmovie1/mpegts
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=hollywood-classics&itb=1
+http://vthanhvnpt.duckdns.org/hollywoodclassics/mpegts
 #EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-channel&itb=1
+http://vthanhvnpt.duckdns.org/inthebox/mpegts
 #EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-hits&itb=1
+http://vthanhvnpt.duckdns.org/boxhits/mpegts
 #EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=man-tv&itb=1
+http://vthanhvnpt.duckdns.org/man/mpegts
 #EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=dr-fit&itb=1
+http://vthanhvnpt.duckdns.org/drfit/mpegts
 #EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=happy-kids&itb=1
+http://vthanhvnpt.duckdns.org/happykids/mpegts
 #EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-music&itb=1
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://livecdn.fptplay.net/hda3/music_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=planet-earth&itb=1
+http://vthanhvnpt.duckdns.org/planetearth/mpegts
 #EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=woman&itb=1
+http://vthanhvnpt.duckdns.org/woman/mpegts
 
 #EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/46/Fashion_TV_HD.svg/revision/latest/scale-to-width-down/250?cb=20111009233204",FashionTV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
