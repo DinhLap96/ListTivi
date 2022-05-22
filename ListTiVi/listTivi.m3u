@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="A2" url="http://gg.gg/dltivi" list1="http://gg.gg/vthanhtivii" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="VA" url="http://gg.gg/dltivi" list1="http://gg.gg/vthanhtivii" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 01
 https://vips-livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
@@ -90,7 +90,7 @@ https://vips-livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b25000
 #EXTINF:0 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
 https://vips-livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/images/origin/vod/poster/18915.png", NetHub
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=thunghiem&cl=1&b=3
+https://log5uwsgbvliv.vcdn.cloud/3aedf7042805eb6c8e0b2cf6355dfc00/1653243457000/live/thunghiem/chunklist_3.m3u8
 
 #EXTINF:0 tvg-id="htv1" group-title="3️⃣| HTV" tvg-logo="https://i.ibb.co/XkLGs0C/HTV1-cc.webp",HTV1
 https://livecdn.fptplay.net/sdb/htv1_hls.smil/chunklist_b2500000.m3u8
