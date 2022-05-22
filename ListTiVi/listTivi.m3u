@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="V1" url="http://gg.gg/dltivi" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="V2" url="http://gg.gg/dltivi" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
 
 #EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 01
 https://vips-livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
@@ -385,7 +385,7 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8|Referer=http:
 #EXTINF:0 tvg-id="boxmovie1" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623738495c_Box%20Movie.png",BOX Movie¹
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="boxhits" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1626834088channel3_BoxHit.png",BOX Hits
-https://e4.endpoint.cdn.sctvonline.vn/hls/boxhits/sd2/index.m3u8|Referer=http://sctvonline.vn/
+https://dl.dropboxusercontent.com/s/28ty97que0ave8x/
 #EXTINF:0 tvg-id="inthebox" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623926686c_BOX%20W.png",BOX Channel
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxchannel/sd2/index.m3u8?bycoca|Referer=http://sctvonline.vn/
 #EXTINF:0  tvg-id="musicbox" group-title="🇧🌎🇽" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623738727c_Music%20Box.png",BOX Music
