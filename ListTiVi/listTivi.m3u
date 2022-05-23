@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="v1" url="http://gg.gg/dltivi" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="v2" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -61,7 +61,7 @@ https://vips-livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b25000
 #EXTINF:0 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
 https://vips-livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="🔴| Livestream" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/images/origin/vod/poster/18915.png", NetHub
-https://log5uwsgbvliv.vcdn.cloud/3aedf7042805eb6c8e0b2cf6355dfc00/1653243457000/live/thunghiem/chunklist_3.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=thunghiem&cl=1&b=3
 
 #EXTINF:0 tvg-id="htv1" group-title="3️⃣| HTV" tvg-logo="https://i.ibb.co/XkLGs0C/HTV1-cc.webp",HTV1
 https://livecdn.fptplay.net/sdb/htv1_hls.smil/chunklist_b2500000.m3u8
@@ -339,25 +339,25 @@ https://livecdn.fptplay.net/sda/btv6_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/sda/btv11_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c5/Box_Movie_1.png/revision/latest?cb=20220225030512&path-prefix=vi", Box Movie 1
-https://pprex49o5aliv.vcdn.cloud/f274ca0491da7af42843390a0d47b69d/1653242149000/live/box-movie/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-movie&itb=1
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/FbKGWY3/Hollywood-Classics-cc.webp", Hollywood Classics
-https://pprex49o5aliv.vcdn.cloud/a1e9159d7a0fdc018cdb434c80aadb74/1653242205000/live/hollywood/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=hollywood-classics&itb=1
 #EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/4c/In_The_Box_Channel_2017.png/revision/latest/scale-to-width-down/200?cb=20220515095644&path-prefix=vi",Box Channel
-https://pprex49o5aliv.vcdn.cloud/bfbc83bc549e467c50f3c5219c9988dc/1653242253000/live/box-channel/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-channel&itb=1
 #EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b1/Box_Hits.png/revision/latest?cb=20220225030521&path-prefix=vi", Box Hits
-https://pprex49o5aliv.vcdn.cloud/f75c749ea9ac943f4b34ae9261892e94/1653242340000/live/box-hits/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-hits&itb=1
 #EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/Yj6BTzZ/Man-cc.webp", Man
-https://pprex49o5aliv.vcdn.cloud/bfa6f9b851f32b6eeae166a896157f40/1653242365000/live/man-tv/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=man-tv&itb=1
 #EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/t8SWCHJ/DrFit-cc.webp", Dr.Fit
-https://pprex49o5aliv.vcdn.cloud/70dbbc5a51aaf8ecb1ac8186a937bb80/1653242385000/live/dr-fit/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=dr-fit&itb=1
 #EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp", Happy Kids
-https://pprex49o5aliv.vcdn.cloud/a56567d50c3fb71b331e0a84b31eabfe/1653242403000/live/happy-kids/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=happy-kids&itb=1
 #EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp", Music Box
-https://pprex49o5aliv.vcdn.cloud/ce291acea0b3465ec67f728f7d1dacec/1653242424000/live/box-music/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-music&itb=1
 #EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/YfRCdT8/Planet-Earth-cc.webp", Planet Earth
-https://pprex49o5aliv.vcdn.cloud/f90d694f030dc43dc28bb27e85841050/1653242459000/live/planet-earth/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=planet-earth&itb=1
 #EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png", Woman
-https://pprex49o5aliv.vcdn.cloud/c7ea49da06ac57ba344b9001f702e5ab/1653242493000/live/woman/chunklist_2.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=woman&itb=1
 
 #EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/46/Fashion_TV_HD.svg/revision/latest/scale-to-width-down/250?cb=20111009233204",FashionTV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
