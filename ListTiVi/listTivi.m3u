@@ -1,34 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="E2" url="http://gg.gg/dltivi" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
-
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 01
-https://vips-livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 02
-https://vips-livecdn.fptplay.net/schedule/sukien02_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 03
-https://vips-livecdn.fptplay.net/schedule/sukien03_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021-HN.png",Sea Games 04
-https://vips-livecdn.fptplay.net/schedule/sukien04_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",⚽| Live 01
-https://vips-livecdn.fptplay.net/hdevent/fsport01_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🏊️| Live 02
-https://vips-livecdn.fptplay.net/hdevent/fsport02_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🏀| Live 03
-https://vips-livecdn.fptplay.net/hdevent/fsport03_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🎱| Live 04
-https://vips-livecdn.fptplay.net/hdevent/fsport04_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🏸| Live 05
-https://vips-livecdn.fptplay.net/hdevent/fsport05_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🤸🏾‍♀️| Live 06
-https://vips-livecdn.fptplay.net/hdevent/fsport06_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🏋️| Live 07
-https://vips-livecdn.fptplay.net/hdevent/fsport07_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🏸| Live 08
-https://vips-livecdn.fptplay.net/hdevent/fsport08_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",Live 09
-https://vips-livecdn.fptplay.net/hdevent/fsport09_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:-1 group-title="🥇| SEA GAMES 31" tvg-logo="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Logo-31st-Sea-Games-2021.png",🏐| Live 10
-https://vips-livecdn.fptplay.net/hdevent/fsport10_vhls.smil/chunklist_b5000000.m3u8?cc
+#PLAYLISTINF:DinhLap version="V01" url="http://gg.gg/dltivi" list1="http://gg.gg/8zy29" list2="http://gg.gg/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
