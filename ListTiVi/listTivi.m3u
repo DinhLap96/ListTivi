@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="v3" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="v4" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -116,7 +116,7 @@ https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv7|Referer=http://sctvonlin
 #EXTINF:0 tvg-id="sctv8hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f5/SCTV8_logo_2019.png/revision/latest/scale-to-width-down/250?cb=20220223142115&path-prefix=vi", SCTV8
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv9hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/7f/SCTV9_logo.png/revision/latest/scale-to-width-down/250?cb=20211117121333&path-prefix=vi", SCTV9
-https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv9|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/channel/sctv9/s2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fb/SCTV10_logo.png/revision/latest/scale-to-width-down/250?cb=20220223142144&path-prefix=vi", SCTV10
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv10|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv11hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c1/SCTV11_logo.png/revision/latest/scale-to-width-down/200?cb=20211117115708&path-prefix=vi", SCTV11
@@ -126,13 +126,13 @@ https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv12|Referer=http://sctvonli
 #EXTINF:0 tvg-id="sctv13hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/5/54/SCTV13_logo_2021.png/revision/latest/scale-to-width-down/200?cb=20220117233216&path-prefix=vi", SCTV13
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv13|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv14hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fc/SCTV14_HD.png/revision/latest?cb=20210820042332&path-prefix=vi", SCTV14
-https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv14|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/channel/sctv14/s2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv15hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/2d/SCTV15_logo.png/revision/latest/scale-to-width-down/200?cb=20211211011110&path-prefix=vi", SCTV15
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv15|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv16hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/8f/SCTV16-2.png/revision/latest/scale-to-width-down/200?cb=20210820043927&path-prefix=vi", SCTV16
-https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv16|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/s2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv17hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/87/SCTV17_logo.png/revision/latest/scale-to-width-down/200?cb=20211211011113&path-prefix=vi", SCTV17
-https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv17|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/channel/sctv17/s2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv18hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/8/87/SCTV18_logo_2017.png/revision/latest/scale-to-width-down/200?cb=20210820120952&path-prefix=vi", SCTV18
 https://api.vthanhtivii.xyz/v1/getlink/sctvonline/sctv18|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv19hd" group-title="💚| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d1/SCTV19_logo.png/revision/latest/scale-to-width-down/200?cb=20211119032018&path-prefix=vi", SCTV19
