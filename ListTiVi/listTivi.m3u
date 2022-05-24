@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="v2" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="v3" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -305,7 +305,7 @@ https://livecdn.fptplay.net/sda/thaibinh_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1545704085/cmc_new/img.live_channel/0/0/0/0/66.jpg",Thái Nguyên 1
 http://103.90.220.236/tntvlive/tv1live.m3u8
 #EXTINF:0 group-title="Địa Phương" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/7e/TN2_08-2017.png/revision/latest/scale-to-width-down/200?cb=20220425071656&path-prefix=vi",Thái Nguyên 2
-https://mziyw7t0yhliv.vcdn.cloud/04a56b742490488a374317a69550f7dd/1653241654000/live/thainguyen2/chunklist_1.m3u8
+https://api.vthanhtivii.xyz/v1/getlink/nethub?id=thai-nguyen-2&cl=1&b=1
 #EXTINF:0 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1546682518/cmc_new/img.live_channel/0/0/0/0/64.jpg",Thanh Hóa
 https://livecdn.fptplay.net/sda/thanhhoa_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 group-title="Địa Phương" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1544501362/cmc_new/img.live_channel/0/0/0/0/67.jpg",Thừa Thiên Huế
