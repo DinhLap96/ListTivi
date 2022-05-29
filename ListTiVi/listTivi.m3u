@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="v7" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="v8" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -155,7 +155,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab2/index.m3u8|Referer=http://sctv
 #EXTINF:0 tvg-id="vtvcab3hd" group-title="🇻| VTVcab" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fc/ON_Sports_TV_logo_%28Th%E1%BB%83_Thao_TV%29.png/revision/latest/scale-to-width-down/1000?cb=20211027130244&path-prefix=vi",VTVcab3
 https://e3.endpoint.cdn.sctvonline.vn/secure/vtvcab3/index.m3u8?md5=ytdJ0cly8LCK3zdy10OuxQ&expires=2556118740|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="vtvcab4hd" group-title="🇻| VTVcab" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f8/VTVCab_4.png/revision/latest/scale-to-width-down/1000?cb=20200206041235",VTVcab4
-https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab4/sd2/index.m3u8|Referer=http://sctvonline.vn/
+https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab4/index.m3u8|Referer=http://sctvonline.vn
 #EXTINF:0 tvg-id="vtvcab5hd" group-title="🇻| VTVcab" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/7b/VTVcab_5_2018.png/revision/latest/scale-to-width-down/1000?cb=20210919105549&path-prefix=vi",VTVcab5
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab5/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="vtvcab6hd" group-title="🇻| VTVcab" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/a0/On_Sports_%2B_logo_01-11-2021.png/revision/latest/scale-to-width-down/1000?cb=20211103030911&path-prefix=vi",VTVcab6
