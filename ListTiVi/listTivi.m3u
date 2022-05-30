@@ -1,8 +1,9 @@
 ﻿#EXTM3U
-#PLAYLISTINF:DinhLap version="v9" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="v10" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
-https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
+//https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
+http://gg.gg/dlvtvcab20|Referer=http://sctvonline.vn
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
 https://vips-livecdn.fptplay.net/hda1/vtv2_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
