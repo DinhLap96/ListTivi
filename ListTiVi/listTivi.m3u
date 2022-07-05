@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v11" url="http://gg.gg/dltivi" list1="http://gg.gg/coocaa" list2="http://gg.gg/phimiptv"
+#PLAYLISTINF:DinhLap version="05/07/2022" url="http://gg.gg/dltivi" list1="http://gg.gg/vthanhtivii" list2="http://gg.gg/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -337,26 +337,26 @@ https://livecdn.fptplay.net/sda/btv6_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logos/images/c/cd/BTV11.png/revision/latest?cb=20210104104706&path-prefix=vi" group-title="AVG",BTV 11
 https://livecdn.fptplay.net/sda/btv11_hls.smil/chunklist_b2500000.m3u8
 
-#EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c5/Box_Movie_1.png/revision/latest?cb=20220225030512&path-prefix=vi", Box Movie 1
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-movie&itb=1
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/FbKGWY3/Hollywood-Classics-cc.webp", Hollywood Classics
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=hollywood-classics&itb=1
+#EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c5/Box_Movie_1.png/revision/latest?cb=20220225030512&path-prefix=vi",Box Movie 1
+http://live.vthanh.net:8080/boxmovie1
+#EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/FbKGWY3/Hollywood-Classics-cc.webp", Box Hollywood Classics
+http://live.vthanh.net:8080/hollywood
 #EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/4c/In_The_Box_Channel_2017.png/revision/latest/scale-to-width-down/200?cb=20220515095644&path-prefix=vi",Box Channel
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-channel&itb=1
-#EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b1/Box_Hits.png/revision/latest?cb=20220225030521&path-prefix=vi", Box Hits
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-hits&itb=1
-#EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/Yj6BTzZ/Man-cc.webp", Man
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=man-tv&itb=1
-#EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/t8SWCHJ/DrFit-cc.webp", Dr.Fit
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=dr-fit&itb=1
-#EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp", Happy Kids
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=happy-kids&itb=1
-#EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp", Music Box
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=box-music&itb=1
-#EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/YfRCdT8/Planet-Earth-cc.webp", Planet Earth
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=planet-earth&itb=1
-#EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png", Woman
-https://api.vthanhtivii.xyz/v1/getlink/nethub?id=woman&itb=1
+http://live.vthanh.net:8080/inthebox
+#EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b1/Box_Hits.png/revision/latest?cb=20220225030521&path-prefix=vi",Box Hits
+http://live.vthanh.net/boxhits/mpegts
+#EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/Yj6BTzZ/Man-cc.webp",Box Man
+http://live.vthanh.net:8080/man
+#EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/t8SWCHJ/DrFit-cc.webp",Box Dr.Fit
+http://live.vthanh.net:8080/drfit
+#EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",Box Happy Kids
+http://live.vthanh.net:8080/happykids
+#EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp",Box Music
+http://live.vthanh.net:8080/musicbox
+#EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/YfRCdT8/Planet-Earth-cc.webp",Box Planet Earth
+http://live.vthanh.net:8080/planetearth
+#EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",Box Woman
+http://live.vthanh.net:8080/woman
 
 #EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/46/Fashion_TV_HD.svg/revision/latest/scale-to-width-down/250?cb=20111009233204",FashionTV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
@@ -377,8 +377,6 @@ http://vips-livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="hbohd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142",HBO
 http://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:0 tvg-id="hollywoodclassics" tvg-logo="https://lis7vmcv2kobj.vcdn.cloud/Media/files/channels/poster_1623742687c_Hollywood-201.png",Hollywood Classics
-http://vthanhvnpt.duckdns.org/hollywoodclassics/mpegts
 #EXTINF:-1 tvg-id="hits" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/233.png", HITS
 https://api.vthanhtivii.xyz/v1/getlink/tv360/107/2
 #EXTINF:-1 tvg-id="hgtv" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/234.png", HGTV
@@ -468,12 +466,6 @@ https://vips-livecdn.fptplay.net/sdb/france24_hls.smil/chunklist_b2500000.m3u8
 https://cdn.klowdtv.net/803B48A/oan_aws_ms/OAN_720p30.m3u8
 #EXTINF:0 tvg-logo="https://www.smithsonianchannel.ca/wp-content/uploads/2018/10/smithsonian-logo-header.png",Smithsonian Channel
 https://smithsonianaus-samsungau.amagi.tv/playlist1080p.m3u8
-#EXTINF:0 tvg-logo="http://www.cmd.ee/public/upload/images/logo/Hollywood-HD-logo.png",Hollywood
-http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
-#EXTINF:0 tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/41611b21-a7ce-419b-bc77-4644f8105930/de2xjsl-cb285d19-abfd-43dc-bf24-c52311a617ed.png/v1/fill/w_1280,h_720,strp/star_movies__2008__blender_render_by_therprtnetwork_de2xjsl-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNDE2MTFiMjEtYTdjZS00MTliLWJjNzctNDY0NGY4MTA1OTMwXC9kZTJ4anNsLWNiMjg1ZDE5LWFiZmQtNDNkYy1iZjI0LWM1MjMxMWE2MTdlZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Hcmbf_UIhyXfD9WF1Irs0EE34WsnivKcMwPZfVKUtqU",STAR Movies
-http://221.120.204.4:80/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/41611b21-a7ce-419b-bc77-4644f8105930/de2xi7m-448b4d95-f343-4461-9248-0965e6f29e6c.png/v1/fill/w_1192,h_670,strp/star_world__2008__blender_render_v3_by_therprtnetwork_de2xi7m-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzQxNjExYjIxLWE3Y2UtNDE5Yi1iYzc3LTQ2NDRmODEwNTkzMFwvZGUyeGk3bS00NDhiNGQ5NS1mMzQzLTQ0NjEtOTI0OC0wOTY1ZTZmMjllNmMucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.XJmdWp-Wu9De2j8sTuFSLGedbwQ0bYwUdWYvjrIwF-A",STAR World
-http://221.120.204.4/star-world-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png",Love Nature
 http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8
 #EXTINF:0 tvg-logo="https://www.nasa.gov/sites/default/files/images/nasaLogo-570x450.png",Nasa TV
@@ -494,28 +486,6 @@ https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
 https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
 #EXTINF:0 tvg-id="NewKidTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Z5t6cCe.jpg" group-title="Kids",New Kid TV (1080p)
 https://b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_NewKID/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikAMVA2020.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://i.imgur.com/yRgMvpz.png" group-title="Music",Muzzik AMVA 2020 (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikCafeClubSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Cafe&Club Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikHipHopSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik HipHop Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikJekaSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Jeka Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-4/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikMediteraneoSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Mediteraneo Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-a5/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikOKKSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik OKK Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-2/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikReplaySerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Replay Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-a3/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikRockRollSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Rock&Roll Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-1/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikSaculatacSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Saculatac Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-a2/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikTVSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik TV Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-6/playlist.m3u8
-#EXTINF:0 tvg-id="MuzzikWorldwideSerbia.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://www.muzzik.tv/wp-content/uploads/2019/05/muzzik-logo.png" group-title="Music",Muzzik Worldwide Serbia (720p) [Geo-blocked]
-https://muzzik-live.morescreens.com/mts-5/playlist.m3u8
 #EXTINF:0 tvg-id="Ocko.cz" tvg-country="CZ;SK" tvg-language="Czech" tvg-logo="https://i.imgur.com/jKPRYdM.png" group-title="Music",Óčko (540p)
 https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/playlist.m3u8
 #EXTINF:0 tvg-id="PlayTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="http://i.imgur.com/100uuWA.png" group-title="Music",Play TV (480p)
