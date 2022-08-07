@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="07/08/2022" url="http://bom.so/dltivi" list1="https://s.id/iptv" list2="https://s.id/phimiptv"
+#PLAYLISTINF:DinhLap version="07/08/2022" url="http://bom.so/dltivi" list1="http://s.id/iptv" list2="http://s.id/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
