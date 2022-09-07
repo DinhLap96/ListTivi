@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v3" url="http://bom.so/dltivi" list1="http://s.id/iptv" list2="http://s.id/phimiptv"
+#PLAYLISTINF:DinhLap version="v4" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://s.id/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -146,11 +146,12 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/s2/index.m3u8?cc|R
 https://e2.endpoint.cdn.sctvonline.vn/hls/btv5/sd2/index.m3u8?cc|Referer=http://sctvonline.vn/
 
 #EXTINF:0 tvg-id="vtvcab1hd" type="stream" group-title="🇻| VTVcab" tvg-logo="https://i.ibb.co/BTvgW0b/VCab1-cc.webp",VTVcab1
-https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab1/index.m3u8|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/channel/vtvcab1/s2/index.m3u8?cc|Referer=http://sctvonline.vn/
+#https://hni-fpt-001-livecdn-vthn-vnd.vieon.vn/31ee088dc3dc39d51630643bf7a55581/1662609497696/vtvcab/live/hd_vtvcab_1_test/playlist.m3u8
 #EXTINF:0 tvg-id="vtvcab2hd" type="stream" group-title="🇻| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp",VTVcab2																			 ㅤ
-https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab2/index.m3u8|Referer=http://sctvonline.vn/
+https://hni-fpt-002-livecdn-vthn-vnd.vieon.vn/2b8221172e2044dd8b72752e9328780c/1662609605491/vtvcab/live/hd_vtvcab_2/playlist.m3u8
 #EXTINF:0 tvg-id="vtvcab3hd" type="stream" group-title="🇻| VTVcab" tvg-logo="https://i.ibb.co/3r4zsVG/VCab3-cc.webp",VTVcab3
-https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab3/index.m3u8|Referer=http://sctvonline.vn/
+https://sgn-fpt-002-livecdn-vthn-vnd.vieon.vn/b2c85668c898c3a680133cbb9b4ed2b8/1662609657786/vtvcab/live/hd_vtvcab_3/playlist.m3u8
 #EXTINF:0 tvg-id="vtvcab4hd" type="stream" group-title="🇻| VTVcab" tvg-logo="https://i.ibb.co/4d5KYz8/VCab4-cc.webp",VTVcab4
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab4/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="vtvcab5hd" type="stream" group-title="🇻| VTVcab" tvg-logo="https://i.ibb.co/x6FrQSw/VCab5-cc.webp",VTVcab5
