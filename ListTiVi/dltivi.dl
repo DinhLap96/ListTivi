@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml"
-#PLAYLISTINF:DinhLap version="v4" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://s.id/phimiptv"
+#PLAYLISTINF:DinhLap version="v5" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://s.id/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -12,7 +12,7 @@ https://sgn-fpt-002-livecdn-vthn-vnd.vieon.vn/2dac31e05004fe27b3bdf0a50a3b42ac/1
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://hni-fpt-002-livecdn-vthn-vnd.vieon.vn/4c281b4095f5dc568c63060536d2971d/1670759081244/vtc/live/hd_vtv5_test/TV_HD/hd_vtv5_test_1080p/chunks.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
-https://sgn-fpt-002-livecdn-vthn-vnd.vieon.vn/2dac31e05004fe27b3bdf0a50a3b42ac/1670759143767/vtc/live/hd_vtv4_test/TV_HD/hd_vtv4_test_1080p/chunks.m3u8
+https://hni-fpt-002-livecdn-vthn-vnd.vieon.vn/a391b2e171c84b5f76942f12c4d6e349/1670759673103/vtc/live/hd_vtv_cantho/TV_HD/hd_vtv_cantho_720p/chunks.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
 https://vips-livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
