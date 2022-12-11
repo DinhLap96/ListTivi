@@ -1,18 +1,18 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml"
-#PLAYLISTINF:DinhLap version="v5" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://s.id/phimiptv"
+#PLAYLISTINF:DinhLap version="v6" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://s.id/phimiptv"
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
-https://sgn-fpt-001-livecdn-vthn-vnd.vieon.vn/e41f0b72f5b19a572c08bbf33308697b/1670758887142/vtc/live/hd_vtv2_test/TV_HD/hd_vtv2_test_1080p/chunks.m3u8
+https://livecdn.fptplay.net/sevent/vtv2_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
-https://hni-fpt-001-livecdn-vthn-vnd.vieon.vn/a41cf7555c274ae7b209dcb87619dda5/1670758995611/vtc/live/hd_vtv3_test/TV_HD/hd_vtv3_test_1080p/chunks.m3u8
+https://livecdn.fptplay.net/sevent/vtv3hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
-https://sgn-fpt-002-livecdn-vthn-vnd.vieon.vn/2dac31e05004fe27b3bdf0a50a3b42ac/1670759143767/vtc/live/hd_vtv4_test/TV_HD/hd_vtv4_test_1080p/chunks.m3u8
+https://livecdn.fptplay.net/hda1/vtv4_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
-https://hni-fpt-002-livecdn-vthn-vnd.vieon.vn/4c281b4095f5dc568c63060536d2971d/1670759081244/vtc/live/hd_vtv5_test/TV_HD/hd_vtv5_test_1080p/chunks.m3u8
+https://livecdn.fptplay.net/sevent/vtv5hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
-https://hni-fpt-002-livecdn-vthn-vnd.vieon.vn/a391b2e171c84b5f76942f12c4d6e349/1670759673103/vtc/live/hd_vtv_cantho/TV_HD/hd_vtv_cantho_720p/chunks.m3u8
+https://livecdn.fptplay.net/sevent/vtvcantho_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
 https://vips-livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
@@ -338,25 +338,25 @@ https://livecdn.fptplay.net/sda/btv6_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/sda/btv11_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/c/c5/Box_Movie_1.png/revision/latest?cb=20220225030512&path-prefix=vi",Box Movie 1
-https://sugustvno1.tk/get/ott/nethub.php?id=9328
+https://vtsstr7.tv24.vn/live/smil:BOX_MOVIE_HD.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Box" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp",Box Music
-https://sugustvno1.tk/get/ott/nethub.php?id=9329
+https://api.vthanhtivi.pw/v1/getlink/mytv_web/69/hd
 #EXTINF:-1 tvg-id="boxhits" group-title="Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b1/Box_Hits.png/revision/latest?cb=20220225030521&path-prefix=vi",Box Hits
-https://sugustvno1.tk/get/ott/nethub.php?id=9330
+https://api.vthanhtivi.pw/v1/getlink/mytv_web/105/hd
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="Box" tvg-logo="https://i.ibb.co/FbKGWY3/Hollywood-Classics-cc.webp", Box Hollywood Classics
-https://sugustvno1.tk/get/ott/nethub.php?id=9331
+https://vtsstr7.tv24.vn/live/smil:Hollywood.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="man" group-title="Box" tvg-logo="https://i.ibb.co/Yj6BTzZ/Man-cc.webp",Box Man
-https://sugustvno1.tk/get/ott/nethub.php?id=9332
+https://api.vthanhtivi.pw/v1/getlink/cliptv/837
 #EXTINF:-1 tvg-id="woman" group-title="Box" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",Box Woman
-https://sugustvno1.tk/get/ott/nethub.php?id=9333
+https://vtsstr7.tv24.vn/live/smil:Woman.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="planetearthhd" group-title="Box" tvg-logo="https://i.ibb.co/YfRCdT8/Planet-Earth-cc.webp",Box Planet Earth
-https://sugustvno1.tk/get/ott/nethub.php?id=9334
+https://vtsstr7.tv24.vn/live/smil:Planet_Earth.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="drfithd" group-title="Box" tvg-logo="https://i.ibb.co/t8SWCHJ/DrFit-cc.webp",Box Dr.Fit
-https://sugustvno1.tk/get/ott/nethub.php?id=9335
+https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/sd2/index.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="inthebox" group-title="Box" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/4c/In_The_Box_Channel_2017.png/revision/latest/scale-to-width-down/200?cb=20220515095644&path-prefix=vi",In The Box
-https://sugustvno1.tk/get/ott/nethub.php?id=9336
+https://api.vthanhtivi.pw/v1/getlink/cliptv/838
 #EXTINF:-1 tvg-id="happykids" group-title="Box" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",Box Happy Kids
-https://sugustvno1.tk/get/ott/nethub.php?id=9337
+https://vtsstr7.tv24.vn/live/smil:Happy_Kids.smil/chunklist.m3u8
 
 #EXTINF:0 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/46/Fashion_TV_HD.svg/revision/latest/scale-to-width-down/250?cb=20111009233204",FashionTV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
