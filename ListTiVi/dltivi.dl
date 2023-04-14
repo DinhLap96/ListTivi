@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v10" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="gg .gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v1" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="gg .gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_4000.stream/chunklist.m3u8
@@ -123,7 +123,7 @@ https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv12/index.m3u8#|Referer=http:/
 #EXTINF:-1 tvg-id="sctv13hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/bz9xjYz/SCTV13-cc.webp",SCTV13
 https://vtsstr7.tv24.vn/live/SCTVHDPhunuGiadinh_new.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="sctv14hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/ThjNn6H/SCTV14-cc.webp",SCTV14
-https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv14/index.m3u8#|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/channel/sctv14.m3u8|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv15hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/q1GPVFM/SCTV15-SSport-cc.webp",SCTV15
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv15/index.m3u8#|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv16hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/934CHgk/SCTV16-cc.webp",SCTV16
