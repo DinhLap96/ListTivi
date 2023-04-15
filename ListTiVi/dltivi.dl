@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v1" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="gg.gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v2" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="gg.gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_4000.stream/chunklist.m3u8
@@ -188,6 +188,91 @@ https://e3.endpoint.cdn.sctvonline.vn/secure/vtvcab20/index.m3u8?md5=-sx6Mn0Nya1
 https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8
 #EXTINF:0 tvg-id="onvff" type="stream" group-title="🇻| VTVcab" tvg-logo="https://i.ibb.co/SQvdfMR/onvff.webp",ON VFF
 https://onsportlive.vtvcab.vn/hls/ONVFFTV_CL/04.m3u8
+
+#EXTINF:-1 tvg-logo="https://imgur.com/AQTQy63.png" group-title="??| HBO GO (USA)", HBO HD
+http://xcui.vitvabc.xyz:8880/live/287994016405/287994016405/31465.m3u8
+#EXTINF:-1 tvg-logo="https://imgur.com/WQrjpnC.png" group-title="??| HBO GO
+http://xcui.vitvabc.xyz:8880/live/287994016405/287994016405/31460.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/P4xDJ6p/hbofamily.png" group-title="hbo", HBO FAMILY HD
+http://hidra.live:80/xszuapuf/32W2Xuk4th/304120
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PCsNTbS/hbo-mundi.png" group-title="hbo", HBO MUNDI HD
+http://hidra.live:80/xszuapuf/32W2Xuk4th/304121
+#EXTINF:-1 tvg-logo="https://imgur.com/G07B1LQ.png" group-title="hbo", HBO PLUS HD
+http://hidra.live:80/xszuapuf/32W2Xuk4th/304122
+#EXTINF:-1 tvglogo="https://imgur.com/C0bfvOA.png" group-title="hbo", HBO POP HD
+http://hidra.live:80/xszuapuf/32W2Xuk4th/304123
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6wrq5Pr/hbosignature.png" group-title="hbo", HBO SIGNATURE HD
+http://hidra.live:80/xszuapuf/32W2Xuk4th/304124
+#EXTINF:-1 tvg-logo="https://imgur.com/pSo5Ctn.png" group-title="hbo", HBO XTREME HD
+http://hidra.live:80/xszuapuf/32W2Xuk4th/304125
+#EXTINF:-1 tvg-id="" tvglogo="https://i.ibb.co/VtxpgVt/cinemax-hd.jpg" group-title="hbo go",CINEMAX 1
+http://dominoiptv.com:2082/cipo2673/6nKa4hs9fFS2U8/31079
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/yQp1MHD/cinemax-2.png" group-title="hbo go",CINEMAX 2
+http://dominoiptv.com:2082/cipo2673/6nKa4hs9fFS2U8/31080
+#EXTINF:-1 tvgid="hbo" tvg-logo="https://i.ibb.co/FDRHKwf/hboasia.png" group-title="hbo go",HBO (Asia)
+http://dominoiptv.com:2082/cipo2673/6nKa4hs9fFS2U8/31120
+#EXTINF:-1 tvgid="hbo2" tvg-logo="https://i.ibb.co/frh29Jh/Hbo2-tp.png" group-title="hbo go",HBO 2 (Asia)
+http://dominoiptv.com:2082/cipo2673/6nKa4hs9fFS2U8/31118
+#EXTINF:-1 tvgid="hbo3" tvg-logo="https://i.ibb.co/VvcJ92J/HBO3-gradient.png" group-title="hbo go",HBO 3 (Asia)
+http://dominoiptv.com:2082/cipo2673/6nKa4hs9fFS2U8/31119
+#EXTINF:-1 tvgid="hbofamilyhd-asia" tvg-logo="https://i.ibb.co/P4xDJ6p/hbofamily.png" grouptitle="hbo go",HBO Family (Asia)
+http://iptvh.it/hbofamily https://tiny.one/HBOFamily
+#EXTINF:-1 tvg-id="hbohitshdasia" tvg-logo="https://i.ibb.co/MNRmzK6/hbo-hits.png" group-title="hbo go",HBO Hits (Asia)
+https://tiny.one/HBOHits
+#EXTINF:-1 tvg-id="hbosignaturehd-asia" tvglogo="https://i.ibb.co/6wrq5Pr/hbosignature.png" group-title="hbo go",HBO Signature (Asia
+https://tiny.one/HBOSignature
+#EXTINF:-1 tvg-id="CINEMAX2" tvg-logo="https://imgur.com/seB27Fb.png" grouptitle="TQ",CINEMAX 2
+http://kuchini.site:8080/tomstme300/tomasarenatelegramme300/2236
+#EXTINF:-1 tvg-id="starworldhd" group-title="TQ" tvg-logo="http://gg.gg/12xiwc", Star World HD
+http://watchindia.net:8880/live/80249/77103/2191.ts
+#EXTINF:-1 tvgid="starmovieshd" tvg-logo="https://i.imgur.com/4J6uzOM.png" group-title="TQ",StarMovies HD
+http://watchindia.net:8880/live/80249/77103/2080.ts
+#EXTINF:-1 tvg-id="foxmovies" group-title="TQ" tvglogo="https://i.imgur.com/sSYwPsD.png", Fox Movies HD
+http://satline.xyz:8080/live/6471662500044998/621662500044998/8450.ts
+#EXTINF:-1 tvg-id="OSNStarWorldHD" group-title="TQ" tvglogo="https://i.ibb.co/PYcvzfY/OSN-STAR-WORLD.png", OSN Star World HD
+http://satline.xyz:8080/live/6471662500044998/621662500044998/53164.ts
+#EXTINF:-1 tvg-id="oSNStarMoviesHD" group-title="TQ" tvglogo="https://i.ibb.co/9w4txm6/OSN-STAR-MOVIES.png", OSN Star Movies HD
+http://satline.xyz:8080/live/341673617276507066/6151673617276507/53247.ts
+#EXTINF:-1 tvg-id="hbo2" tvg-logo="https://i.ibb.co/McRYfZH/test.gif" group-title="??|Phim Qu?c T?",Hollywood
+http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
+#EXTINF:-1 tvg-id="hbo3" tvg-logo="https://i.ibb.co/SX5T9B9/Cine-Life-cc.webp" group-title="TQ",CineLife
+https://magselectstirr.amagi.tv/playlist1080p.m3u8
+#EXTINF:-1 tvg-id="hbo2" tvg-logo="https://i.ibb.co/pXTWYw1/ccclassicmovies.png" group-title="TQ",FreeClassicMovies
+http://iptvh.it/hbo01 #EXTINF:-1 group-title="TQ" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp", AXN White sd
+http://axr.life:80/eltonamigo/XmFaQMh6qYMb/5397
+#EXTINF:-1 group-title="TQ" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp", AXN HD
+http://kuchini.site:8080/tomstme300/tomasarenatelegramme300/157542
+#EXTINF:-1 group-title="TQ" tvg-logo="https://i.ibb.co/9bMjNww/AXN.png", AXN hd sv2
+http://axr.life:80/eltonamigo/XmFaQMh6qYMb/5043
+#EXTINF:-1 tvglogo="https://i.ibb.co/3Bt20YR/HBO-cc.png" group-title="TQ",HBO HD
+https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist.m3u8
+#EXTINF:-1 tvgid="cinemaxhd" group-title="TQ" tvg-logo="https://i.ibb.co/C6npfxN/cc-Cinemax.png", Cinemax HD
+https://livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0 group-title="TQ" tvg-logo="https://i.ibb.co/Q8NX9GC/kixBEARTV.png", Kix HD
+https://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="axnhd" group-title="TQ" tvglogo="https://i.ibb.co/QHzdjXX/ccaxn.webp", AXN HD
+http://livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="blueantent" group-title="TQ" tvglogo="https://i.ibb.co/Yk1LwMQ/RockEnt.webp", Rock Entertainment
+https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="blueantext" group-title="TQ" tvglogo="https://i.ibb.co/0tpDsJD/RockExt.png", Rock Extreme
+https://livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="cinemaworldhd" group-title="TQ" tvglogo="https://i.ibb.co/ZLyzk6t/cc-Cinema-World.webp", CinemaWorld
+https://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="warnertvhd" group-title="TQ" tvglogo="https://i.ibb.co/xJ6MN0M/warner.png", Warner TV
+http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="starmovies" group-title="TQ" tvglogo="http://gg.gg/12z5fr", Star Maa HD
+http://kuchini.site:8080/tomstme300/tomasarenatelegramme300/82624
+#EXTINF:-1 tvg-id="starmovies" group-title="TQ" tvg-logo="http://gg.gg/12z5g7", Star Plus HD
+http://kuchini.site:8080/tomstme300/tomasarenatelegramme300/16091
+#EXTINF:-1 tvg-id="starmovies" group-title="TQ" tvglogo="http://gg.gg/12z6lp", Star 1 HD
+http://redlabmcdn.s.llnwi.net/nv02/bs09hd/playlist.m3u8
+#EXTINF:-1 tvgid="starmovies" group-title="TQ" tvg-logo="http://gg.gg/12z6lp", Star 2 HD
+http://redlabmcdn.s.llnwi.net/nv02/bs10hd/playlist.m3u8 #EXTINF:-1 grouptitle="TQ" tvg-logo="https://i.imgur.com/YUMXri1.png", Sony Channel HD+
+http://xcui.vitvabc.xyz:8880/live/287994016405/287994016405/16700.m3u8
+#EXTINF:-1 group-title="TQ" tvg-logo="http://gg.gg/131 p", THRILL
+http://210.210.155.35/qwr9ew/s/s34/01.m3u8
+#EXTINF:-1 group-title="TQ" tvg-logo="https://i.ibb.co/bL6JKrb/ lmbox.png", FILMBOX
+http://94.230.240.17:8080/ lm_box/index.m3u8
 
 #EXTINF:0 tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/408x230x1564374852/cmc_new/img.live_channel/0/0/0/0/12.jpg" group-title="Địa Phương",Hà Nội 1
 https://livecdn.fptplay.net/sdc/hanoitv1_hls.smil/chunklist_b2500000.m3u8
