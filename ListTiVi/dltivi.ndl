@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v2" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v4" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://vips-livecdn.fptplay.net/hda1/vtv1hd_4000.stream/chunklist.m3u8
@@ -66,13 +66,13 @@ https:///dl.dropboxusercontent.com/s/1duii5qorjwy6qm//
 #EXTINF:0 tvg-id="htv2hd" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/q99PxTH/cchtv2.webp",HTV2
 https:///dl.dropboxusercontent.com/s/zvvz2ue7oylapg3//
 #EXTINF:0 tvg-id="htv3" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/s6gVdnY/cchtv3.webp",HTV3
-https:///dl.dropboxusercontent.com/s/78787li0zd3b7nf//
+https:///dl.dropboxusercontent.com/s/78787li0zd3b7nf//   																						 ㅤ|Referer=https://sctvonline.vn//
 #EXTINF:0 tvg-id="htvkey" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/McQ45Y9/HTV4.webp",HTV4
 https:///dl.dropboxusercontent.com/s/9zx4rfvjecqzlxu//
 #EXTINF:0 tvg-id="htv7hd" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/C9r5gwM/HTV7-cc.webp",HTV7
 https:///dl.dropboxusercontent.com/s/z86zkoi8y27mqie//
 #EXTINF:0 tvg-id="htv9hd" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/tqvWY3q/HTV9-cc.webp",HTV9
-https:///dl.dropboxusercontent.com/s/pzlec8ftwbc28wn//
+https:///dl.dropboxusercontent.com/s/pzlec8ftwbc28wn//   																						 ㅤ|Referer=https://sctvonline.vn/
 #EXTINF:0 tvg-id="htvthethaohd"  type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/GTnjzYB/HTVThe-Thao.webp",HTV Thể Thao
 https:///dl.dropboxusercontent.com/s/ou93hwfzx2h8ikw//   																						 ㅤ
 #EXTINF:0 tvg-id="htvcthuanviet" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/nmj2GzH/HTVCThuan-Viet-cc.webp",HTVC Thuần Việt
