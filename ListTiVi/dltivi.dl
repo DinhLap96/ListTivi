@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v9" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v1" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="dltivi" group-title="VTV" tvg-logo="https://image.winudf.com/v2/image1/Y29tLmRpbmhsYXAudGl2aV9pY29uXzE2NjgzMTEzODhfMDMw/icon.webp?w=140&fakeurl=1&type=.webp",Cập Nhật DLTivi
 https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/CapNhatDLtivi.mp4
