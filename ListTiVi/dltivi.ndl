@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v6" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v7" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-ali4.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -8,11 +8,11 @@ https://live-zlr1.tv360.vn/manifest/vtv2/playlist_1080p.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
 https://live-zlr1.tv360.vn/manifest/VTV3/playlist_1080p-5M.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
-https://hni-vnpt-002-livecdn-vthn-vnd.vieon.vn/fadbb5b47cdee743abc5d83ec7bec6cb/1685438819611/vtc_staging/free_livetv/hd_vtv4/TV_HD_FMP4/hd_vtv4_hevc_720p/video.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/XQaHuB0M6KWDiSUwHI8p0A/1685355136/vtvdigital/vtv4-720p.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 http://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
-https://sgn-vnpt-002-livecdn-vthn-vnd.vieon.vn/4d76275bd89571af6a5a3552b9d0f941/1685439416914/vtc_staging/free_livetv/hd_vtv_cantho/TV_HD_FMP4/hd_vtv_cantho_hevc_720p/video.m3u8
+https://vtvgolive-vtv.vtvdigital.vn/Z0-CN6T_8qtqOk1IPRvMcw/1685355229/vtvdigital/vtv6-720p.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
 https://hni-vnpt-002-livecdn-vthn-vnd.vieon.vn/0285a4c2aec74bac2f22844d70886eb6/1685438842098/vtc/free_live/hd_vtv7_test/TV_HD/hd_vtv7_test_720p/chunks.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
