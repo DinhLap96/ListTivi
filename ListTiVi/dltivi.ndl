@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v02" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v03" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-ali4.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -14,15 +14,16 @@ http://drfamaga5qliv.vcdn.cloud/vtv04/vtv04@1080p.m3u8
 http://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
 http://live.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
-#https://dl.dropboxusercontent.com/s/0mdi9d3mk1movxm/vtv6hd
+#http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
-https://sgn-vnpt-002-livecdn-vthn-vnd.vieon.vn/2b37ee48c8c03119fb6117c73dac1625/1685442405874/vtc/free_live/hd_vtv7_test/TV_HD/hd_vtv7_test_720p/chunks.m3u8
+http://drfamaga5qliv.vcdn.cloud/vtv07/vtv07@1080p.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
-https://hni-vnpt-001-livecdn-vthn-vnd.vieon.vn/d76d1d0d956cba50380ace21e80b4834/1685442453348/vtc/free_live/hd_vtv8_test/TV_HD/hd_vtv8_test_720p/chunks.m3u8
+http://drfamaga5qliv.vcdn.cloud/vtv08/vtv08@1080p.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
-https://vips-livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8
+http://drfamaga5qliv.vcdn.cloud/vtv09/vtv09@1080p.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/5/5d/QPVN.png",Quốc Phòng TV
-https://vips-livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
+https://drfamaga5qliv.vcdn.cloud/vtv09/vtv09@1080p.m3u8
+#https://vips-livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:0 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/VTC1_logo_2018.svg/1200px-VTC1_logo_2018.svg.png",VTC1
 https://vips-livecdn.fptplay.net/hda1/vtc1_vhls.smil/chunklist_b5000000.m3u8
