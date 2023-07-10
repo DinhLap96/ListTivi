@@ -16,7 +16,7 @@ http://live.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 #http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
 https://vtvgolive-vtv.vtvdigital.vn/EmfMk-hZNBYz63Hhzy__hg/1688974512/vtvdigital/vtv7-720p.m3u8
-//https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
+#https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
 https://vtvgolive-vtv.vtvdigital.vn/EmfMk-hZNBYz63Hhzy__hg/1688974512/vtvdigital/vtv8-720p.m3u8
 #https://code.vthanhtivi.pw/getlink/vieon/vtv8-hd/playlist.m3u8
