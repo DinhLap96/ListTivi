@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v12" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v13" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -15,16 +15,16 @@ http://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65
 http://live.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 #http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
-https://vtvgolive-vtv.vtvdigital.vn/EmfMk-hZNBYz63Hhzy__hg/1688974512/vtvdigital/vtv7-720p.m3u8
+https://dl.dropboxusercontent.com/s/f3gaq8dhsbnlyut/
 #https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
-https://vtvgolive-vtv.vtvdigital.vn/EmfMk-hZNBYz63Hhzy__hg/1688974512/vtvdigital/vtv8-720p.m3u8
+https://dl.dropboxusercontent.com/s/ywjkllkz5d85276/
 #https://code.vthanhtivi.pw/getlink/vieon/vtv8-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
-https://vtvgolive-vtv.vtvdigital.vn/EmfMk-hZNBYz63Hhzy__hg/1688974512/vtvdigital/vtv9-720p.m3u8
+https://dl.dropboxusercontent.com/s/2nse801wb2pmd0f/
 #https://code.vthanhtivi.pw/getlink/vieon/vtv9-hd/playlist.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/5/5d/QPVN.png",Quốc Phòng TV
-https://qpvntv.vtvdigital.vn/48rvDK2nnIizlAsVVoqoYA/1688974658/qpvntv/qpvntv-720p.m3u8
+https://live-zlr1.tv360.vn/manifest/QPVN_HD/playlist_1080p.m3u8
 
 #EXTINF:0 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/VTC1_logo_2018.svg/1200px-VTC1_logo_2018.svg.png",VTC1
 http://live.tv360.vn/manifest/VTC1_HD/playlist_1080p.m3u8
