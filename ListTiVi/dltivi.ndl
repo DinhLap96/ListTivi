@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v15" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
+#PLAYLISTINF:DinhLap version="v16" url="http://bom.so/dltivi" list1="https://playlist.hqth.xyz" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -8,7 +8,7 @@ https://live-zlr1.tv360.vn/manifest/vtv2/playlist_1080p.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
 https://live-zlr1.tv360.vn/manifest/VTV3/playlist_1080p-5M.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
-https://code.vthanhtivi.pw/getlink/tv360/108/2.m3u8
+https://code.hqth.xyz/getlink/tv360/108/2.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://live-zlr1.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-5M.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
@@ -388,7 +388,8 @@ https://subs-livecdn.fptplay.net/mskychannel/cinemawork_4000.stream/manifest.mpd
 #EXTINF:0 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",Cinemax
 https://tshift.fptplay.net/dvr/cinemax_1500.stream/chunks_dvr_range-0-0.m3u8
 #EXTINF:0 tvg-id="hbohd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142",HBO
-http://live.vthanhtivi.pw/hbo
+http://xem.tvhayhd.com/live-tv/xem-kenh-hbo-truc-tuyen.html
+#http://live.hqth.xyz/hbo/index.m3u8
 #https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-0-0.m3u8
 
 #EXTINF:-1 tvg-id="hits" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/209.png", History HD
