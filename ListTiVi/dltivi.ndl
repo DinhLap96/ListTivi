@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v25" url="http://bom.so/dltivi" list1="https://playlist.hqth.xyz" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://note.hqth.me/raw/the-thao-tv
+#PLAYLISTINF:DinhLap version="v24" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://note.hqth.me/raw/the-thao-tv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -74,7 +74,7 @@ https://akaviettel.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6JnZJKnmMKZmqeWlqufkZ1iYV5tYg==&time=1691751085&mykplus&id=klife
 https://akavnpt.kplus.vn/bpk-tv/prod_kplus_lifehd/default/index.mpd
-#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ed/Kplus_Sport_1_2021.png/revision/latest/scale-to-width-down/1000?cb=20220127022008&path-prefix=vig", K+ SPORT1
+#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ed/Kplus_Sport_1_2021.png/revision/latest/scale-to-width-down/1000?cb=20220127022008&path-prefix=vi", K+ SPORT1
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6JnZJKnmMKZmqeWlqufkZ1iYV5tYg==&time=1691751085&mykplus&id=ksport1
