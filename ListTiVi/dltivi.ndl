@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v26" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://gg.gg/khanggkplusiptv
+#PLAYLISTINF:DinhLap version="v27" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://gg.gg/khanggkplusiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -64,91 +64,81 @@ https://code.vthanhtivi.pw/getlink/mytv/224/hd.m3u8
 #EXTINF:0 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
 http://113.164.225.140:1935/live/quochoitvlive.stream/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Cine.png/revision/latest/scale-to-width-down/1000?cb=20220127020318&path-prefix=vi", K+ CINE
+#3EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Cine.png/revision/latest/scale-to-width-down/1000?cb=20220127020318&path-prefix=vi", K+ CINE
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mytv&id=kcine
 https://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv339&offset=1&nodelay=1
-#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b6/Kplus_Cine.png/revision/latest/scale-to-width-down/1000?cb=20220127020318&path-prefix=vi", K+ CINE
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mykplus&id=kcine
-https://akavnpt.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
 
-
-#EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f9/Kplus_Life_HD.png/revision/latest/scale-to-width-down/1296?cb=20220127021300&path-prefix=vi", K+ LIFE
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mykplus&id=klife
-https://akavnpt.kplus.vn/bpk-tv/prod_kplus_lifehd/default/index.mpd
-#EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f9/Kplus_Life_HD.png/revision/latest/scale-to-width-down/1296?cb=20220127021300&path-prefix=vi", K+ LIFE
+#3EXTINF:-1 tvg-id="klifehd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/f9/Kplus_Life_HD.png/revision/latest/scale-to-width-down/1296?cb=20220127021300&path-prefix=vi", K+ LIFE
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mytv&id=klife
 https://s2129132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv340&offset=1&nodelay=1
 
-#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ed/Kplus_Sport_1_2021.png/revision/latest/scale-to-width-down/1000?cb=20220127022008&path-prefix=vi", K+ SPORT1
+#3EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ed/Kplus_Sport_1_2021.png/revision/latest/scale-to-width-down/1000?cb=20220127022008&path-prefix=vi", K+ SPORT1
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mytv&id=ksport1
 https://s12936.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
-#EXTINF:-1 tvg-id="ksport1hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/ed/Kplus_Sport_1_2021.png/revision/latest/scale-to-width-down/1000?cb=20220127022008&path-prefix=vi", K+ SPORT1
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mykplus&id=ksport1
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 
-
-#EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b3/Kplus_Sport_2.png/revision/latest?cb=20220127020328&path-prefix=vi", K+ SPORT2
+#tEXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b3/Kplus_Sport_2.png/revision/latest?cb=20220127020328&path-prefix=vi", K+ SPORT2
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mykplus&id=ksport2
 https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b3/Kplus_Sport_2.png/revision/latest?cb=20220127020328&path-prefix=vi", K+ SPORT2
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mytv&id=ksport2
-https://s12920.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
 
 
-#EXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9a/Kplus_Kids_2021.png/revision/latest?cb=20220127022015&path-prefix=vi", K+ KIDS
+#ưEXTINF:-1 tvg-id="kkidshd" group-title="🍭| K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9a/Kplus_Kids_2021.png/revision/latest?cb=20220127022015&path-prefix=vi", K+ KIDS
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKBmY5KhmcKZnaKamaqdlJ5nXmln&time=1692540026&mykplus&id=kkids
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZaBnY5illsKam6aWl6ehkZxjaF5naJ8=&time=1693550663&mykplus&id=kkids
 https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+
+#-*--THVL-*--#
+#EXTINF:-1 tvg-id="vinhlong1hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/103.png", THVL1 HD
+http://live-ali4.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vinhlong2hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/104.png", THVL2 HD
+http://live-ali3.tv360.vn/manifest/VinhLong2_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vinhlong3hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png", THVL3 HD
+http://live-ali2.tv360.vn/manifest/VinhLong3_HD/playlist_1080p.m3u8
+#EXTINF:-1 tvg-id="vinhlong4hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png", THVL4 HD
+http://live-zlr1.tv360.vn/manifest/VinhLong4_HD/playlist_1080p.m3u8
 
 #EXTINF:0 tvg-logo="https://rsstv.gviet.vn/sctv/159/130/1581298778597.png",An Viên HD
 https://code.vthanhtivi.pw/getlink/vieon/an-vien-hd/playlist.m3u8
 #EXTINF:0 tvg-id="htv1" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/XkLGs0C/HTV1-cc.webp",HTV1
-https:///dl.dropboxusercontent.com/s/1duii5qorjwy6qm//
+https://code.vthanhtivi.pw/getlink/htv/2631/playlist.m3u8
 #EXTINF:0 tvg-id="htv2hd" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/q99PxTH/cchtv2.webp",HTV2
-https:///dl.dropboxusercontent.com/s/zvvz2ue7oylapg3//
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
 #EXTINF:0 tvg-id="htv3" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/s6gVdnY/cchtv3.webp",HTV3
-https:///dl.dropboxusercontent.com/s/78787li0zd3b7nf//   																						 ㅤ|Referer=https://sctvonline.vn//
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTV3-SD-480p/playlist.m3u8
 #EXTINF:0 tvg-id="htvkey" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/McQ45Y9/HTV4.webp",HTV4
-https:///dl.dropboxusercontent.com/s/9zx4rfvjecqzlxu//   																						 ㅤ|Referer=https://sctvonline.vn/
+https://code.vthanhtivi.pw/getlink/htv/2528/playlist.m3u8
 #EXTINF:0 tvg-id="htv7hd" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/C9r5gwM/HTV7-cc.webp",HTV7
-https:///dl.dropboxusercontent.com/s/z86zkoi8y27mqie//   																						 ㅤ|Referer=https://sctvonline.vn/
+https://code.vthanhtivi.pw/getlink/vieon/htv7-hd/playlist.m3u8
+#EXTINF:-1 tvg-id="" group-title="💛| HTV" tvg-logo="https://img.hplus.com.vn/728x409/banner/2018/06/05/200872-HTVCoop.png", HTV CO.OP
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/chunks.m3u8
 #EXTINF:0 tvg-id="htv9hd" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/tqvWY3q/HTV9-cc.webp",HTV9
-https:///dl.dropboxusercontent.com/s/pzlec8ftwbc28wn//   																						 ㅤ|Referer=https://sctvonline.vn/
+https://code.vthanhtivi.pw/getlink/vieon/htv9-hd/playlist.m3u8
 #EXTINF:0 tvg-id="htvthethaohd"  type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/GTnjzYB/HTVThe-Thao.webp",HTV Thể Thao
-https:///dl.dropboxusercontent.com/s/ou93hwfzx2h8ikw//   																						 ㅤ
+https://live-ali2.tv360.vn/manifest/HTV_The_Thao_HD-50fps/playlist_HTV-TheThao-HD-50fps-1080-65M.m3u8
 #EXTINF:0 tvg-id="htvcthuanviet" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/nmj2GzH/HTVCThuan-Viet-cc.webp",HTVC Thuần Việt
-https:///dl.dropboxusercontent.com/s/ulby4fziq2builq//   																						 ㅤ
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-THUANVIET-HD-1080p/playlist.m3u8  																						 ㅤ
 #EXTINF:0 tvg-id="htvcphimhd"  type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/n3QhGdm/HTVCPhim-cc.webp",HTVC Phim
-https:///dl.dropboxusercontent.com/s/ht37b3jpjsbzovz//   																						 ㅤ
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PHIM-HD-1080p/chunks.m3u8																						 ㅤ
 #EXTINF:0 tvg-id="htvcgiadinhhd"  type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/d0g19Tx/HTVCGia-Dinh-cc.webp",HTVC Gia Đình
-https:///dl.dropboxusercontent.com/s/h6v015l80kctm6b//   																						 ㅤ
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-GIADINH-HD-1080p/playlist.m3u8																						 ㅤ
 #EXTINF:0 tvg-id="htvcphunuhd"  type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/8zrqfgP/HTVCPhu-Nu-cc.webp",HTVC Phụ Nữ
-https:///dl.dropboxusercontent.com/s/2v1f6enpoyhehx8//   																						 ㅤ
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PHUNU-HD-1080p/playlist.m3u8																						 ㅤ
 #EXTINF:0 tvg-id="htvcplushd" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/7QjqVJP/HTVCPlus-cc.webp",HTVC Plus
-https:///dl.dropboxusercontent.com/s/hv439nslqlc8wlk//   																						 ㅤ
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PLUS-HD-1080p/playlist.m3u8																					 ㅤ
 #EXTINF:0 tvg-id="htvccanhachd"  type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/vsq97Rf/HTVCCa-Nhac-cc.webp",HTVC Ca Nhạc
-https:///dl.dropboxusercontent.com/s/8gzq9n2cy754qdx//   																						 ㅤ
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-CANHAC-HD-1080p/chunks.m3u8																						 ㅤ
 #EXTINF:0 tvg-id="htvcdulichhd"  type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/2kG47vd/HTVCDu-Lich-cc.webp",HTVC Du Lịch & Cuộc Sống
-https:///dl.dropboxusercontent.com/s/d1w8r92c9iho0j2//   																						 ㅤ
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-DULICH-HD-1080p/playlist.m3u8																						 ㅤ
 #EXTINF:0 tvg-id="htvc_vgs_shop" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/941GkKt/HTVCShop-cc.webp",HTVC VGS Shop
-https://drm-livecdn.hplus.com.vn/CDN-FPT02/HOMESHOPPING-SD-ABR/HTV-ABR/HOMESHOPPING-SD-720p/chunks.m3u8?cc
+https://drm-livecdn.hplus.com.vn/CDN-FPT02/HOMESHOPPING-SD-ABR/HTV-ABR/HOMESHOPPING-SD-720p/chunks.m3u8
 
 #EXTINF:-1 tvg-id="sctv1hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/6FB7zBz/SCTV1-cc.webp", SCTV1
 https://e8.endpoint.cdn.sctvonline.vn/channel/sctv1/index.m3u8|Referer=http://sctvonline.vn/
