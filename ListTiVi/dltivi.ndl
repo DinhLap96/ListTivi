@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v28" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://gg.gg/khanggkplusiptv
+#PLAYLISTINF:DinhLap version="v29" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://gg.gg/khanggkplusiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -262,36 +262,15 @@ https://vtsstr7.tv24.vn/live/smil:Happy_Kids.smil/chunklist.m3u8
 https://cfvod.kaltura.com/hlsm/p/513551/sp/51355100/serveFlavor/entryId/1_0meun6d6/v/1/pv/1/ev/10/flavorId/1_9b1k193p/clipFrom/0/clipTo/357000/name/a.mp4/index.m3u8/seg-49-v1-a1.ts
 
 #EXTINF:0 tvg-id="axnhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/1200px-AXN_logo_%282015%29.svg.png",AXN
-http://sg.tinchuanchuaanh.com:8080/AXN_HD/tracks-v1a1/mono.m3u8
+https://code.vthanhtivi.pw/getlink/tvfree/axn/playlist.m3u8
 #EXTINF:-1 tvg-id="warnertvhd" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/237.png",Warner TV
 http://sg.tinchuanchuaanh.com:8080/WARNER_TV_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/231.png", CinemaWorld
 http://210.210.155.37/session/88c07ef2-a764-11ec-aeac-b82a72d63267/dr9445/h/h04/01.m3u8
 #EXTINF:0 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",Cinemax
-http://103.112.191.9:880/LAOSAT1031.m3u8
+https://code.vthanhtivi.pw/getlink/tvfree/cinemax/playlist.m3u8
 #EXTINF:0 tvg-id="hbohd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142",HBO
-http://s4.nihontv.net:21585/hbo/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://imgur.com/AQTQy63.png" group-title="??| HBO GO (USA)", HBO HD
-http://xcui.vitvabc.xyz:8880/live/287994016405/287994016405/31465.m3u8
-#EXTINF:-1 tvg-logo="https://imgur.com/WQrjpnC.png" group-title="??| HBO GO, HBO HD2
-http://xcui.vitvabc.xyz:8880/live/287994016405/287994016405/31460.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/P4xDJ6p/hbofamily.png" group-title="hbo", HBO FAMILY HD
-http://hidra.live:80/xszuapuf/32W2Xuk4th/304120
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PCsNTbS/hbo-mundi.png" group-title="hbo", HBO MUNDI HD
-http://hidra.live:80/xszuapuf/32W2Xuk4th/304121
-#EXTINF:-1 tvg-logo="https://imgur.com/G07B1LQ.png" group-title="hbo", HBO PLUS HD
-http://hidra.live:80/xszuapuf/32W2Xuk4th/304122
-#EXTINF:-1 tvg-logo="https://imgur.com/C0bfvOA.png" group-title="hbo", HBO POP HD
-http://hidra.live:80/xszuapuf/32W2Xuk4th/304123
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6wrq5Pr/hbosignature.png" group-title="hbo", HBO SIGNATURE HD
-http://hidra.live:80/xszuapuf/32W2Xuk4th/304124
-#EXTINF:-1 tvg-logo="https://imgur.com/pSo5Ctn.png" group-title="hbo", HBO XTREME HD
-http://hidra.live:80/xszuapuf/32W2Xuk4th/304125
-#EXTINF:-1 tvg-id="hbo2" tvg-logo="https://i.ibb.co/McRYfZH/test.gif" group-title="??|Phim Qu?c T?",Hollywood
-http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
-#EXTINF:-1 tvg-id="hbo2" tvg-logo="https://i.ibb.co/pXTWYw1/ccclassicmovies.png" group-title="TQ",FreeClassicMovies
-http://iptvh.it/hbo01
+https://code.vthanhtivi.pw/getlink/tvfree/hbo/playlist.m3u8
 
 #EXTINF:0 tvg-logo="https://www.openthebooks.com/assets/1/6/MainFCKEditorDimension/OAN.png",One American News
 https://cdn.klowdtv.net/803B48A/oan_aws_ms/OAN_720p30.m3u8
