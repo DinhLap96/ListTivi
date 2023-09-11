@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v29" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://gg.gg/khanggkplusiptv
+#PLAYLISTINF:DinhLap version="v30" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://gg.gg/SN-90phut" /http://s.id/phimiptv  https://gg.gg/khanggkplusiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-zlr1.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -267,10 +267,10 @@ https://code.vthanhtivi.pw/getlink/tvfree/axn/playlist.m3u8
 http://sg.tinchuanchuaanh.com:8080/WARNER_TV_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/231.png", CinemaWorld
 http://210.210.155.37/session/88c07ef2-a764-11ec-aeac-b82a72d63267/dr9445/h/h04/01.m3u8
-#EXTINF:0 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",Cinemax
-https://code.vthanhtivi.pw/getlink/tvfree/cinemax/playlist.m3u8
+#EXTINF:0 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",Cinemax HD
+http://6.tcp.us-cal-1.ngrok.io:17801/cinemax/index.m3u8
 #EXTINF:0 tvg-id="hbohd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/HBO_%28Metallic%29.png/revision/latest/scale-to-width-down/250?cb=20190715122142",HBO
-https://code.vthanhtivi.pw/getlink/tvfree/hbo/playlist.m3u8
+http://6.tcp.us-cal-1.ngrok.io:17801/hbo/index.m3u8
 
 #EXTINF:0 tvg-logo="https://www.openthebooks.com/assets/1/6/MainFCKEditorDimension/OAN.png",One American News
 https://cdn.klowdtv.net/803B48A/oan_aws_ms/OAN_720p30.m3u8
