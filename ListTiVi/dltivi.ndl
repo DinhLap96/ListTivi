@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v47" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" /http://s.id/phimiptv http://gg.gg/SN-90phut https://gg.gg/khanggkplusiptv
+#PLAYLISTINF:DinhLap version="v1" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" /http://s.id/phimiptv http://gg.gg/SN-90phut https://gg.gg/khanggkplusiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live-ali2.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -8,17 +8,17 @@ https://live-ali2.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
 http://live.tv360.vn/manifest/VTV3/playlist_1080p-5M.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
-https://hni-vnpt-002-livecdn-vthn-vnd.vieon.vn/4462dcf81749c8b40bc5dc1375f0f98d/1696155099147/livetv/c9e89fdf42233e52a57a312baa4e9da0/tracks-v5/index.fmp4.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/vtv4-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
 https://live-ali2.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
-https://live2onsport.vtvcab.vn/dash/VTV7_HD/m20_index.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/vtv7-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
-https://live2onsport.vtvcab.vn/manifest/VTV8_HD/m20_index.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/vtv8-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
-https://live2onsport.vtvcab.vn/dash/VTV9_HD/m20_index.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/vtv9-hd/playlist.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",Quốc Phòng TV
 https://live-ali4.tv360.vn/manifest/QPVN_HD/playlist_1080p.m3u8
 
