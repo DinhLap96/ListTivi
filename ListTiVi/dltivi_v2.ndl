@@ -1,8 +1,9 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v9" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" /http://s.id/phimiptv http://gg.gg/SN-90phut https://gg.gg/khanggkplusiptv
+#PLAYLISTINF:DinhLap version="v10" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" /http://s.id/phimiptv http://gg.gg/SN-90phut https://gg.gg/khanggkplusiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
-https://live2onsport.vtvcab.vn/hls/VTV1_HD/sc-gaFEAA/m30_index.m3u8
+http://live.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
+#https://code.vthanhtivi.pw/getlink/tv360/-FH7M-4BXUj9D8fFVncfzw/1697819866/2/playlist.m3u8
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
 https://liveh12.vtvcab.vn/hls/VTV2_HD/03.m3u8
 #http://s4live.tv1asia.com:21585/vtv2/tracks-v1a1/mono.m3u8
