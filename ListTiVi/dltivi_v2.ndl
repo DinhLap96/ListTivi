@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v11" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" /http://s.id/phimiptv http://gg.gg/SN-90phut https://gg.gg/khanggkplusiptv
+#PLAYLISTINF:DinhLap version="v12" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" /http://s.id/phimiptv http://gg.gg/SN-90phut https://gg.gg/khanggkplusiptv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 http://live.tv360.vn/manifest/VTV1_HD/playlist_1080p.m3u8
@@ -70,7 +70,7 @@ https://code.vthanhtivi.pw/getlink/fptplay/qf-sVo1aFZLgtcKl6xTM_g/1697544981/vtv
 #EXTINF:0 tvg-id="ttxvnhd" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Vietnam_News_Agency_logo.svg/1200px-Vietnam_News_Agency_logo.svg.png",V.News
 #https://zjizeoupprliv.vcdn.cloud/live/smil:vnews.smil/chunklist.m3u8
 #EXTINF:0 tvg-id="antvhd" group-title="VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/35/ANTV_HD_logo_2016.png/revision/latest?cb=20210924092419&path-prefix=vi",An Ninh TV
-#https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
+https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
 #EXTINF:0 tvg-id="nhandan" group-title="VTV" tvg-logo="https://img.nhandan.thienvietjsc.net/m/1500//data/img/09-08-2020-21-52-39-1666335887-logo-loginpng.png",Nhân Dân TV
 #https://code.vthanhtivi.pw/getlink/mytv/224/hd.m3u8
 #EXTINF:0 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
