@@ -9,7 +9,7 @@ https://code.vthanhtivi.pw/getlink/tv360/asqZkjgiIBQLLfqMbqsDew/1700649676/3/pla
 #http://live.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
 https://code.vthanhtivi.pw/getlink/mi/xV1X2P65NYx2Hahlhnco6w/1700649676/211/playlist.m3u8
-3http://live.tv360.vn/manifest/VTV3/playlist_1080p-5M.m3u8
+#http://live.tv360.vn/manifest/VTV3/playlist_1080p-5M.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
 https://code.vthanhtivi.pw/getlink/vieon/vtv4-hd/playlist.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
