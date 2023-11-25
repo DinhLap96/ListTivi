@@ -1,6 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=5128000,NAME="1080p",CODECS="avc1.640028,mp4a.40.2",RESOLUTION=1920x1080
-https://e3.endpoint.cdn.sctvonline.vn/hls/vtv2/index.m3u8
 https://code.vthanhtivi.pw/getlink/tv360/_vb2UOTmbBt0SdW4knWV4Q/1700911141/3/playlist.m3u8
+https://e3.endpoint.cdn.sctvonline.vn/hls/vtv2/index.m3u8
 http://live.tv360.vn/manifest/vtv2/playlist_VTV2-1080-3_6M.m3u8
