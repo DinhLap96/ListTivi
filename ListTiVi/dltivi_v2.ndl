@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v005" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" /http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv
+#PLAYLISTINF:DinhLap version="v006" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" /http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -124,6 +124,8 @@ https://code.vthanhtivi.pw/getlink/vieon/htv7-hd/playlist.m3u8
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVCOOP-SD-ABR/HTV-ABR/HTVCOOP-SD-720p/chunks.m3u8
 #EXTINF:0 tvg-id="htv9hd" type="stream" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/tqvWY3q/HTV9-cc.webp",HTV9
 https://code.vthanhtivi.pw/getlink/vieon/htv9-hd/playlist.m3u8
+#EXTINF:-1 tvg-id="htvthethaohd" group-title="💛| HTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/53.png", HTV Thể Thao
+https://code.vthanhtivi.pw/getlink/mi/1C06wMAhNqCxfYNfeYFeoQ/1701010505/18/playlist.m3u8
 
 #EXTINF:-1 tvg-id="htvcthuanviet" group-title="💛| HTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/54.png", HTVC Thuần Việt
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-THUANVIET-HD-1080p/playlist.m3u8
