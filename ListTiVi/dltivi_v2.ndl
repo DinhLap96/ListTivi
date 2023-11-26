@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v004" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" /http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv
+#PLAYLISTINF:DinhLap version="v005" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" /http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -100,13 +100,13 @@ http://b4tv.live/b4tv/b4tv/21.m3u8
 
 #-*--THVL-*--#
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/103.png", THVL1 HD
-http://live.tv360.vn/manifest/Vinh_Long_1_HD/playlist_1080p.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/thvl1-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/104.png", THVL2 HD
-http://live.tv360.vn/manifest/VinhLong2_HD/playlist_1080p.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/thvl2-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png", THVL3 HD
-http://live.tv360.vn/manifest/VinhLong3_HD/playlist_1080p.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/thvl3-hd/playlist.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png", THVL4 HD
-http://live.tv360.vn/manifest/VinhLong4_HD/playlist_1080p.m3u8
+https://code.vthanhtivi.pw/getlink/vieon/thvl4-hd/playlist.m3u8
 
 #EXTINF:0 tvg-logo="https://rsstv.gviet.vn/sctv/159/130/1581298778597.png",An Viên HD
 https://code.vthanhtivi.pw/getlink/vieon/an-vien-hd/playlist.m3u8
