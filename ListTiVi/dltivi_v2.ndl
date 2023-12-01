@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v010" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
+#PLAYLISTINF:DinhLap version="v011" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -55,23 +55,23 @@ https://1117141481.vnns.net/VTC16/chunks.m3u8
 
 #vtvdự phòng
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
-https://code.vthanhtivi.pw/getlink/mi/5Wl2L7vW8GiGs9Wj_F2GHg/1701173052/210/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/mi/g6ja_Q6k1RpV9QJfLt7qdA/1701441210/210/playlist.m3u8
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
-https://code.vthanhtivi.pw/getlink/tv360/Hd4unkokG7CiVAKr12j_0w/1701173052/3/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/oS2lALoCl_HOh67p3HMA2A/1701441210/3/playlist.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
-https://code.vthanhtivi.pw/getlink/mi/bqD3_ICnMK7sIU9iT3kUtw/1701173052/211/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/mi/GwhMYRGoiJAEkRkQQQOenA/1701441210/211/playlist.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
-https://code.vthanhtivi.pw/getlink/tv360/LJYPX0RN6RU66q6XXrU3bA/1701284421/108/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/5SgCZU0AjGq21uClakfNXA/1701441210/108/playlist.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://liveh12.vtvcab.vn/hls/ONVTV5_CL/04.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
-https://code.vthanhtivi.pw/getlink/mi/yOafhQ1Vym8kBPjqffMwxQ/1701173052/212/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/mi/pjU65gQqQNHUEY7sJ3aodw/1701441210/212/playlist.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
-https://code.vthanhtivi.pw/getlink/tv360/LhJcaHWumi0jgoxdk-O-9w/1701173052/6/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/ymKA2vEs6xMdjddtRTQjJg/1701441210/6/playlist.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
-https://code.vthanhtivi.pw/getlink/tv360/1te5AMMxUsEKc3udnTgJyw/1701173052/115/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/DsxoJlC2FUx-mpwiM5EkvQ/1701441210/115/playlist.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
-https://code.vthanhtivi.pw/getlink/tv360/J0f_MLCHwhZ-EGJVU9VOfg/1701173052/8/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/gwqg2TrC_hFUckNuK0ZdYg/1701441210/8/playlist.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",Quốc Phòng TV
 https://code.vthanhtivi.pw/getlink/vieon/quoc-phong-hd/playlist.m3u8
 
@@ -85,35 +85,6 @@ https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
 https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist_w1826680706.m3u8
 #EXTINF:0 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
 http://113.164.225.140:1935/live/quochoitvlive.stream/chunklist.m3u8
-
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/6c30cdc8aa40aa5776c7d8ebd78a93d4.png", B4MEN
-http://b4tv.live/b4tv/b4tv/1.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/f48921dd0505305aff871882567eeca9.png", B4BOX
-http://b4tv.live/b4tv/b4tv/84.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/b4boxplus.png", B4BOX PLUS
-http://b4tv.live/b4tv/b4tv/120.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/5150b363cf6c9192ebe147a113dea625.png", B4TUBE
-http://b4tv.live/b4tv/b4tv/85.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 1
-http://b4tv.live/b4tv/b4tv/3.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 2
-http://b4tv.live/b4tv/b4tv/47.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/994c671dd2015154c0a928f00aa4934a.png", B4EVENT 3
-http://b4tv.live/b4tv/b4tv/48.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/logotubevent.png", B4TUBEVENT 1
-http://b4tv.live/b4tv/b4tv/55.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/logotubevent.png", B4TUBEVENT 2
-http://b4tv.live/b4tv/b4tv/56.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/0ef23e2c33c966c5c76e2b5cca9428f8.png", B4CONNECT 1
-http://b4tv.live/b4tv/b4tv/86.m3u8
-#EXTINF:-1 group-title="🔴| Livestream" tvg-logo="http://b4tv.live/images/0ef23e2c33c966c5c76e2b5cca9428f8.png", B4CONNECT 2
-http://b4tv.live/b4tv/b4tv/76.m3u8
-#EXTINF:-1 group-title="📺| B4PLUS" tvg-logo="http://103.172.78.47/b4sport.png", B4SPORT1 PLUS (Kênh thể thao đỉnh cao)
-http://b4tv.live/b4tv/b4tv/19.m3u8
-#EXTINF:-1 group-title="📺| B4PLUS" tvg-logo="http://103.172.78.47/b4sport.png", B4SPORT2 PLUS(Kênh thể thao đỉnh cao)
-http://b4tv.live/b4tv/b4tv/20.m3u8
-#EXTINF:-1 group-title="📺| B4PLUS" tvg-logo="http://103.172.78.47/b4sport.png", B4SPORT3 PLUS (Kênh thể thao đỉnh cao)
-http://b4tv.live/b4tv/b4tv/21.m3u8
 
 #-*--THVL-*--#
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/103.png", THVL1 HD
