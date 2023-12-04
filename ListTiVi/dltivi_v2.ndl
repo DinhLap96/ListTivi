@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v012" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
+#PLAYLISTINF:DinhLap version="v013" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -160,7 +160,7 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv13/index.m3u8?|Referer=http://
 https://code.vthanhtivi.pw/getlink/sctvonline/sctv14/playlist.m3u8?|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv15hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/q1GPVFM/SCTV15-SSport-cc.webp",SCTV15
 https://code.vthanhtivi.pw/getlink/sctvonline/sctv15/playlist.m3u8?|Referer=http://sctvonline.vn/
-#EXTINF:-1 tvg-id="sctv16hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/a1/SCTV16_logo.png/revision/latest/scale-to-width-down/1568?cb=20220223140716&path-prefix=vip",SCTV16
+#EXTINF:-1 tvg-id="sctv16hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/a/a1/SCTV16_logo.png/revision/latest/scale-to-width-down/1568?cb=20220223140716&path-prefix=vi",SCTV16
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/index.m3u8?|Referer=http://sctvonline.vn/
 #EXTINF:-1 tvg-id="sctv17hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/DK7fS8T/SCTV17-cc.webp",SCTV17
 https://code.vthanhtivi.pw/getlink/sctvonline/sctv17/playlist.m3u8?|Referer=http://sctvonline.vn/
