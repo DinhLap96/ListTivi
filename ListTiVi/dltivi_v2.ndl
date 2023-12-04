@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v011" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
+#PLAYLISTINF:DinhLap version="v012" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="http://b4tv.live/b4tv" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -235,25 +235,23 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8
 #EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-http://vthanhtivi.pw:5000/itb/mpegts
+http://edge.vthanhtivi.pw/In_The_Box/mpegts
 #EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-https://code.vthanhtivi.pw/getlink/cliptv/fAaIwjXEJVAvjgP6u4-HOg/1698496629/box-hits/chunklist_b5128000.m3u8
-#EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png", Man
-https://code.vthanhtivi.pw/getlink/cliptv/UYz-3YohXKnNGJPh0ctRZA/1698496629/man/chunklist_b5128000.m3u8
-#EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
+http://edge.vthanhtivi.pw/Box_Hits/mpegts
+#EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png",Box Man
+https://code.vthanhtivi.pw/getlink/tv360/i_oaw7AQO6T_vfu2UTOnog/1701698494/237/playlist.m3u8
+#EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png",Box Woman
+https://e4.endpoint.cdn.sctvonline.vn/hls/woman/index.m3u8
+#EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png",Box Dr.Fit
 https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/index.m3u8
-#EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids
+#EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png",Box Happy Kids
 https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/index.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/index.m3u8
-#EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+#EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png",Box Planet Earth
 https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/index.m3u8
-#EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e4.endpoint.cdn.sctvonline.vn/hls/woman/index.m3u8
-#EXTINF:-1 tvg-id="happykids" group-title="Box" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",Happy Kids
+#EXTINF:-1 tvg-id="happykids" group-title="Box" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",BoxHappy Kids
 https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/index.m3u8
 
 #EXTINF:-1 tvg-id="hbohd" group-title="🎞| HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD
@@ -271,10 +269,8 @@ https://code.vthanhtivi.pw/getlink/tv360/DHWYkc9ml7TZAlOrwGBx3A/1698496629/215/p
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="🤣| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/211.png", BBC Lifestyle
 
 #EXTINF:-1 tvg-id="hbohd" group-title="🎞| HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD Dự phòng
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 https://code.vthanhtivi.pw/getlink/tvfree/hbo/playlist.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" group-title="🎞| HBO" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png", Cinemax HD Dự phòng
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 https://code.vthanhtivi.pw/getlink/tvfree/cinemax/playlist.m3u8
 
 #EXTINF:0 tvg-logo="https://www.openthebooks.com/assets/1/6/MainFCKEditorDimension/OAN.png",One American News
