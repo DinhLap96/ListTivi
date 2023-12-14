@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v8" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://thick.ddns.net/index.php" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
+#PLAYLISTINF:DinhLap version="v9" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://thick.ddns.net/index.php" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -234,18 +234,17 @@ https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8
 https://onsportlive.vtvcab.vn/hls/ONVFFTV_CL/04.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8
+https://coca.dl.dropboxusercontent.com/s/wms41claawxdpww/boxmovie1
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/index.m3u8
+https://coca.dl.dropboxusercontent.com/s/8800f62718isn9x/hollywoodclassics
 #EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-http://fpt.vthanhtivi.pw/In_The_Box/mpegts
+https://coca.dl.dropboxusercontent.com/s/vb05w85t4tu7wed/inthebox
 #EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-http://fpt.vthanhtivi.pw/Box_Hits/mpegts
+https://coca.dl.dropboxusercontent.com/s/67k1qz14740vl5u/boxhits
 #EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png",Box Man
-https://e4.endpoint.cdn.sctvonline.vn/hls/man/index.m3u8
-#https://code.vthanhtivi.pw/getlink/tv360/XbMJbrezrYXjLA2F1QT6cA/1702554891/237/playlist.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/FBUzhFMUEKobFloJtaBh_g/1702557455/237/playlist.m3u8
 #EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png",Box Woman
-https://e4.endpoint.cdn.sctvonline.vn/hls/woman/index.m3u8
+https://coca.dl.dropboxusercontent.com/s/9pahh31uao0f488/woman
 #EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png",Box Dr.Fit
 https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/index.m3u8
 #EXTINF:-1 tvg-id="happykids" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png",Box Happy Kids
