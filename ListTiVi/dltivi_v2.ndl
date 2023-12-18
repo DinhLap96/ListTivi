@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v0001" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php http://gg.gg/bearlivetv
+#PLAYLISTINF:DinhLap version="v0002" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php http://gg.gg/bearlivetv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://cdnw-liv02.todayplus.com.vn/hdb/smil:vtv1-sub.smil/chunklist_w28623972_b2289152.m3u8
@@ -55,7 +55,7 @@ https://1117141481.vnns.net/VTC14/chunks.m3u8
 https://1117141481.vnns.net/VTC16/chunks.m3u8
 
 #vtvdự phòng
-#EXTINF:-1 group-title="Info" tvg-logo="https://cdn.hqth.me/vthanhtivi.png", Có sử dụng nguồn vthanh, cảm ơn bác đã phát triển.
+#EXTINF:-1 group-title="Info" tvg-logo="https://cdn.hqth.me/vthanhtivi.png",Có sử dụng nguồn vthanh-Cảm ơn bác đã phát triển List.
 http://plus.vthanhtivi.pw/intro/intro.m3u8
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
