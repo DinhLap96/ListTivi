@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v0003" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php http://gg.gg/bearlivetv
+#PLAYLISTINF:DinhLap version="v0004" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php http://gg.gg/bearlivetv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://cdnw-liv02.todayplus.com.vn/hdb/smil:vtv1-sub.smil/chunklist_w28623972_b2289152.m3u8
@@ -92,13 +92,13 @@ http://113.164.225.140:1935/live/quochoitvlive.stream/chunklist.m3u8
 
 #-*--THVL-*--#
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/103.png", THVL1 HD
-https://code.vthanhtivi.pw/getlink/vieon/thvl1-hd/playlist.m3u8
+https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/104.png", THVL2 HD
-https://code.vthanhtivi.pw/getlink/vieon/thvl2-hd/playlist.m3u8
+https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png", THVL3 HD
-https://code.vthanhtivi.pw/getlink/vieon/thvl3-hd/playlist.m3u8
+https://e2.endpoint.cdn.sctvonline.vn/hls/thvl3/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png", THVL4 HD
-https://code.vthanhtivi.pw/getlink/vieon/thvl4-hd/playlist.m3u8
+https://e2.endpoint.cdn.sctvonline.vn/hls/thvl4/index.m3u8
 
 #EXTINF:0 tvg-logo="https://rsstv.gviet.vn/sctv/159/130/1581298778597.png",An Viên HD
 https://code.vthanhtivi.pw/getlink/vieon/an-vien-hd/playlist.m3u8
