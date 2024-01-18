@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v24" url="http://bom.so/dltivi" list1="https://beartv.xyz/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php http://gg.gg/bearlivetv
+#PLAYLISTINF:DinhLap version="v25" url="http://bom.so/dltivi" list1="https://beartv.xyz/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv https://thick.ddns.net/index.php http://gg.gg/bearlivetv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://qnetlive.nethubtv.vn/live/vtv1.smil/playlist.m3u8
@@ -61,16 +61,16 @@ https://qnetlive.nethubtv.vn/live/vtv1.smil/playlist.m3u8
 https://qnetlive.nethubtv.vn/live/vtv1.smil/chunklist_b2128000_sleng.m3u8
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
-http://fpt.vthanhtivi.pw/VTV2/mpegts
+http://103.47.194.152/VTV2/mpegts
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://liveh12.vtvcab.vn/hls/ONVTV5_CL/04.m3u8
-#EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
-http://fpt.vthanhtivi.pw/VTVCT/mpegts
-
+http://103.47.194.152/VTV5/mpegts
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5tnb_logo.png", VTV5 Tây Nam Bộ
 https://liveh12.vtvcab.vn/hls/ONVTV5TNB_CL/04.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5taynguyen_logo.png", VTV5 Tây Nguyên
 #https://code.vthanhtivi.pw/getlink/tv360/bLubrm3TpznJJV-0thYsig/1705430216/207/playlist.m3u8
+#EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
+http://103.47.194.152/VTVCT/mpegts
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",Quốc Phòng TV
 https://ott4.nethubtv.vn/live/qpvn/chunklist_2.m3u8
 #EXTINF:0 tvg-id="antvhd" group-title="VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/35/ANTV_HD_logo_2016.png/revision/latest?cb=20210924092419&path-prefix=vi",An Ninh TV
