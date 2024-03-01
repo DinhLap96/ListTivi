@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v04" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv  http://gg.gg/bearlivetv
+#PLAYLISTINF:DinhLap version="v05" url="http://bom.so/dltivi" list1="https://playlist.vthanhtivi.pw/" list2="https://iptv.pro.vn/phimiptv/" http://s.id/phimiptv http://gg.gg/coocaa http://b4tv.live/b4tv  http://gg.gg/bearlivetv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -10,7 +10,7 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv3/index.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtv4/index.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
-https://o629fqcwbiliv.vcdn.cloud/hls/vtv5/index.m3u8
+https://e3.endpoint.cdn.sctvonline.vn/hls/vtv5/index.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv6/index.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
@@ -69,7 +69,7 @@ http://viettel.nekocdn.xyz/VTV4/index.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://o629fqcwbiliv.vcdn.cloud/hls/vtv5/index.m3u8
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtv5/index.m3u8
-https://vtvgolive-vtv.vtvdigital.vn/pghM_cNDxFRqhk8aTGoTEw/1708655450/vtvgo/vtv5-480p.m3u8
+http://viettel.nekocdn.xyz/VTV5/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5tnb_logo.png", VTV5 Tây Nam Bộ
 https://liveh12.vtvcab.vn/hls/ONVTV5TNB_CL/04.m3u8
 http://vcis.nekocdn.xyz/VTV5TNB/mpegts
@@ -261,17 +261,11 @@ https://coca.dl.dropboxusercontent.com/s/pywyfr2s5rd54afsseyyw/ 																
 #https://s7769.cdn.mytvnet.vn/pkg20/live_dzones/axn.smil/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-referer=https://sctvonline.vn/
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="hbohd" tvg-logo="https://i.ibb.co/R0bxGtz/cchbo.png",HBO
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-#KODIPROP:inputstream.adaptive.license_key=https://coca.dl.dropboxusercontent.com/
-https://coca.dl.dropboxusercontent.com/s/ihmczrj0205n9g951vkii/ 																																	 ㅤ?hbo      										 													 &rlkey=bjli9kkkzgfkde1veqnb7xwua
-#https://akavnpt.kplus.vn/msky-live/live_kplus/hbo.smil/manifest.mpd
+http://ip168.homeip.net:8086/hbo.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-referer=https://sctvonline.vn/
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="cinemaxhd" tvg-logo="https://i.ibb.co/56zC8Mh/cccinemax.png",Cinemax
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-#KODIPROP:inputstream.adaptive.license_key=https://coca.dl.dropboxusercontent.com/
-https://coca.dl.dropboxusercontent.com/s/qfbw6zwcaj7eljzfkjs4t/ 																																	 ㅤ?cinemax      										 													 &rlkey=5qk433hnu9jluj55iqr1s1but
-#https://akavnpt.kplus.vn/msky-live/live_kplus/max.smil/manifest.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-referer=https://sctvonline.vn/
+http://ip168.homeip.net:8086/cinemax.m3u8
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="warnertvhd" tvg-logo="https://i.ibb.co/ydZQNdz/ccwarner.webp",WBTV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
 #KODIPROP:inputstream.adaptive.license_key=https://coca.dl.dropboxusercontent.com/
@@ -279,27 +273,13 @@ https://coca.dl.dropboxusercontent.com/s/x1fctas9jkhkcaukeyiga/ 																
 #https://s7769.cdn.mytvnet.vn/pkg20/live_dzones/wtv.smil/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-referer=https://sctvonline.vn/
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="historyhd" tvg-logo="https://i.ibb.co/dBVgt2f/cchistory.png",History
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-#KODIPROP:inputstream.adaptive.license_key=https://coca.dl.dropboxusercontent.com/
-#https://coca.dl.dropboxusercontent.com/s/vqvp439oe6xabfrt8zkr6/ 																																  ㅤ?history 										 													 &rlkey=5hd6l0jvn6jd82k4cgb1z7edy
-#https://sglive.akamaized.net/bpk-tv/prod_history/default/index.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-referer=https://sctvonline.vn/
+http://iptv.prosto.tv:7000/ch157/tracks-v1a1/mono.m3u8?ip=113.190.7.137&id=0&live=1&e=1711896840&st=TRHAlwVrR63FFcHNIsSCww
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="tlchd" tvg-logo="https://i.ibb.co/BNXdkN2/cctlc.png",TLC
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-#KODIPROP:inputstream.adaptive.license_key=https://coca.dl.dropboxusercontent.com/
-#https://coca.dl.dropboxusercontent.com/s/bbjqmb7qhz82n0qex2qqb/ 																																  ㅤ?tlc 										 													 &rlkey=aqf0b4dg9bja5xccm3ax7gqxe
-#https://s7769.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="davinci" tvg-logo="https://i.ibb.co/L8HbvdF/ccdavinci.webp",Da Vinci
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-#https://coca.dl.dropboxusercontent.com/s/2ccayp82uqk4ku2/ 																																 ㅤ?da-vinci 										 													 |Referer=https://sctvonline.vn/
-#KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-referer=https://sctvonline.vn/
+#https://coca.dl.dropboxusercontent.com/s/2ccayp82uqk4ku2/davinci
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="dmax" tvg-logo="https://i.ibb.co/5LsVLz9/ccdmax.png",Dmax
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-#KODIPROP:inputstream.adaptive.license_key=https://coca.dl.dropboxusercontent.com/
-https://coca.dl.dropboxusercontent.com/s/nj76mslj7e2w76q/ 																																 ㅤ?dmax 										 													 |Referer=https://sctvonline.vn/
-#https://sgn-fpt-001-livecdn-vthn-vnd.vieon.vn/qnet/live_dzones/dmax.smil/manifest.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-referer=https://sctvonline.vn/
+https://food-dlvr-ott.akamaized.net/primary/2/07543219680b429fa16f1f5796eda058/index_19.m3u8
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="discoveryhd" tvg-logo="https://i.ibb.co/f29LR1g/ccdiscovery.png",Discovery
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
 #KODIPROP:inputstream.adaptive.license_key=https://coca.dl.dropboxusercontent.com/
