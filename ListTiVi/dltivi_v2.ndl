@@ -23,7 +23,7 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8
 https://liveh34.vtvcab.vn/hls/ONQUOCPHONG_CL/03.m3u8
 
 #EXTINF:0 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/VTC1_logo_2018.svg/1200px-VTC1_logo_2018.svg.png",VTC1
-https://liveh12.vtvcab.vn/hls/ONVTC1_CL/04.m3u8
+https://1236573804.pop.vnptcdn.com/VTC1/chunks.m3u8
 #EXTINF:0 tvg-id="vtc2" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/VTC2_logo_2018.svg/1200px-VTC2_logo_2018.svg.png",VTC2
 https://1236573804.pop.vnptcdn.com/VTC2/chunks.m3u8
 #EXTINF:0 tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e5/VTC3.png/revision/latest/scale-to-width-down/340?cb=20201207142820&path-prefix=vi",VTC3
