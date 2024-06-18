@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v2" url="http://bom.so/dltivi" list1="https://tth.vn/vmttv" list2="https://iptv.pro.vn/phimiptv/"  http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
+#PLAYLISTINF:DinhLap version="v3" url="http://bom.so/dltivi" list1="https://tth.vn/vmttv" list2="https://iptv.pro.vn/phimiptv/"  http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -45,7 +45,7 @@ https://api.wintv.me/360/204/index.m3u8
 #EXTINF:0 tvg-id="vtc11" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/VTC11_logo_2018.svg/1200px-VTC11_logo_2018.svg.png",VTC11
 https://api.wintv.me/360/205/index.m3u8
 #EXTINF:0 tvg-id="vtc12hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/27/VTC12_2018_logo.png/revision/latest/scale-to-width-down/200?cb=20230309051547&path-prefix=vi",VTC12
-https://1236573804.pop.vnptcdn.com/VTC12/chunks.m3u8
+https://api.wintv.me/360/206/index.m3u8
 #EXTINF:0 tvg-id="vtc13hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/4d/VTC13.png/revision/latest/scale-to-width-down/340?cb=20201125133758&path-prefix=vi",VTC13
 https://1236573804.pop.vnptcdn.com/VTC13/chunks.m3u8
 #EXTINF:0 tvg-id="vtc14hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/VTC14_logo_2018.svg/1020px-VTC14_logo_2018.svg.png",VTC14
@@ -68,17 +68,17 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv3/index.m3u8
 https://api.wintv.me/360/4/index.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtv4/index.m3u8
+https://api.wintv.me/360/108/index.m3u8
 http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1244990927?profile=pass
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://e8.endpoint.cdn.sctvonline.vn/hls/vtv5/index.m3u8
+https://api.wintv.me/360/110/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5tnb_logo.png", VTV5 Tây Nam Bộ
 https://lms-vnetwork-vtv.swiftfederation.com/vtvgo/vtv5tnb-720p.m3u8
 https://e8.endpoint.cdn.sctvonline.vn/hls/vtv5_tnb/index.m3u8
-http://171.238.181.52:18080/307_2.m3u8?AdaptiveType=HLS vtv5tnm
-http://171.238.181.52:18080/307.m3u8
+https://api.wintv.me/360/157/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5taynguyen_logo.png", VTV5 Tây Nguyên
-https://lms-vnetwork-vtv.swiftfederation.com/vtvgo/vtv5tn-720p.m3u8
-http://171.238.181.52:18080/308_2.m3u8?AdaptiveType=HLS vtv5TN
+https://api.wintv.me/360/107/index.m3u8
 http://171.238.181.52:18080/308.m3u8
 https://api.wintv.me/360/207/index.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
@@ -90,7 +90,7 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv7/index.m3u8
 https://api.wintv.me/360/6/index.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtv8/index.m3u8
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/462220505?profile=pass
+https://api.wintv.me/360/115/index.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8
 https://api.wintv.me/360/8/index.m3u8
@@ -106,7 +106,7 @@ https://liveh34.vtvcab.vn/hls/ONANTV_CL/index.m3u8
 #EXTINF:0 tvg-id="nhandan" group-title="VTV" tvg-logo="https://img.nhandan.thienvietjsc.net/m/1500//data/img/09-08-2020-21-52-39-1666335887-logo-loginpng.png",Nhân Dân TV
 https://api.wintv.me/360/23/index.m3u8
 #EXTINF:0 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
-https://liveh12.vtvcab.vn/hls/ONQUOCHOI_CL/index.m3u8
+https://api.wintv.me/360/290/index.m3u8
 http://113.164.225.140:1935/live/quochoitvlive.stream/chunklist.m3u8
 
 #-*--THVL-*--#
@@ -115,9 +115,9 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/104.png", THVL2 HD
 https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png",THVL3
-#https://live.pipitv.top/stream/channelid/1322301157
+https://api.wintv.me/360/219/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png",THVL4
-#https://live.pipitv.top/stream/channelid/545009077
+https://api.wintv.me/360/220/index.m3u8
 
 #EXTINF:0 tvg-id="htv1" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/dfGZxST/cchtv1.webp",HTV1
 https://vc.101vn.com/htv/htvcmb.php?id=2631
@@ -245,22 +245,24 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtvcab13/index.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/index.m3u8
-https://e4.endpoint.cdn.sctvonline.vn/hls/movie1/index.m3u8
+https://api.wintv.me/360/159/index.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywoodclassics/index.m3u8
 #EXTINF:-1 tvg-id="inthebox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-https://e4.endpoint.cdn.sctvonline.vn/hls/inthebox/index.m3u8
+https://api.wintv.me/360/231/index.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-https://e4.endpoint.cdn.sctvonline.vn/hls/boxhits/index.m3u8
-https://e4.endpoint.cdn.sctvonline.vn/hls/hits/index.m3u8
+https://api.wintv.me/360/239/index.m3u8
 #EXTINF:-1 tvg-id="man" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png",Box Man
-https://e4.endpoint.cdn.sctvonline.vn/hls/man/index.m3u8
+https://api.wintv.me/360/237/index.m3u8
 #EXTINF:-1 tvg-id="woman" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png",Box Woman
 https://e4.endpoint.cdn.sctvonline.vn/hls/woman/index.m3u8
+https://api.wintv.me/360/163/index.m3u8
 #EXTINF:-1 tvg-id="drfithd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png",Box Dr.Fit
 https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/index.m3u8
+https://api.wintv.me/360/162/index.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
 https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/index.m3u8
+https://api.wintv.me/360/289/index.m3u8
 #EXTINF:-1 tvg-id="planetearthhd" group-title="📦| In The Box" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png",Box Planet Earth
 https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/index.m3u8
 #EXTINF:-1 tvg-id="happykids" group-title="Box" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",BoxHappy Kids
@@ -406,44 +408,6 @@ https://coca.dl.dropboxusercontent.com/s/jaoc6ag8c8ku3au/ 																						
 #EXTINF:0 type="stream" group-title="🌐" tvg-id="kloopy" tvg-logo="https://i.ibb.co/JR1nZYb/Kaloopy-cc.png",Kaloopy ¹⁸⁺
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
 https://coca.dl.dropboxusercontent.com/s/koiq1049gt89pg5/ 																																 ㅤ?kaloopy								 													 |Referer=https://sctvonline.vn/
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="boxmovie1" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",BOX Movie¹
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/wms41claawxdpww/ 																																 ㅤ?movie1								 												 |Referer=https://sctvonline.vn/
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="hollywoodclassics" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",HLW Classics
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/8800f62718isn9x/ 																																 ㅤ?hollywood								 										 |Referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="planetearthhd" tvg-logo="https://i.ibb.co/YfRCdT8/Planet-Earth-cc.webp",Planet Earth
-https://coca.dl.dropboxusercontent.com/s/78vqxgi2zxsf774/ 																																 ㅤ?earth								 												 |Referer=https://sctvonline.vn/
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="happykids" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",Happy Kids
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/y8aeg3qbsmvhqb3/ 																																 ㅤ?kids								 												 |Referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="musicbox" tvg-logo="https://i.ibb.co/Z17szpD/Box-Music-cc.webp",Music Box
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/ewbnznsinqaqhlt/ 																																  ㅤ?music								 													 |Referer=https://sctvonline.vn/
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="drfithd" tvg-logo="https://i.ibb.co/n0DZ21g/ccdrfit.webp",Dr. Fit
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/mwou63xsgyhuxeo/ 																															 	 ㅤ?fit								 													 |Referer=https://sctvonline.vn/
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="woman" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",Woman
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/9pahh31uao0f488/ 																																	 ㅤ?woman								 													 |Referer=https://sctvonline.vn/
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="man" tvg-logo="https://i.ibb.co/Yj6BTzZ/Man-cc.webp",Man
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/s35gb91bxljlldo/ 																																	 ㅤ?man								 													 |Referer=https://sctvonline.vn/
-#https://gg.gg/mancc?uri=https://coca.dl.dropboxusercontent.com/scl/fi/man.m3u8
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="boxhits" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",BOX Hits
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/67k1qz14740vl5u/ 																																	 ㅤ?box.hits								 												 |Referer=https://sctvonline.vn/
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-#EXTINF:0 type="stream" group-title="🎁 Box" tvg-id="inthebox" tvg-logo="https://i.ibb.co/tQTc0r0/Box-Channel-cc.webp",BOX
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1
-https://coca.dl.dropboxusercontent.com/s/vb05w85t4tu7wed/ 																																	  ㅤ?box								 												 |Referer=https://sctvonline.vn/
 #EXTVLCOPT:http-referer=https://sctvonline.vn/
 #EXTINF:0 type="stream" group-title="🐣 Kids" tvg-id="pbskids" tvg-logo="https://i.ibb.co/r09Gfwy/cckidstv.png",Kids TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/TiviMate/4.6.1 #EXTVLCOPT:http-referer=https://sctvonline.vn/
