@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v4" url="http://bom.so/dltivi" list1="https://tth.vn/vmttv" list2="https://iptv.pro.vn/phimiptv/"  http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
+#PLAYLISTINF:DinhLap version="v5" url="http://bom.so/dltivi" list1="https://tth.vn/vmttv" list2="https://iptv.pro.vn/phimiptv/"  http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -22,35 +22,35 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",Quốc Phòng TV
 https://api.wintv.me/360/19/index.m3u8
 
-#EXTINF:0 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/VTC1_logo_2018.svg/1200px-VTC1_logo_2018.svg.png",VTC1
+#EXTINF:0 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc1.png",VTC1
 https://vtc301220.cdn.vnns.io/VTC1HD.stream/chunks.m3u8
-#EXTINF:0 tvg-id="vtc2" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/VTC2_logo_2018.svg/1200px-VTC2_logo_2018.svg.png",VTC2
+#EXTINF:0 tvg-id="vtc2" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc2.jpg",VTC2
 https://api.wintv.me/360/196/index.m3u8
-#EXTINF:0 tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/e/e5/VTC3.png/revision/latest/scale-to-width-down/340?cb=20201207142820&path-prefix=vi",VTC3
+#EXTINF:0 tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc3.png",VTC3
 https://api.wintv.me/360/197/index.m3u8
-#EXTINF:0 tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://i.ibb.co/c1MK3VC/ccvtc4.webp",VTC4
+#EXTINF:0 tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc4.png",VTC4
 https://api.wintv.me/360/198/index.m3u8
-#EXTINF:0 tvg-id="vtc5hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/VTC5_logo_2018.svg/600px-VTC5_logo_2018.svg.png",VTC5
+#EXTINF:0 tvg-id="vtc5hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc5.png",VTC5
 https://api.wintv.me/360/199/index.m3u8
-#EXTINF:0 tvg-id="vtc6hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/VTC6_logo_2018.svg/1024px-VTC6_logo_2018.svg.png",VTC6
+#EXTINF:0 tvg-id="vtc6hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc6.png",VTC6
 https://api.wintv.me/360/200/index.m3u8
-#EXTINF:0 tvg-id="vtc7hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/4c/VTC7_logo.png/revision/latest/scale-to-width-down/340?cb=20201125094038&path-prefix=vi",VTC7
+#EXTINF:0 tvg-id="vtc7hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc7.png",VTC7
 https://api.wintv.me/360/201/index.m3u8
-#EXTINF:0 tvg-id="vtc8" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VTC8_logo_2018.svg/768px-VTC8_logo_2018.svg.png",VTC8
+#EXTINF:0 tvg-id="vtc8" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc8.png",VTC8
 https://api.wintv.me/360/202/index.m3u8
-#EXTINF:0 tvg-id="vtc9hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/VTC9_logo_2018.svg/1200px-VTC9_logo_2018.svg.png",VTC9
+#EXTINF:0 tvg-id="vtc9hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc9.png",VTC9
 https://api.wintv.me/360/203/index.m3u8
-#EXTINF:0 tvg-id="vtc10hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/VTC10_logo_2018.svg/1200px-VTC10_logo_2018.svg.png",VTC10
+#EXTINF:0 tvg-id="vtc10hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc10.png",VTC10
 https://api.wintv.me/360/204/index.m3u8
-#EXTINF:0 tvg-id="vtc11" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/VTC11_logo_2018.svg/1200px-VTC11_logo_2018.svg.png",VTC11
+#EXTINF:0 tvg-id="vtc11" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc11.png",VTC11
 https://api.wintv.me/360/205/index.m3u8
-#EXTINF:0 tvg-id="vtc12hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/27/VTC12_2018_logo.png/revision/latest/scale-to-width-down/200?cb=20230309051547&path-prefix=vi",VTC12
+#EXTINF:0 tvg-id="vtc12hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc12.png",VTC12
 https://api.wintv.me/360/206/index.m3u8
-#EXTINF:0 tvg-id="vtc13hd" group-title="VTC" tvg-logo="https://static.wikia.nocookie.net/logos/images/4/4d/VTC13.png/revision/latest/scale-to-width-down/340?cb=20201125133758&path-prefix=vi",VTC13
+#EXTINF:0 tvg-id="vtc13hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc13.png",VTC13
 https://1236573804.pop.vnptcdn.com/VTC13/chunks.m3u8
-#EXTINF:0 tvg-id="vtc14hd" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/VTC14_logo_2018.svg/1020px-VTC14_logo_2018.svg.png",VTC14
+#EXTINF:0 tvg-id="vtc14hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc14.png",VTC14
 https://api.wintv.me/360/17/index.m3u8
-#EXTINF:0 tvg-id="vtc16" group-title="VTC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/VTC16_logo_2018.svg/1200px-VTC16_logo_2018.svg.png",VTC16
+#EXTINF:0 tvg-id="vtc16" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc16.png",VTC16
 https://api.wintv.me/360/18/index.m3u8
 
 #vtvdự phòng
