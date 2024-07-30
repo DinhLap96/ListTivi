@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v6" url="http://bom.so/dltivi" list1="https://hqth.me/tviptv" list2="https://iptv.pro.vn/phimiptv/"  http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
+#PLAYLISTINF:DinhLap version="v8" url="http://bom.so/dltivi" list1="https://hqth.me/tviptv" list2="https://iptv.pro.vn/phimiptv/"  http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -23,35 +23,36 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8
 https://liveh34.vtvcab.vn/hls/ONQUOCPHONG_CL/01.m3u8
 
 #EXTINF:0 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc1.png",VTC1
-https://vtc301220.cdn.vnns.io/VTC1HD.stream/chunks.m3u8
+https://liveh12.vtvcab.vn/hls/ONVTC1_CL/index.m3u8
+https://api.wintv.me/360/16/index.m3u8
 #EXTINF:0 tvg-id="vtc2" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc2.jpg",VTC2
-https://api.wintv.me/vtc2/index.m3u8
+https://api.wintv.me/360/196/index.m3u8
 #EXTINF:0 tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc3.png",VTC3
-https://api.wintv.me/vtc3/index.m3u8
+https://api.wintv.me/360/197/index.m3u8
 #EXTINF:0 tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc4.png",VTC4
-https://api.wintv.me/vtc4/index.m3u8
+https://api.wintv.me/360/198/index.m3u8
 #EXTINF:0 tvg-id="vtc5hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc5.png",VTC5
-https://api.wintv.me/vtc5/index.m3u8
+https://api.wintv.me/360/199/index.m3u8
 #EXTINF:0 tvg-id="vtc6hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc6.png",VTC6
-https://api.wintv.me/vtc6/index.m3u8
+https://api.wintv.me/360/200/index.m3u8
 #EXTINF:0 tvg-id="vtc7hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc7.png",VTC7
-https://api.wintv.me/vtc7/index.m3u8
+https://api.wintv.me/360/202/index.m3u8
 #EXTINF:0 tvg-id="vtc8" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc8.png",VTC8
 https://api.wintv.me/vtc8/index.m3u8
 #EXTINF:0 tvg-id="vtc9hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc9.png",VTC9
-https://api.wintv.me/vtc9/index.m3u8
+https://api.wintv.me/360/203/index.m3u8
 #EXTINF:0 tvg-id="vtc10hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc10.png",VTC10
-https://api.wintv.me/vtc10/index.m3u8
+https://api.wintv.me/360/204/index.m3u8
 #EXTINF:0 tvg-id="vtc11" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc11.png",VTC11
-https://api.wintv.me/vtc11/index.m3u8
+https://api.wintv.me/360/205/index.m3u8
 #EXTINF:0 tvg-id="vtc12hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc12.png",VTC12
 https://api.wintv.me/vtc12/index.m3u8
 #EXTINF:0 tvg-id="vtc13hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc13.png",VTC13
 https://1236573804.pop.vnptcdn.com/VTC13/chunks.m3u8
 #EXTINF:0 tvg-id="vtc14hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc14.png",VTC14
-https://api.wintv.me/vtc14/index.m3u8
+https://api.wintv.me/360/17/index.m3u8
 #EXTINF:0 tvg-id="vtc16" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc16.png",VTC16
-https://api.wintv.me/vtc16/index.m3u8
+https://api.wintv.me/360/18/index.m3u8
 
 #vtvdự phòng
 
@@ -94,6 +95,7 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8
 https://api.wintv.me/360/8/index.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",Quốc Phòng TV
 https://liveh34.vtvcab.vn/hls/ONQUOCPHONG_CL/index.m3u8
+https://api.wintv.me/360/19/index.m3u8
 http://27.76.137.122:1935/standard/smil:standard.smil/chunklist_w1789859492_b596000_sleng.m3u8
 https://api.wintv.me/quocphong/index.m3u8
 
@@ -105,8 +107,8 @@ https://liveh34.vtvcab.vn/hls/ONANTV_CL/index.m3u8
 https://arpt.tvic.vn/live/nhandan720/playlist.m3u8
 #EXTINF:0 tvg-id="quochoi" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/1/17/KenhQuocHoi_logo.png",Quốc Hội TV
 https://cloudstreamqh.tek4tv.vn/live/quochoitv_720p.m3u8
+https://api.wintv.me/360/290/index.m3u8
 http://113.164.225.140:1935/live/quochoitvlive.stream/chunklist.m3u8
-https://api.wintv.me/qh/index.m3u8
 
 #-*--THVL-*--#
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/103.png", THVL1 HD
@@ -114,9 +116,9 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/104.png", THVL2 HD
 https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png",THVL3
-https://api.wintv.me/vl3/index.m3u8
+https://api.wintv.me/360/219/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png",THVL4
-https://api.wintv.me/vl4/index.m3u8
+https://api.wintv.me/360/220/index.m3u8
 
 #EXTINF:0 tvg-id="htv1" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/dfGZxST/cchtv1.webp",HTV1
 https://vc.101vn.com/htv/htvcmb.php?id=2631
