@@ -57,16 +57,20 @@ https://thvip.site/360/18/index.m3u8
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
 https://thvip.site/360/2/index.m3u8
+https://thvip.site/vtv1/index.m3u8
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
 https://e8.endpoint.cdn.sctvonline.vn/hls/vtv2/index.m3u8
 http://118.107.85.4:1935/live/smil:VTV2.smil/chunklist_b584000.m3u8
 https://thvip.site/360/3/index.m3u8
+https://thvip.site/vtv2/index.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv3/index.m3u8
 https://thvip.site/360/4/index.m3u8
+https://thvip.site/vtv3/index.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtv4/index.m3u8
 https://thvip.site/360/108/index.m3u8
+https://thvip.site/vtv4/index.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
 https://e8.endpoint.cdn.sctvonline.vn/hls/vtv5/index.m3u8
 https://thvip.site/360/110/index.m3u8
@@ -132,19 +136,19 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/thethao/index.m3u8
 http://171.238.181.52:18080/304_2.m3u8?AdaptiveType=HLS
 https://thvip.site/htvtt/index.m3u8
 #EXTINF:0 tvg-id="htvccanhachd" group-title="💛| HTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/HTVC.png" tvg-logo="https://i.imgur.com/ZHVkEIC.png",HTVC Ca Nhạc
-https://tth.vn/htvccanhac
+https://thvip.site/360/14/index.m3u8
 #EXTINF:0 tvg-id="htvcdulichhd" group-title="💛| HTV" tvg-logo="https://i.imgur.com/XxIO0E0.png",HTVC Du Lịch và Cuộc Sống
-https://tth.vn/htvcdulich
+https://thvip.site/htvcdulich/index.m3u8
 #EXTINF:0 tvg-id="htvcgiadinhhd" group-title="💛| HTV" tvg-logo="https://i.imgur.com/KxWRNH6.png",HTVC Gia Đình
-https://tth.vn/htvcgiadinh
+https://thvip.site/360/11/index.m3u8
 #EXTINF:0 tvg-id="htvcphimhd" group-title="💛| HTV" tvg-logo="https://i.imgur.com/SXV3ya9.png",HTVC Phim
-https://tth.vn/htvcphim
+https://thvip.site/360/15/index.m3u8
 #EXTINF:0 tvg-id="htvcphunuhd" group-title="💛| HTV" tvg-logo="https://i.imgur.com/PLliKL6.png",HTVC Phụ Nữ
-https://tth.vn/htvcphunu
+https://thvip.site/360/12/index.m3u8
 #EXTINF:0 tvg-id="htvcthuanviet" group-title="💛| HTV" tvg-logo="https://i.imgur.com/xmISDWo.png",HTVC Thuần Việt
-https://tth.vn/htvcthuanviet
+https://thvip.site/360/13/index.m3u8
 #EXTINF:0 tvg-id="htvcplushd" group-title="💛| HTV" tvg-logo="https://i.imgur.com/SQ9cLJj.png",HTVC Plus
-https://tth.vn/htvcplus
+https://thvip.site/htvcplus/index.m3u8
 
 #EXTINF:-1 tvg-id="sctv1hd" type="stream" group-title="🇸| SCTV" tvg-logo="https://i.ibb.co/6FB7zBz/SCTV1-cc.webp", SCTV1
 https://e8.endpoint.cdn.sctvonline.vn/channel/sctv1/index.m3u8?|Referer=http://sctvonline.vn/
