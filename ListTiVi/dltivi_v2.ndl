@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v12" url="http://bom.so/dltivi" list1="https://tth.vn/tv360" list2="https://iptv.pro.vn/phimiptv/"  http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
+#PLAYLISTINF:DinhLap version="v12" url="http://bom.so/dltivi" list1="http://gg.gg/coocaa" list2="https://iptv.pro.vn/phimiptv/" https://tth.vn/tv360 http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
