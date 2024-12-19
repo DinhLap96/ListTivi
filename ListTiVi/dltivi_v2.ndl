@@ -35,7 +35,7 @@ https://live.fptplay53.net/fnxhd2/vtc5_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-id="vtc6hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc6.png",VTC6
 https://live.fptplay53.net/fnxhd2/vtc6_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-id="vtc7hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc7.png",VTC7
-https://live.fptplay53.net/fnxhd2/todaytv_hls.smil/chunklist_b2500000.m3u8
+https://oipf0znpmnliv.vcdn.cloud/hls/todaytv/index.m3u8
 #EXTINF:0 tvg-id="vtc8" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc8.png",VTC8
 https://live.fptplay53.net/fnxhd2/vtc8_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:0 tvg-id="vtc9hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc9.png",VTC9
