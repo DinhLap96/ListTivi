@@ -109,9 +109,9 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/104.png", THVL2 HD
 https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png",THVL3
-http://hoatv001.ddns.net:8002/ott/tv360.php?id=219
+http://hoatv001.ddns.net:8002/ott/tv3603.php?id=219
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png",THVL4
-http://hoatv001.ddns.net:8002/ott/tv360.php?id=220
+http://hoatv001.ddns.net:8002/ott/tv3603.php?id=220
 
 #EXTINF:0 tvg-id="htv1" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/dfGZxST/cchtv1.webp",HTV1
 https://vc.101vn.com/htv/htvcmb.php?id=2631
