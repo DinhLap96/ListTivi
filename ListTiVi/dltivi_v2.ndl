@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#PLAYLISTINF:DinhLap version="v20" url="http://bom.so/dltivi" list1="https://tth.vn/tv360" list2="https://iptv.pro.vn/phimiptv/" https://tth.vn/tv360 http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
+#PLAYLISTINF:DinhLap version="v21" url="http://bom.so/dltivi" list1="https://tth.vn/tv360" list2="https://iptv.pro.vn/phimiptv/" https://tth.vn/tv360 http://gg.gg/coocaa  https://tth.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://e4.endpoint.cdn.sctvonline.vn/hls/vtv1/index.m3u8
@@ -20,7 +20,7 @@ https://e3.endpoint.cdn.sctvonline.vn/hls/vtv8/index.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",QPVN HD
-http://hoatv001.ddns.net:8002/ott/tv3603.php?id=19
+https://shopvophu.com/tv360.php?id=19
 
 #EXTINF:0 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vtc/vtc1.png",VTC1
 https://e2.endpoint.cdn.sctvonline.vn/hls/vtc1/index.m3u8
@@ -109,9 +109,9 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/104.png", THVL2 HD
 https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png",THVL3
-http://hoatv001.ddns.net:8002/ott/tv3603.php?id=219
+https://shopvophu.com/tv360.php?id=219
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="🇻🇳| Địa phương" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png",THVL4
-http://hoatv001.ddns.net:8002/ott/tv3603.php?id=220
+https://shopvophu.com/tv360.php?id=220
 
 #EXTINF:0 tvg-id="htv1" group-title="3️⃣ HTV" tvg-logo="https://i.ibb.co/dfGZxST/cchtv1.webp",HTV1
 https://vc.101vn.com/htv/htvcmb.php?id=2631
