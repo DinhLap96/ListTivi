@@ -7,12 +7,12 @@
   if (existing) {
     existing.setAttribute(
       "content",
-      "width=1920, height=1080, initial-scale=1.0"
+      "width=3840, height=2160, initial-scale=1.0"
     );
   } else {
     var meta = document.createElement("meta");
     meta.name = "viewport";
-    meta.content = "width=1920, height=1080, initial-scale=1.0";
+    meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
   }
 })();
@@ -792,6 +792,11 @@
         const barType = barTypes[segment.category] || {
           color: "blue",
           opacity: 0.7,
+           elm.classList.add("ytLrProgressBarPlayed");
+                  elm.style["background"] = barType.color;
+                  elm.style["opacity"] = barType.opacity;
+                  elm.style["-webkit-transform"] = transform;
+                  this.segmentsoverlay.appendChild(elm);
         };
         const transform = `translateX(${
           (start / videoDuration) * 100.0
