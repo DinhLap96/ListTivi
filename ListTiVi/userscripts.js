@@ -56,13 +56,13 @@
     // Insert right next the search box
     parent.insertBefore(menuButton, searchBar.nextSibling);
 
-     var el = document.documentElement
-            , rfs =
-                   el.requestFullScreen
-                || el.webkitRequestFullScreen
-                || el.mozRequestFullScreen
-        ;
-        rfs.call(el);
+//     var el = document.documentElement
+//            , rfs =
+//                   el.requestFullScreen
+//                || el.webkitRequestFullScreen
+//                || el.mozRequestFullScreen
+//        ;
+//        rfs.call(el);
   }
 
   addMenuButton();
