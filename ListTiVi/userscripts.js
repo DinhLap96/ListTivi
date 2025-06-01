@@ -3,28 +3,25 @@
 (function () {
   //if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
 
-//  var existing = document.querySelector('meta[name="viewport"]');
-//  if (existing) {
-//    existing.setAttribute(
-//      "content",
-//      "width=3840, height=2160, initial-scale=1.0"
-//    );
-//  } else {
-//    var meta = document.createElement("meta");
-//    meta.name = "viewport";
-//    meta.content = "width=3840, height=2160, initial-scale=1.0";
-//    document.head.appendChild(meta);
-//  }
-
-    const meta = document.createElement('meta');
-    meta.name = 'viewport';
-    meta.content = 'width=device-width, initial-scale=1.0';
+  var existing = document.querySelector('meta[name="viewport"]');
+  if (existing) {
+    existing.setAttribute(
+      "content",
+      "width=3840, height=2160, initial-scale=1.0"
+    );
+  } else {
+    var meta = document.createElement("meta");
+    meta.name = "viewport";
+    meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
+  }
+
 })();
 /* End spoofViewport.js */
 
 /* Start menuTrigger.js */
 // Add a "button" to fool you...
+
 (function () {
   function getSearchBar() {
     const searchBars = document.querySelectorAll(
@@ -32,6 +29,18 @@
     );
     return searchBars[searchBars.length - 1] ?? null;
   }
+
+  function openFullscreen() {
+    const elem = document.documentElement; // Get the root element (<html>)
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+      elem.msRequestFullscreen();
+    }
+  }
+  openFullscreen()
 
   function addMenuButton() {
     const searchBar = getSearchBar();
