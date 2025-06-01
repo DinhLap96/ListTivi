@@ -3,18 +3,23 @@
 (function () {
   //if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
 
-  var existing = document.querySelector('meta[name="viewport"]');
-  if (existing) {
-    existing.setAttribute(
-      "content",
-      "width=3840, height=2160, initial-scale=1.0"
-    );
-  } else {
-    var meta = document.createElement("meta");
-    meta.name = "viewport";
-    meta.content = "width=3840, height=2160, initial-scale=1.0";
+//  var existing = document.querySelector('meta[name="viewport"]');
+//  if (existing) {
+//    existing.setAttribute(
+//      "content",
+//      "width=3840, height=2160, initial-scale=1.0"
+//    );
+//  } else {
+//    var meta = document.createElement("meta");
+//    meta.name = "viewport";
+//    meta.content = "width=3840, height=2160, initial-scale=1.0";
+//    document.head.appendChild(meta);
+//  }
+
+    const meta = document.createElement('meta');
+    meta.name = 'viewport';
+    meta.content = 'width=device-width, initial-scale=1.0';
     document.head.appendChild(meta);
-  }
 })();
 /* End spoofViewport.js */
 
@@ -963,13 +968,6 @@
       style.textContent = css_248z;
       document.head.appendChild(style);
     }
-
-     var el = document.documentElement
-            , rfs = el.requestFullScreen
-                || el.webkitRequestFullScreen
-                || el.mozRequestFullScreen;
-        rfs.call(el);
-
     // We handle key events ourselves.
 
     var uiContainer = document.createElement("div");
