@@ -792,11 +792,6 @@
         const barType = barTypes[segment.category] || {
           color: "blue",
           opacity: 0.7,
-           elm.classList.add("ytLrProgressBarPlayed");
-                  elm.style["background"] = barType.color;
-                  elm.style["opacity"] = barType.opacity;
-                  elm.style["-webkit-transform"] = transform;
-                  this.segmentsoverlay.appendChild(elm);
         };
         const transform = `translateX(${
           (start / videoDuration) * 100.0
