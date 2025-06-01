@@ -30,18 +30,6 @@
     return searchBars[searchBars.length - 1] ?? null;
   }
 
-  function openFullscreen() {
-    const elem = document.documentElement; // Get the root element (<html>)
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.webkitRequestFullscreen) { /* Safari */
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { /* IE11 */
-      elem.msRequestFullscreen();
-    }
-  }
-  openFullscreen()
-
   function addMenuButton() {
     const searchBar = getSearchBar();
     if (!searchBar) return;
