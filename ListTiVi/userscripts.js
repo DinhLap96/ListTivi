@@ -7,12 +7,12 @@
   if (existing) {
     existing.setAttribute(
       "content",
-      "width=3840, height=2160, initial-scale=1.0"
+      "width=1920, height=1080, initial-scale=1.0"
     );
   } else {
     var meta = document.createElement("meta");
     meta.name = "viewport";
-    meta.content = "width=3840, height=2160, initial-scale=1.0";
+    meta.content = "width=1920, height=1080, initial-scale=1.0";
     document.head.appendChild(meta);
   }
 })();
