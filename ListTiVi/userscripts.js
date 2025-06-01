@@ -14,12 +14,8 @@
     meta.name = "viewport";
     meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
-    var el = document.documentElement
-                 , rfs = el.requestFullScreen
-                      || el.webkitRequestFullScreen
-                      || el.mozRequestFullScreen ;
-              rfs.call(el);
-            });
+    var el = document.documentElement , rfs = el.requestFullScreen|| el.webkitRequestFullScreen || el.mozRequestFullScreen ;
+    rfs.call(el);
   }
 })();
 /* End spoofViewport.js */
