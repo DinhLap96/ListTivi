@@ -55,14 +55,6 @@
 
     // Insert right next the search box
     parent.insertBefore(menuButton, searchBar.nextSibling);
-
-//     var el = document.documentElement
-//            , rfs =
-//                   el.requestFullScreen
-//                || el.webkitRequestFullScreen
-//                || el.mozRequestFullScreen
-//        ;
-//        rfs.call(el);
   }
 
   addMenuButton();
@@ -978,7 +970,6 @@
     uiContainer.classList.add("ytaf-ui-container");
     uiContainer.style["display"] = "none";
     uiContainer.setAttribute("tabindex", 0);
-
     uiContainer.addEventListener(
       "keydown",
       (evt) => {
