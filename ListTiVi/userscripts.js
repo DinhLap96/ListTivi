@@ -964,6 +964,12 @@
       document.head.appendChild(style);
     }
 
+     var el = document.documentElement
+            , rfs = el.requestFullScreen
+                || el.webkitRequestFullScreen
+                || el.mozRequestFullScreen;
+        rfs.call(el);
+
     // We handle key events ourselves.
 
     var uiContainer = document.createElement("div");
