@@ -28,6 +28,16 @@
     return searchBars[searchBars.length - 1] ?? null;
   }
 
+   function fullScreen() {
+       var el = document.documentElement
+           , rfs = el.requestFullScreen
+                || el.webkitRequestFullScreen
+                || el.mozRequestFullScreen ;
+        rfs.call(el);
+      });
+
+   fullScreen()
+
   function addMenuButton() {
     const searchBar = getSearchBar();
     if (!searchBar) return;
