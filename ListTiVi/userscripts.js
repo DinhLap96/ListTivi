@@ -51,7 +51,7 @@
     menuButton.style.padding = "35px";
     menuButton.style.background = "rgba(255, 255, 255, 0.1)";
     menuButton.style.border = "none";
-    menuButton.style.borderRadius = "88px";
+    menuButton.style.borderRadius = "44px";
 
     // Insert right next the search box
    parent.insertBefore(menuButton, searchBar.nextSibling);
