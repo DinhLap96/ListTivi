@@ -15,11 +15,13 @@
     meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
   }
+
 })();
 /* End spoofViewport.js */
 
 /* Start menuTrigger.js */
 // Add a "button" to fool you...
+
 (function () {
   function getSearchBar() {
     const searchBars = document.querySelectorAll(
@@ -54,7 +56,7 @@
     menuButton.style.borderRadius = "88px";
 
     // Insert right next the search box
-   parent.insertBefore(menuButton, searchBar.nextSibling);
+    parent.insertBefore(menuButton, searchBar.nextSibling);
   }
 
   addMenuButton();
@@ -963,14 +965,12 @@
       style.textContent = css_248z;
       document.head.appendChild(style);
     }
-
     // We handle key events ourselves.
 
     var uiContainer = document.createElement("div");
     uiContainer.classList.add("ytaf-ui-container");
     uiContainer.style["display"] = "none";
     uiContainer.setAttribute("tabindex", 0);
-
     uiContainer.addEventListener(
       "keydown",
       (evt) => {
