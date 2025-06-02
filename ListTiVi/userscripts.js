@@ -1,7 +1,7 @@
 /* Start spoofViewport.js */
 // Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
 (function () {
-  if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
+  //if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
 
   var existing = document.querySelector('meta[name="viewport"]');
   if (existing) {
@@ -15,13 +15,11 @@
     meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
   }
-
 })();
 /* End spoofViewport.js */
 
 /* Start menuTrigger.js */
 // Add a "button" to fool you...
-
 (function () {
   function getSearchBar() {
     const searchBars = document.querySelectorAll(
@@ -965,12 +963,14 @@
       style.textContent = css_248z;
       document.head.appendChild(style);
     }
+
     // We handle key events ourselves.
 
     var uiContainer = document.createElement("div");
     uiContainer.classList.add("ytaf-ui-container");
     uiContainer.style["display"] = "none";
     uiContainer.setAttribute("tabindex", 0);
+
     uiContainer.addEventListener(
       "keydown",
       (evt) => {
