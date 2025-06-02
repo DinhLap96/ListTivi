@@ -2,62 +2,62 @@
 // Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
 (function () {
   //if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
-
-  var existing = document.querySelector('meta[name="viewport"]');
-  if (existing) {
-    existing.setAttribute(
-      "content",
-      "width=3840, height=2160, initial-scale=1.0"
-    );
-  } else {
-    var meta = document.createElement("meta");
-    meta.name = "viewport";
-    meta.content = "width=3840, height=2160, initial-scale=1.0";
-    document.head.appendChild(meta);
-  }
-})();
-/* End spoofViewport.js */
-
-/* Start menuTrigger.js */
-// Add a "button" to fool you...
-(function () {
-  function getSearchBar() {
-    const searchBars = document.querySelectorAll(
-      '[idomkey="ytLrSearchBarSearchTextBox"]'
-    );
-    return searchBars[searchBars.length - 1] ?? null;
-  }
-
-  function addMenuButton() {
-    const searchBar = getSearchBar();
-    if (!searchBar) return;
-
-    const parent = searchBar.parentNode;
-    if (parent.querySelector('button[data-notubetv="menu"]')) return; // already exists
-
-    // Align horizontally to the search box
-    parent.style.display = "flex";
-    parent.style.flexDirection = "row";
-    parent.style.alignItems = "center";
-
-    // Create the NoTUbeTV Menu button
-    const menuButton = document.createElement("button");
-    menuButton.setAttribute("data-notubetv", "menu");
-    menuButton.innerHTML = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24" fill="rgba(255, 255, 255, 0.8)">
-        <path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v3h20V8a2 2 0 0 0-2-2zM10 4h4v2h-4V4zm10 7H2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-7z"/>
-      </svg>`;
-    menuButton.style.marginLeft = "54px";
-    menuButton.style.padding = "35px";
-    menuButton.style.background = "rgba(255, 255, 255, 0.1)";
-    menuButton.style.border = "none";
-    menuButton.style.borderRadius = "88px";
-
-    // Insert right next the search box
-    parent.insertBefore(menuButton, searchBar.nextSibling);
-  }
-
-  addMenuButton();
+//
+//  var existing = document.querySelector('meta[name="viewport"]');
+//  if (existing) {
+//    existing.setAttribute(
+//      "content",
+//      "width=3840, height=2160, initial-scale=1.0"
+//    );
+//  } else {
+//    var meta = document.createElement("meta");
+//    meta.name = "viewport";
+//    meta.content = "width=3840, height=2160, initial-scale=1.0";
+//    document.head.appendChild(meta);
+//  }
+//})();
+///* End spoofViewport.js */
+//
+///* Start menuTrigger.js */
+//// Add a "button" to fool you...
+//(function () {
+//  function getSearchBar() {
+//    const searchBars = document.querySelectorAll(
+//      '[idomkey="ytLrSearchBarSearchTextBox"]'
+//    );
+//    return searchBars[searchBars.length - 1] ?? null;
+//  }
+//
+//  function addMenuButton() {
+//    const searchBar = getSearchBar();
+//    if (!searchBar) return;
+//
+//    const parent = searchBar.parentNode;
+//    if (parent.querySelector('button[data-notubetv="menu"]')) return; // already exists
+//
+//    // Align horizontally to the search box
+//    parent.style.display = "flex";
+//    parent.style.flexDirection = "row";
+//    parent.style.alignItems = "center";
+//
+//    // Create the NoTUbeTV Menu button
+//    const menuButton = document.createElement("button");
+//    menuButton.setAttribute("data-notubetv", "menu");
+//    menuButton.innerHTML = `
+//      <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24" fill="rgba(255, 255, 255, 0.8)">
+//        <path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v3h20V8a2 2 0 0 0-2-2zM10 4h4v2h-4V4zm10 7H2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-7z"/>
+//      </svg>`;
+//    menuButton.style.marginLeft = "54px";
+//    menuButton.style.padding = "35px";
+//    menuButton.style.background = "rgba(255, 255, 255, 0.1)";
+//    menuButton.style.border = "none";
+//    menuButton.style.borderRadius = "88px";
+//
+//    // Insert right next the search box
+//    parent.insertBefore(menuButton, searchBar.nextSibling);
+//  }
+//
+//  addMenuButton();
 
   // Here the fooling part begins.
   // If the search tab is focused and the 'right arrow" is pressed, open up the menu.
