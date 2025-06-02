@@ -47,7 +47,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24" fill="rgba(255, 255, 255, 0.8)">
         <path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v3h20V8a2 2 0 0 0-2-2zM10 4h4v2h-4V4zm10 7H2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-7z"/>
       </svg>`;
-    menuButton.style.marginLeft = "54px";
+    //menuButton.style.marginLeft = "54px";
     menuButton.style.padding = "35px";
     menuButton.style.background = "rgba(255, 255, 255, 0.1)";
     menuButton.style.border = "none";
