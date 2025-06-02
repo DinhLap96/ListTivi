@@ -57,7 +57,7 @@
     parent.insertBefore(menuButton, searchBar.nextSibling);
   }
 
-  addMenuButton();
+  //addMenuButton();
 
   // Here the fooling part begins.
   // If the search tab is focused and the 'right arrow" is pressed, open up the menu.
@@ -798,8 +798,8 @@
         }%) scaleX(${(end - start) / videoDuration})`;
         const elm = document.createElement("div");
         elm.classList.add("ytLrProgressBarPlayed");
-//        elm.style["background"] = barType.color;
-//        elm.style["opacity"] = barType.opacity;
+        elm.style["background"] = barType.color;
+        elm.style["opacity"] = barType.opacity;
         elm.style["-webkit-transform"] = transform;
         this.segmentsoverlay.appendChild(elm);
       });
