@@ -7,6 +7,7 @@
   if (existing) {
     existing.setAttribute(
       "content",
+      "allowFullScreen",
       "width=3840, height=2160, initial-scale=1.0"
     );
   } else {
@@ -54,7 +55,7 @@
     menuButton.style.borderRadius = "88px";
 
     // Insert right next the search box
-   // parent.insertBefore(menuButton, searchBar.nextSibling);
+   parent.insertBefore(menuButton, searchBar.nextSibling);
   }
 
   addMenuButton();
