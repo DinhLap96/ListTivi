@@ -7,8 +7,7 @@
   if (existing) {
     existing.setAttribute(
       "content",
-      "allowFullScreen",
-      "width=3840, height=2160, initial-scale=1.0"
+      "allowFullScreen"
     );
   } else {
     var meta = document.createElement("meta");
