@@ -6,8 +6,8 @@
   var existing = document.querySelector('meta[name="viewport"]');
   if (existing) {
     existing.setAttribute(
-      "content"
-//      "width=3840, height=2160, initial-scale=1.0"
+      "content",
+      "width=3840, height=2160, initial-scale=1.0"
     );
   } else {
     var meta = document.createElement("meta");
@@ -15,13 +15,11 @@
     meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
   }
-
 })();
 /* End spoofViewport.js */
 
 /* Start menuTrigger.js */
 // Add a "button" to fool you...
-
 (function () {
   function getSearchBar() {
     const searchBars = document.querySelectorAll(
@@ -800,8 +798,8 @@
         }%) scaleX(${(end - start) / videoDuration})`;
         const elm = document.createElement("div");
         elm.classList.add("ytLrProgressBarPlayed");
-        elm.style["background"] = barType.color;
-        elm.style["opacity"] = barType.opacity;
+//        elm.style["background"] = barType.color;
+//        elm.style["opacity"] = barType.opacity;
         elm.style["-webkit-transform"] = transform;
         this.segmentsoverlay.appendChild(elm);
       });
@@ -965,12 +963,14 @@
       style.textContent = css_248z;
       document.head.appendChild(style);
     }
+
     // We handle key events ourselves.
 
     var uiContainer = document.createElement("div");
     uiContainer.classList.add("ytaf-ui-container");
     uiContainer.style["display"] = "none";
     uiContainer.setAttribute("tabindex", 0);
+
     uiContainer.addEventListener(
       "keydown",
       (evt) => {
