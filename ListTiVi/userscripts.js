@@ -10,10 +10,10 @@
       "width=3840, height=2160, initial-scale=1.0"
     );
   } else {
-//    var meta = document.createElement("meta");
-//    meta.name = "viewport";
-//    meta.content = "width=3840, height=2160, initial-scale=1.0";
-//    document.head.appendChild(meta);
+    var meta = document.createElement("meta");
+    meta.name = "viewport";
+    meta.content = "width=3840, height=2160, initial-scale=1.0";
+    document.head.appendChild(meta);
   }
 
 })();
