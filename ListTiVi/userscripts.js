@@ -1,4 +1,25 @@
 
+// Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
+
+(function () {
+  try {
+   if (window.screen.width >= 2560 || window.screen.height >= 1440) return;
+     var existing = document.querySelector('meta[name="viewport"]');
+     if (existing) {
+       existing.setAttribute(
+         "content",
+         "width=2560, height=1440, initial-scale=1.0"
+       );
+     } else {
+       var meta = document.createElement("meta");
+       meta.name = "viewport";
+       meta.content = "width=2560, height=1440, initial-scale=1.0";
+       document.head.appendChild(meta);
+     }
+  } catch (er) { }
+})();
+
+
 /* Start exitBridge.js */
 // Exit Bridge to react to exit button call.
 (function () {
