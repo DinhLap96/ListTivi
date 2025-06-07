@@ -34,14 +34,14 @@
   const CONFIG_KEY = "ytaf-configuration";
   const defaultConfig = {
     enableAdBlock: true,
-    enableSponsorBlock: false,
+    enableSponsorBlock: true,
     sponsorBlockManualSkips: [],
-    enableSponsorBlockSponsor: false,
-    enableSponsorBlockIntro: false,
-    enableSponsorBlockOutro: false,
-    enableSponsorBlockInteraction: false,
-    enableSponsorBlockSelfPromo: false,
-    enableSponsorBlockMusicOfftopic: false,
+    enableSponsorBlockSponsor: true,
+    enableSponsorBlockIntro: true,
+    enableSponsorBlockOutro: true,
+    enableSponsorBlockInteraction: true,
+    enableSponsorBlockSelfPromo: true,
+    enableSponsorBlockMusicOfftopic: true,
     enableShorts: false, //true
   };
 
