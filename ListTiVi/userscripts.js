@@ -3,7 +3,7 @@
 
 (function () {
   try {
-//   if (window.screen.width >= 2560 || window.screen.height >= 1440) return;
+   if (window.screen.width >= 2560 || window.screen.height >= 1440) return;
      var existing = document.querySelector('meta[name="viewport"]');
      if (existing) {
        existing.setAttribute(
