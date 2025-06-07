@@ -8,12 +8,12 @@
      if (existing) {
        existing.setAttribute(
          "content",
-         "width=256099, height=14409, initial-scale=1.0"
+         "width=2560, height=1440, initial-scale=1.0"
        );
      } else {
        var meta = document.createElement("meta");
        meta.name = "viewport";
-       meta.content = "width=256990, height=144099, initial-scale=1.0";
+       meta.content = "width=2560, height=1440, initial-scale=1.0";
        document.head.appendChild(meta);
      }
   } catch (er) { }
