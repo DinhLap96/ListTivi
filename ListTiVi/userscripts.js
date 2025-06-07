@@ -1,26 +1,4 @@
 
-
-//(function () {
-//
-//    var elementsToRemove = document.querySelectorAll('tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex="-1"][style*="position: fixed; top: 242.25px; left: 270px;"]');
-//    for (var i = 0; i < elementsToRemove.length; i++) {
-//
-//    elementsToRemove[i].remove();
-//
-//    }
-//
-//
-//    var playButton = document.querySelector('button.ytp-play-button');
-//
-//    if (playButton) {
-//
-//    playButton.click();
-//
-//    }
-//
-//})();
-
-
 /* Start exitBridge.js */
 // Exit Bridge to react to exit button call.
 (function () {
@@ -56,14 +34,14 @@
   const CONFIG_KEY = "ytaf-configuration";
   const defaultConfig = {
     enableAdBlock: true,
-    enableSponsorBlock: true,
+    enableSponsorBlock: false,
     sponsorBlockManualSkips: [],
-    enableSponsorBlockSponsor: true,
-    enableSponsorBlockIntro: true,
-    enableSponsorBlockOutro: true,
-    enableSponsorBlockInteraction: true,
-    enableSponsorBlockSelfPromo: true,
-    enableSponsorBlockMusicOfftopic: true,
+    enableSponsorBlockSponsor: false,
+    enableSponsorBlockIntro: false,
+    enableSponsorBlockOutro: false,
+    enableSponsorBlockInteraction: false,
+    enableSponsorBlockSelfPromo: false,
+    enableSponsorBlockMusicOfftopic: false,
     enableShorts: false, //true
   };
 
