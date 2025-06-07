@@ -70,7 +70,7 @@
     window.localStorage[CONFIG_KEY] = JSON.stringify(window.localConfig);
   };
 
-  window.modernUI = function modernUI(update, parameters) {
+  window.modernUI = function modernUI() {
   };
 
 
