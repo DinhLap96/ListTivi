@@ -2,6 +2,7 @@
 // Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
 
 (function () {
+  sdyjk
   try {
    if (window.screen.width >= 2560 || window.screen.height >= 1440) return;
      var existing = document.querySelector('meta[name="viewport"]');
