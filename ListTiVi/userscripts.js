@@ -64,7 +64,7 @@
     enableSponsorBlockInteraction: true,
     enableSponsorBlockSelfPromo: true,
     enableSponsorBlockMusicOfftopic: true,
-    enableShorts: true,
+    enableShorts: false, //true
   };
 
   let localConfig;
