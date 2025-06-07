@@ -42,7 +42,7 @@
     enableSponsorBlockInteraction: true,
     enableSponsorBlockSelfPromo: true,
     enableSponsorBlockMusicOfftopic: true,
-    enableShorts: false, //true
+    enableShorts: true, //true
   };
 
   let localConfig;
