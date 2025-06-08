@@ -1,24 +1,97 @@
-
+/* Start spoofViewport.js */
 // Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
+(function () {
+  //if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
 
-//(function () {
-//  try {
-//   if (window.screen.width >= 2560 || window.screen.height >= 1440) return;
-//     var existing = document.querySelector('meta[name="viewport"]');
-//     if (existing) {
-//       existing.setAttribute(
-//         "content",
-//         "width=2560, height=1440, initial-scale=1.0"
-//       );
-//     } else {
-//       var meta = document.createElement("meta");
-//       meta.name = "viewport";
-//       meta.content = "width=2560, height=1440, initial-scale=1.0";
-//       document.head.appendChild(meta);
-//     }
-//  } catch (er) { }
-//})();
+  var existing = document.querySelector('meta[name="viewport"]');
+  if (existing) {
+    existing.setAttribute(
+      "content",
+      "width=3840, height=2160, initial-scale=1.0"
+    );
+  } else {
+    var meta = document.createElement("meta");
+    meta.name = "viewport";
+    meta.content = "width=3840, height=2160, initial-scale=1.0";
+    document.head.appendChild(meta);
+  }
+})();
+/* End spoofViewport.js */
 
+/* Start menuTrigger.js */
+// Add a "button" to fool you...
+(function () {
+  function getSearchBar() {
+    const searchBars = document.querySelectorAll(
+      '[idomkey="ytLrSearchBarSearchTextBox"]'
+    );
+    return searchBars[searchBars.length - 1] ?? null;
+  }
+
+  function addMenuButton() {
+    const searchBar = getSearchBar();
+    if (!searchBar) return;
+
+    const parent = searchBar.parentNode;
+    if (parent.querySelector('button[data-notubetv="menu"]')) return; // already exists
+
+    // Align horizontally to the search box
+    parent.style.display = "flex";
+    parent.style.flexDirection = "row";
+    parent.style.alignItems = "center";
+
+    // Create the NoTUbeTV Menu button
+    const menuButton = document.createElement("button");
+    menuButton.setAttribute("data-notubetv", "menu");
+    menuButton.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" height="58px" viewBox="0 -960 960 960" width="58px" fill="#F3F3F3"><path d="M480-480q0-91 64.5-155.5T700-700q91 0 155.5 64.5T920-480H480ZM260-260q-91 0-155.5-64.5T40-480h440q0 91-64.5 155.5T260-260Zm220-220q-91 0-155.5-64.5T260-700q0-91 64.5-155.5T480-920v440Zm0 440v-440q91 0 155.5 64.5T700-260q0 91-64.5 155.5T480-40Z"/></svg>`;
+    menuButton.style.marginLeft = "54px";
+    menuButton.style.padding = "35px";
+    menuButton.style.background = "rgba(255, 255, 255, 0.1)";
+    menuButton.style.border = "none";
+    menuButton.style.borderRadius = "88px";
+
+    // Insert right next the search box
+    parent.insertBefore(menuButton, searchBar.nextSibling);
+  }
+
+  addMenuButton();
+
+  // Here the fooling part begins.
+  // If the search tab is focused and the 'right arrow" is pressed, open up the menu.
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowRight") {
+      const searchBar = getSearchBar();
+      const isFocused = searchBar?.classList?.contains(
+        "ytLrSearchTextBoxFocused"
+      );
+      if (searchBar && isFocused) {
+        modernUI(); // from 'userscript.js'
+        const menuButton = document.querySelector(
+          'button[data-notubetv="menu"]'
+        );
+        menuButton.style.background = "white";
+      }
+    }
+  });
+
+  const observer = new MutationObserver((mutations) => {
+    const searchBar = getSearchBar();
+    if (
+      searchBar &&
+      !searchBar.parentNode.querySelector('[data-notubetv="menu"]')
+    ) {
+      addMenuButton(); // Re-add if missing
+    }
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+  });
+})();
+/* End menuTrigger.js */
 
 /* Start exitBridge.js */
 // Exit Bridge to react to exit button call.
@@ -48,7 +121,9 @@
   });
   observer.observe(document.body, { childList: true, subtree: true });
 })();
+/* End exitBridge.js */
 
+/* Start TizenTubeScripts.js */
 (function () {
   "use strict";
 
@@ -63,7 +138,7 @@
     enableSponsorBlockInteraction: true,
     enableSponsorBlockSelfPromo: true,
     enableSponsorBlockMusicOfftopic: true,
-    enableShorts: true, //true
+    enableShorts: true,
   };
 
   let localConfig;
@@ -91,11 +166,327 @@
     window.localStorage[CONFIG_KEY] = JSON.stringify(window.localConfig);
   };
 
-  window.modernUI = function modernUI() {
+  function showToast(title, subtitle, thumbnails) {
+    const toastCmd = {
+      openPopupAction: {
+        popupType: "TOAST",
+        popup: {
+          overlayToastRenderer: {
+            title: {
+              simpleText: title,
+            },
+            subtitle: {
+              simpleText: subtitle,
+            },
+          },
+        },
+      },
+    };
+    resolveCommand(toastCmd);
+  }
+
+  function showModal(title, content, selectIndex, id, update) {
+    if (!update) {
+      const closeCmd = {
+        signalAction: {
+          signal: "POPUP_BACK",
+        },
+      };
+      resolveCommand(closeCmd);
+    }
+
+    const modalCmd = {
+      openPopupAction: {
+        popupType: "MODAL",
+        popup: {
+          overlaySectionRenderer: {
+            overlay: {
+              overlayTwoPanelRenderer: {
+                actionPanel: {
+                  overlayPanelRenderer: {
+                    header: {
+                      overlayPanelHeaderRenderer: {
+                        title: {
+                          simpleText: title,
+                        },
+                      },
+                    },
+                    content: {
+                      overlayPanelItemListRenderer: {
+                        items: content,
+                        selectedIndex: selectIndex,
+                      },
+                    },
+                  },
+                },
+                backButton: {
+                  buttonRenderer: {
+                    accessibilityData: {
+                      accessibilityData: {
+                        label: "Back",
+                      },
+                    },
+                    command: {
+                      signalAction: {
+                        signal: "POPUP_BACK",
+                      },
+                    },
+                  },
+                },
+              },
+            },
+            dismissalCommand: {
+              signalAction: {
+                signal: "POPUP_BACK",
+              },
+            },
+          },
+        },
+        uniqueId: id,
+      },
+    };
+
+    if (update) {
+      modalCmd.openPopupAction.shouldMatchUniqueId = true;
+      modalCmd.openPopupAction.updateAction = true;
+    }
+
+    resolveCommand(modalCmd);
+  }
+
+  function buttonItem(title, icon, commands) {
+    const button = {
+      compactLinkRenderer: {
+        serviceEndpoint: {
+          commandExecutorCommand: {
+            commands,
+          },
+        },
+      },
+    };
+
+    if (title) {
+      button.compactLinkRenderer.title = {
+        simpleText: title.title,
+      };
+    }
+
+    if (title.subtitle) {
+      button.compactLinkRenderer.subtitle = {
+        simpleText: title.subtitle,
+      };
+    }
+
+    if (icon) {
+      button.compactLinkRenderer.icon = {
+        iconType: icon.icon,
+      };
+    }
+
+    if (icon && icon.secondaryIcon) {
+      button.compactLinkRenderer.secondaryIcon = {
+        iconType: icon.secondaryIcon,
+      };
+    }
+
+    return button;
+  }
+
+  window.modernUI = function modernUI(update, parameters) {
+    const settings = [
+      {
+        name: "Ad block",
+        icon: "DOLLAR_SIGN",
+        value: "enableAdBlock",
+      },
+      {
+        name: "SponsorBlock",
+        icon: "MONEY_HAND",
+        value: "enableSponsorBlock",
+      },
+      {
+        name: "Skip Sponsor Segments",
+        icon: "MONEY_HEART",
+        value: "enableSponsorBlockSponsor",
+      },
+      {
+        name: "Skip Intro Segments",
+        icon: "PLAY_CIRCLE",
+        value: "enableSponsorBlockIntro",
+      },
+      {
+        name: "Skip Outro Segments",
+        value: "enableSponsorBlockOutro",
+      },
+      {
+        name: "Skip Interaction Reminder Segments",
+        value: "enableSponsorBlockInteraction",
+      },
+      {
+        name: "Skip Self-Promotion Segments",
+        value: "enableSponsorBlockSelfPromo",
+      },
+      {
+        name: "Skip Off-Topic Music Segments",
+        value: "enableSponsorBlockMusicOfftopic",
+      },
+      {
+        name: "Shorts",
+        icon: "YOUTUBE_SHORTS_FILL_24",
+        value: "enableShorts",
+      },
+    ];
+
+    const buttons = [];
+
+    let index = 0;
+    for (const setting of settings) {
+      const currentVal = setting.value ? configRead(setting.value) : null;
+      buttons.push(
+        buttonItem(
+          { title: setting.name, subtitle: setting.subtitle },
+          {
+            icon: setting.icon ? setting.icon : "CHEVRON_DOWN",
+            secondaryIcon:
+              currentVal === null
+                ? "CHEVRON_RIGHT"
+                : currentVal
+                ? "CHECK_BOX"
+                : "CHECK_BOX_OUTLINE_BLANK",
+          },
+          currentVal !== null
+            ? [
+                {
+                  setClientSettingEndpoint: {
+                    settingDatas: [
+                      {
+                        clientSettingEnum: {
+                          item: setting.value,
+                        },
+                        boolValue: !configRead(setting.value),
+                      },
+                    ],
+                  },
+                },
+                {
+                  customAction: {
+                    action: "SETTINGS_UPDATE",
+                    parameters: [index],
+                  },
+                },
+              ]
+            : [
+                {
+                  customAction: {
+                    action: "OPTIONS_SHOW",
+                    parameters: {
+                      options: setting.options,
+                      selectedIndex: 0,
+                      update: false,
+                    },
+                  },
+                },
+              ]
+        )
+      );
+      index++;
+    }
+
+    showModal(
+      "NotubeTv Settings",
+      buttons,
+      parameters && parameters.length > 0 ? parameters[0] : 0,
+      "tt-settings",
+      update
+    );
   };
 
+  function resolveCommand(cmd, _) {
+    // resolveCommand function is pretty OP, it can do from opening modals, changing client settings and way more.
+    // Because the client might change, we should find it first.
+
+    for (const key in window._yttv) {
+      if (
+        window._yttv[key] &&
+        window._yttv[key].instance &&
+        window._yttv[key].instance.resolveCommand
+      ) {
+        return window._yttv[key].instance.resolveCommand(cmd, _);
+      }
+    }
+  }
 
   // Patch resolveCommand to be able to change NotubeTv settings
+
+  function patchResolveCommand() {
+    for (const key in window._yttv) {
+      if (
+        window._yttv[key] &&
+        window._yttv[key].instance &&
+        window._yttv[key].instance.resolveCommand
+      ) {
+        const ogResolve = window._yttv[key].instance.resolveCommand;
+        window._yttv[key].instance.resolveCommand = function (cmd, _) {
+          if (cmd.setClientSettingEndpoint) {
+            // Command to change client settings. Use NotubeTv configuration to change settings.
+            for (const settings of cmd.setClientSettingEndpoint.settingDatas) {
+              if (!settings.clientSettingEnum.item.includes("_")) {
+                for (const setting of cmd.setClientSettingEndpoint
+                  .settingDatas) {
+                  const valName = Object.keys(setting).find((key) =>
+                    key.includes("Value")
+                  );
+                  const value =
+                    valName === "intValue"
+                      ? Number(setting[valName])
+                      : setting[valName];
+                  if (valName === "arrayValue") {
+                    const arr = configRead(setting.clientSettingEnum.item);
+                    if (arr.includes(value)) {
+                      arr.splice(arr.indexOf(value), 1);
+                    } else {
+                      arr.push(value);
+                    }
+                    configWrite(setting.clientSettingEnum.item, arr);
+                  } else configWrite(setting.clientSettingEnum.item, value);
+                }
+              }
+            }
+          } else if (cmd.customAction) {
+            customAction(cmd.customAction.action, cmd.customAction.parameters);
+            return true;
+          } else if (cmd?.showEngagementPanelEndpoint?.customAction) {
+            customAction(
+              cmd.showEngagementPanelEndpoint.customAction.action,
+              cmd.showEngagementPanelEndpoint.customAction.parameters
+            );
+            return true;
+          }
+          return ogResolve.call(this, cmd, _);
+        };
+      }
+    }
+  }
+
+  function customAction(action, parameters) {
+    switch (action) {
+      case "SETTINGS_UPDATE":
+        modernUI(true, parameters);
+        break;
+      case "SKIP":
+        const video = document.querySelector("video");
+        if (video) {
+          video.currentTime = parameters.time;
+        }
+        resolveCommand({
+          signalAction: {
+            signal: "POPUP_BACK",
+          },
+        });
+        break;
+    }
+  }
+
   /**
    * This is a minimal reimplementation of the following uBlock Origin rule:
    * https://github.com/uBlockOrigin/uAssets/blob/3497eebd440f4871830b9b45af0afc406c6eb593/filters/filters.txt#L116
@@ -596,3 +987,4 @@
     );
   }
 })();
+/* End TizenTubeScripts.js */
