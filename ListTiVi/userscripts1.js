@@ -1,27 +1,5 @@
+(function () {
 
-// Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
-
-//(function () {
-//  try {
-//   if (window.screen.width >= 2560 || window.screen.height >= 1440) return;
-//     var existing = document.querySelector('meta[name="viewport"]');
-//     if (existing) {
-//       existing.setAttribute(
-//         "content",
-//         "width=2560, height=1440, initial-scale=1.0"
-//       );
-//     } else {
-//       var meta = document.createElement("meta");
-//       meta.name = "viewport";
-//       meta.content = "width=2560, height=1440, initial-scale=1.0";
-//       document.head.appendChild(meta);
-//     }
-//  } catch (er) { }
-//})();
-
-
-/* Start exitBridge.js */
-// Exit Bridge to react to exit button call.
 (function () {
   const observer = new MutationObserver((mutations, obs) => {
     const exitButton = document.querySelector(
@@ -48,7 +26,9 @@
   });
   observer.observe(document.body, { childList: true, subtree: true });
 })();
+/* End exitBridge.js */
 
+/* Start TizenTubeScripts.js */
 (function () {
   "use strict";
 
@@ -63,7 +43,7 @@
     enableSponsorBlockInteraction: true,
     enableSponsorBlockSelfPromo: true,
     enableSponsorBlockMusicOfftopic: true,
-    enableShorts: true, //true
+    enableShorts: true,
   };
 
   let localConfig;
@@ -91,20 +71,199 @@
     window.localStorage[CONFIG_KEY] = JSON.stringify(window.localConfig);
   };
 
-  window.modernUI = function modernUI() {
-  };
+  function showToast(title, subtitle, thumbnails) {
+    const toastCmd = {
+      openPopupAction: {
+        popupType: "TOAST",
+        popup: {
+          overlayToastRenderer: {
+            title: {
+              simpleText: title,
+            },
+            subtitle: {
+              simpleText: subtitle,
+            },
+          },
+        },
+      },
+    };
+    resolveCommand(toastCmd);
+  }
 
+  function showModal(title, content, selectIndex, id, update) {
+    if (!update) {
+      const closeCmd = {
+        signalAction: {
+          signal: "POPUP_BACK",
+        },
+      };
+      resolveCommand(closeCmd);
+    }
+
+    const modalCmd = {
+      openPopupAction: {
+        popupType: "MODAL",
+        popup: {
+          overlaySectionRenderer: {
+            overlay: {
+              overlayTwoPanelRenderer: {
+                actionPanel: {
+                  overlayPanelRenderer: {
+                    header: {
+                      overlayPanelHeaderRenderer: {
+                        title: {
+                          simpleText: title,
+                        },
+                      },
+                    },
+                    content: {
+                      overlayPanelItemListRenderer: {
+                        items: content,
+                        selectedIndex: selectIndex,
+                      },
+                    },
+                  },
+                },
+                backButton: {
+                  buttonRenderer: {
+                    accessibilityData: {
+                      accessibilityData: {
+                        label: "Back",
+                      },
+                    },
+                    command: {
+                      signalAction: {
+                        signal: "POPUP_BACK",
+                      },
+                    },
+                  },
+                },
+              },
+            },
+            dismissalCommand: {
+              signalAction: {
+                signal: "POPUP_BACK",
+              },
+            },
+          },
+        },
+        uniqueId: id,
+      },
+    };
+
+    if (update) {
+      modalCmd.openPopupAction.shouldMatchUniqueId = true;
+      modalCmd.openPopupAction.updateAction = true;
+    }
+
+    resolveCommand(modalCmd);
+  }
+
+  function buttonItem(title, icon, commands) {
+    const button = {
+      compactLinkRenderer: {
+        serviceEndpoint: {
+          commandExecutorCommand: {
+            commands,
+          },
+        },
+      },
+    };
+
+    if (title) {
+      button.compactLinkRenderer.title = {
+        simpleText: title.title,
+      };
+    }
+
+    if (title.subtitle) {
+      button.compactLinkRenderer.subtitle = {
+        simpleText: title.subtitle,
+      };
+    }
+
+    if (icon) {
+      button.compactLinkRenderer.icon = {
+        iconType: icon.icon,
+      };
+    }
+
+    if (icon && icon.secondaryIcon) {
+      button.compactLinkRenderer.secondaryIcon = {
+        iconType: icon.secondaryIcon,
+      };
+    }
+
+    return button;
+  }
+
+  function resolveCommand(cmd, _) {
+    // resolveCommand function is pretty OP, it can do from opening modals, changing client settings and way more.
+    // Because the client might change, we should find it first.
+
+    for (const key in window._yttv) {
+      if (
+        window._yttv[key] &&
+        window._yttv[key].instance &&
+        window._yttv[key].instance.resolveCommand
+      ) {
+        return window._yttv[key].instance.resolveCommand(cmd, _);
+      }
+    }
+  }
 
   // Patch resolveCommand to be able to change NotubeTv settings
-  /**
-   * This is a minimal reimplementation of the following uBlock Origin rule:
-   * https://github.com/uBlockOrigin/uAssets/blob/3497eebd440f4871830b9b45af0afc406c6eb593/filters/filters.txt#L116
-   *
-   * This in turn calls the following snippet:
-   * https://github.com/gorhill/uBlock/blob/bfdc81e9e400f7b78b2abc97576c3d7bf3a11a0b/assets/resources/scriptlets.js#L365-L470
-   *
-   * Seems like for now dropping just the adPlacements is enough for YouTube TV
-   */
+
+  function patchResolveCommand() {
+    for (const key in window._yttv) {
+      if (
+        window._yttv[key] &&
+        window._yttv[key].instance &&
+        window._yttv[key].instance.resolveCommand
+      ) {
+        const ogResolve = window._yttv[key].instance.resolveCommand;
+        window._yttv[key].instance.resolveCommand = function (cmd, _) {
+          if (cmd.setClientSettingEndpoint) {
+            // Command to change client settings. Use NotubeTv configuration to change settings.
+            for (const settings of cmd.setClientSettingEndpoint.settingDatas) {
+              if (!settings.clientSettingEnum.item.includes("_")) {
+                for (const setting of cmd.setClientSettingEndpoint
+                  .settingDatas) {
+                  const valName = Object.keys(setting).find((key) =>
+                    key.includes("Value")
+                  );
+                  const value =
+                    valName === "intValue"
+                      ? Number(setting[valName])
+                      : setting[valName];
+                  if (valName === "arrayValue") {
+                    const arr = configRead(setting.clientSettingEnum.item);
+                    if (arr.includes(value)) {
+                      arr.splice(arr.indexOf(value), 1);
+                    } else {
+                      arr.push(value);
+                    }
+                    configWrite(setting.clientSettingEnum.item, arr);
+                  } else configWrite(setting.clientSettingEnum.item, value);
+                }
+              }
+            }
+          } else if (cmd.customAction) {
+            customAction(cmd.customAction.action, cmd.customAction.parameters);
+            return true;
+          } else if (cmd?.showEngagementPanelEndpoint?.customAction) {
+            customAction(
+              cmd.showEngagementPanelEndpoint.customAction.action,
+              cmd.showEngagementPanelEndpoint.customAction.parameters
+            );
+            return true;
+          }
+          return ogResolve.call(this, cmd, _);
+        };
+      }
+    }
+  }
+
   const origParse = JSON.parse;
   JSON.parse = function () {
     const r = origParse.apply(this, arguments);
@@ -596,3 +755,4 @@
     );
   }
 })();
+/* End TizenTubeScripts.js */
