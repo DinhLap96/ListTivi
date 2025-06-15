@@ -1,27 +1,4 @@
 
-// Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
-
-//(function () {
-//  try {
-//   if (window.screen.width >= 2560 || window.screen.height >= 1440) return;
-//     var existing = document.querySelector('meta[name="viewport"]');
-//     if (existing) {
-//       existing.setAttribute(
-//         "content",
-//         "width=2560, height=1440, initial-scale=1.0"
-//       );
-//     } else {
-//       var meta = document.createElement("meta");
-//       meta.name = "viewport";
-//       meta.content = "width=2560, height=1440, initial-scale=1.0";
-//       document.head.appendChild(meta);
-//     }
-//  } catch (er) { }
-//})();
-
-
-/* Start exitBridge.js */
-// Exit Bridge to react to exit button call.
 (function () {
   const observer = new MutationObserver((mutations, obs) => {
     const exitButton = document.querySelector(
@@ -93,18 +70,6 @@
 
   window.modernUI = function modernUI() {
   };
-
-
-  // Patch resolveCommand to be able to change NotubeTv settings
-  /**
-   * This is a minimal reimplementation of the following uBlock Origin rule:
-   * https://github.com/uBlockOrigin/uAssets/blob/3497eebd440f4871830b9b45af0afc406c6eb593/filters/filters.txt#L116
-   *
-   * This in turn calls the following snippet:
-   * https://github.com/gorhill/uBlock/blob/bfdc81e9e400f7b78b2abc97576c3d7bf3a11a0b/assets/resources/scriptlets.js#L365-L470
-   *
-   * Seems like for now dropping just the adPlacements is enough for YouTube TV
-   */
   const origParse = JSON.parse;
   JSON.parse = function () {
     const r = origParse.apply(this, arguments);
@@ -508,13 +473,6 @@
       }
     }
   }
-
-  // When this global variable was declared using let and two consecutive hashchange
-  // events were fired (due to bubbling? not sure...) the second call handled below
-  // would not see the value change from first call, and that would cause multiple
-  // SponsorBlockHandler initializations... This has been noticed on Chromium 38.
-  // This either reveals some bug in chromium/webpack/babel scope handling, or
-  // shows my lack of understanding of javascript. (or both)
 
   window.sponsorblock = null;
 
