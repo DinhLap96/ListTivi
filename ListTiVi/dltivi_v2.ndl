@@ -86,6 +86,8 @@ https://live.fptplay53.net/epzhd2/vinhlong4hd_hls.smil/chunklist.m3u8
 #vtvdự phòng
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://tv.ddns.vn/tv/vtv1fhd/index.m3u8
+http://iptv.nhadai.org/stream/vtv1-hd
+https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
 https://hls.mskycdn.online/tv/vtv1fhd/index.m3u8
 https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist_b4200000.m3u8
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
