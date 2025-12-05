@@ -1,5 +1,6 @@
 /* Start spoofViewport.js */
 // Enables 4K resolution tricking youtube into thinking that we are on a 4K TV
+// AnIcon
 (function () {
   //if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
 
