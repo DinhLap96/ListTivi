@@ -103,9 +103,8 @@
     const exitButton = document.querySelector(
       ".ytVirtualListItemLast ytlr-button.ytLrButtonLargeShape"
     );
-    ExitBridge.onExitCalled();
-
     if (exitButton) {
+    ExitBridge.onExitCalled();
       exitButton.addEventListener(
         "keydown",
         (e) => {
