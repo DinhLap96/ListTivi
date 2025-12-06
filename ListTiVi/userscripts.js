@@ -110,8 +110,7 @@
 
           if (
             (e.key === "Enter" || e.keyCode === 13) &&
-            typeof ExitBridge !== "undefined" &&
-            ExitBridge.onExitCalled
+            typeof ExitBridge !== "undefined"
           ) {
             e.preventDefault();
             e.stopPropagation();
