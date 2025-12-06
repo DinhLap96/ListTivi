@@ -98,28 +98,28 @@
 
 /* Start exitBridge.js */
 // Exit Bridge to react to exit button call.
-//(function () {
-//  const observer = new MutationObserver((mutations, obs) => {
-//    const exitButton = document.querySelector(
-//      ".ytVirtualListItemLast ytlr-button.ytLrButtonLargeShape"
-//    );
-//    if (exitButton) {
-//      exitButton.addEventListener(
-//        "keydown",
-//        (e) => {
-//          if (
-//            (e.key === "Enter" || e.keyCode === 13 || e.keyCode === 4 ||e.keyCode === 23) &&  typeof ExitBridge !== "undefined" && ExitBridge.onExitCalled) {
-//            e.preventDefault();
-//            e.stopPropagation();
-//            ExitBridge.onExitCalled();
-//          }
-//        },
-//        true
-//      );
-//    }
-//  });
-//  observer.observe(document.body, { childList: true, subtree: true });
-//})();
+(function () {
+  const observer = new MutationObserver((mutations, obs) => {
+    const exitButton = document.querySelector(
+      ".ytVirtualListItemLast ytlr-button.ytLrButtonLargeShape"
+    );
+    if (exitButton) {
+      exitButton.addEventListener(
+        "keydown",
+        (e) => {
+          if (
+            (e.key === "Enter" || e.keyCode === 13 || e.keyCode === 4 ||e.keyCode === 23) &&  typeof ExitBridge !== "undefined" && ExitBridge.onExitCalled) {
+            e.preventDefault();
+            e.stopPropagation();
+            ExitBridge.onExitCalled();
+          }
+        },
+        true
+      );
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
 /* End exitBridge.js */
 
 /* Start TizenTubeScripts.js */
