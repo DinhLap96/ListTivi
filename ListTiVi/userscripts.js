@@ -107,11 +107,8 @@
       exitButton.addEventListener(
         "keydown",
         (e) => {
-
           if (
-            (e.key === "Enter" || e.keyCode === 13) &&
-            typeof ExitBridge !== "undefined"
-          ) {
+            (e.key === "Enter" || e.keyCode === 13)) {
             e.preventDefault();
             e.stopPropagation();
             ExitBridge.onExitCalled();
