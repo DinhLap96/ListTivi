@@ -26,6 +26,7 @@
       element.webkitRequestFullscreen();
     } else if (element.msRequestFullscreen) { // IE/Edge
       element.msRequestFullscreen();
+    }
 })();
 /* End spoofViewport.js */
 
