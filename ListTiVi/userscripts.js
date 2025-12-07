@@ -8,7 +8,7 @@
   if (existing) {
     existing.setAttribute(
       "content",
-      "width=3840, height=2160, initial-scale=1.0"
+      "width=3840, height=2160, initial-scale=1.0, titleBarStyle=hidden"
     );
   } else {
     var meta = document.createElement("meta");
