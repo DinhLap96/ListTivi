@@ -8,7 +8,7 @@
   if (existing) {
     existing.setAttribute(
       "content",
-      "width=3840, height=2160, initial-scale=1.0, titleBarStyle=hidden"
+      "width=3840, height=2160, initial-scale=1.0"
     );
   } else {
     var meta = document.createElement("meta");
@@ -16,17 +16,6 @@
     meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
   }
-   const element = document.documentElement; // Targets the entire page
-
-    if (element.requestFullscreen) {
-      element.requestFullscreen();
-    } else if (element.mozRequestFullScreen) { // Firefox
-      element.mozRequestFullScreen();
-    } else if (element.webkitRequestFullscreen) { // Chrome, Safari, Opera
-      element.webkitRequestFullscreen();
-    } else if (element.msRequestFullscreen) { // IE/Edge
-      element.msRequestFullscreen();
-    }
 })();
 /* End spoofViewport.js */
 
