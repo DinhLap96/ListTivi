@@ -7,7 +7,7 @@
   if (existing) {
     existing.setAttribute(
       "content",
-      "width=2560, height=1440, initial-scale=1.0"
+      "width=3840, height=2160, initial-scale=1.0"
     );
   } else {
     var meta = document.createElement("meta");
