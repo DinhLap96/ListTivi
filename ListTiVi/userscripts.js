@@ -59,7 +59,7 @@
     parent.insertBefore(menuButton, searchBar.nextSibling);
   }
 
-  addMenuButton();
+//  addMenuButton();
 
   // Here the fooling part begins.
   // If the search tab is focused and the 'right arrow" is pressed, open up the menu.
