@@ -7,31 +7,17 @@
   if (existing) {
     existing.setAttribute(
       "content",
+      "aria-hidden=true",
       "width=3840, height=2160, initial-scale=1.0"
     );
   } else {
     var meta = document.createElement("meta");
     meta.name = "viewport";
+    meta.type = 'hidden';
     meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
   }
 })();
-
-function requestFullScreen(element) {
-    // Supports most browsers and their versions.
-    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
-
-    if (requestMethod) { // Native full screen.
-        requestMethod.call(element);
-    } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
-        var wscript = new ActiveXObject("WScript.Shell");
-        if (wscript !== null) {
-            wscript.SendKeys("{F11}");
-        }
-    }
-}
-var elem = document.body; // Make the body go full screen.
-requestFullScreen(elem);
 
 (function () {
   const observer = new MutationObserver((mutations, obs) => {
