@@ -9,7 +9,6 @@
       "content",
       "width=3840, height=2160, initial-scale=1.0"
     );
-
     existing.setAttribute('allow', 'fullscreen');
   } else {
     var meta = document.createElement("meta");
