@@ -21,32 +21,32 @@
 
 /* Start menuTrigger.js */
 // Add a "button" to fool you...
-(function () {
-  function getSearchBar() {
-    const searchBars = document.querySelectorAll(
-      '[idomkey="ytLrSearchBarSearchTextBox"]'
-    );
-    return searchBars[searchBars.length - 1] ?? null;
-  }
-
-  // Here the fooling part begins.
-  // If the search tab is focused and the 'right arrow" is pressed, open up the menu.
-
-  document.addEventListener("keydown", function (event) {
-    if (event.key === "ArrowRight") {
-      const searchBar = getSearchBar();
-      const isFocused = searchBar?.classList?.contains(
-        "ytLrSearchTextBoxFocused"
-      );
-      if (searchBar && isFocused) {
-        modernUI(); // from 'userscript.js'
-        const menuButton = document.querySelector(
-          'button[data-notubetv="menu"]'
-        );
-        menuButton.style.background = "white";
-      }
-    }
-  });
+//(function () {
+//  function getSearchBar() {
+//    const searchBars = document.querySelectorAll(
+//      '[idomkey="ytLrSearchBarSearchTextBox"]'
+//    );
+//    return searchBars[searchBars.length - 1] ?? null;
+//  }
+//
+//  // Here the fooling part begins.
+//  // If the search tab is focused and the 'right arrow" is pressed, open up the menu.
+//
+//  document.addEventListener("keydown", function (event) {
+//    if (event.key === "ArrowRight") {
+//      const searchBar = getSearchBar();
+//      const isFocused = searchBar?.classList?.contains(
+//        "ytLrSearchTextBoxFocused"
+//      );
+//      if (searchBar && isFocused) {
+//        modernUI(); // from 'userscript.js'
+//        const menuButton = document.querySelector(
+//          'button[data-notubetv="menu"]'
+//        );
+//        menuButton.style.background = "white";
+//      }
+//    }
+//  });
 
   const observer = new MutationObserver((mutations) => {
     const searchBar = getSearchBar();
