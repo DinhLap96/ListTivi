@@ -48,15 +48,15 @@
 //    }
 //  });
 
-  const observer = new MutationObserver((mutations) => {
-    const searchBar = getSearchBar();
-    if (
-      searchBar &&
-      !searchBar.parentNode.querySelector('[data-notubetv="menu"]')
-    ) {
-      addMenuButton(); // Re-add if missing
-    }
-  });
+//  const observer = new MutationObserver((mutations) => {
+//    const searchBar = getSearchBar();
+//    if (
+//      searchBar &&
+//      !searchBar.parentNode.querySelector('[data-notubetv="menu"]')
+//    ) {
+//      addMenuButton(); // Re-add if missing
+//    }
+//  });
 
   observer.observe(document.body, {
     childList: true,
