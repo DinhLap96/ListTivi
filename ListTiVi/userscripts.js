@@ -5,21 +5,18 @@
 
   var existing = document.querySelector('meta[name="viewport"]');
   if (existing) {
-//    existing.setAttribute(
-//      "content",
-//      "width=3840, height=2160, initial-scale=1.0"
-//    );
-        var meta = document.createElement("meta");
-        meta.name = "viewport";
-        meta.content = "width=3840, height=2160, initial-scale=1.0";
-        document.body.appendChild(meta);
+    existing.setAttribute(
+      "content",
+      "width=3840, height=2160, initial-scale=1.0"
+    );
+
+    existing.setAttribute('allow', 'fullscreen');
+  } else {
+    var meta = document.createElement("meta");
+    meta.name = "viewport";
+    meta.content = "width=3840, height=2160, initial-scale=1.0";
+    document.body.appendChild(meta);
   }
-//  else {
-//    var meta = document.createElement("meta");
-//    meta.name = "viewport";
-//    meta.content = "width=3840, height=2160, initial-scale=1.0";
-//    document.body.appendChild(meta);
-//  }
 })();
 
 (function () {
