@@ -1,6 +1,7 @@
 
 (function () {
-//  if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
+
+  if (window.screen.width >= 3840 || window.screen.height >= 2160) return;
 
   var existing = document.querySelector('meta[name="viewport"]');
   if (existing) {
