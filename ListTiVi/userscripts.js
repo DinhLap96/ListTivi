@@ -15,7 +15,7 @@
     meta.name = "viewport";
     meta.content = "width=3840, height=2160, initial-scale=1.0";
     document.head.appendChild(meta);
-    document.title="myNewTitle";
+    document.title="DinhLap";
   }
 })();
 /* End spoofViewport.js */
