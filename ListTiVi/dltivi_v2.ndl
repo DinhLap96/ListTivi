@@ -122,11 +122,9 @@ https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist.m3u8
 https://tv.ddns.vn/tv/vtv9fhd/index.m3u8
 
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",QPVN HD
-http://iptv.nhadai.org/stream/qpvnhd
-https://hls.mskycdn.online/tv/qpvnhd/index.m3u8
+https://live.fptplay53.net/fnxhd2/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="antvhd" group-title="VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/35/ANTV_HD_logo_2016.png/revision/latest?cb=20210924092419&path-prefix=vi",An Ninh TV
-https://tv.ddns.vn/tv/qpvnhd/index.m3u8
-https://hls.mskycdn.online/tv/antvhd/index.m3u8
+https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
 https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
 
 #EXTINF:0 tvg-id="htvccanhachd" group-title="💛| HTV"tvg-logo="https://i.imgur.com/ZHVkEIC.png",HTVC Ca Nhạc
