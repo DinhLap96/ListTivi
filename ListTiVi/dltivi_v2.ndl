@@ -86,12 +86,16 @@ https://live.fptplay53.net/epzhd2/vinhlong4hd_hls.smil/chunklist.m3u8
 https://freem3u.xyz/api/live/play.m3u8?vid=91
 
 #vtvdự phòng
+#EXTINF:0 tvg-id="vntoday" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vietnam_Today_Logo.png/330px-Vietnam_Today_Logo.png",VietNam Today
+https://live.fptplay53.net/fnxhd1/vntoday_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 http://iptv.nhadai.org/stream/vtv1-hd
 https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
 https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist_b4200000.m3u8
+https://freem3u.xyz/api/live/play.m3u8?vid=2
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
 http://iptv.nhadai.org/stream/vtv2-hd
+https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8
 https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist_b4200000.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
 http://iptv.nhadai.org/stream/vtv3-hd
@@ -104,11 +108,13 @@ https://live.fptplay53.net/epzhd1/vtv5hd_vhls.smil/chunklist.m3u8
 https://live.fptplay53.net/epzch2/vtv5hd_abr.smil/chunklist.m3u8
 http://iptv.nhadai.org/stream/vtv5-hd
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5tnb_logo.png", VTV5 Tây Nam Bộ
-https://tv.ddns.vn/tv/vtv5tnb/index.m3u8
+https://live.fptplay53.net/fnxhd1/vtv5tnb_vhls.smil/chunklist.m3u8
+http://iptv.nhadai.org/stream/vtv5-tay-nam-bo
 https://live.fptplay53.net/fnxhd1/vtv5tnb_vhls.smil/chunklist_b5000000.m3u8
 #https://e8.endpoint.cdn.sctvonline.vn/hls/vtv5_tnb/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5taynguyen_logo.png", VTV5 Tây Nguyên
-https://tv.ddns.vn/tv/vtv5tn/index.m3u8
+http://iptv.nhadai.org/stream/vtv5-tay-nam-bo
+https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist.m3u8
 https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTVCanTho.png",VTV Cần Thơ
 https://tv.ddns.vn/tv/vtvtfhd/index.m3u8
