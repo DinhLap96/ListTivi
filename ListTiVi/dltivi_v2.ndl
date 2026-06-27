@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="https://vnepg.site/epg.xml"
-#PLAYLISTINF:DinhLap version="v08" url="https://bom.so/LitsTivi" list1="https://tth.vn/tv360" list2="https://iptv.pro.vn/phimiptv/" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
+#PLAYLISTINF:DinhLap version="v09" url="https://bom.so/LitsTivi" list1="https://tth.vn/tv360" list2="https://iptv.pro.vn/phimiptv/" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live.fptplay53.net/fnxhd1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -18,7 +18,7 @@ https://vpsttt.vietanhtv.top/tv360/tv360.php?id=6
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
 https://live.fptplay53.net/fnxhd1/vtv8hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
-https://live.fptplay53.net/fnxhd1/vtv9hd_vhls.smil/chunklist_b5000000.m3u8
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=8
 #EXTINF:0 tvg-id="vtv10hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV10_logo.png",VTV10
 https://live.fptplay53.net/fnxhd1/vtv10hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",QPVN HD
@@ -66,6 +66,7 @@ https://e8.endpoint.cdn.sctvonline.vn/hls/vtv7hd/index.m3u8
 https://tv.ddns.vn/tv/vtv8fhd/index.m3u8
 https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
+https://live.fptplay53.net/fnxhd1/vtv9hd_vhls.smil/chunklist..m3u8
 https://tv.ddns.vn/tv/vtv9fhd/index.m3u8
 https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtv9-hd/KenhCoBan.m3u8
 https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist.m3u8
