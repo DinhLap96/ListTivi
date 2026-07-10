@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="https://vnepg.site/epg.xml"
-#PLAYLISTINF:DinhLap version="v10" url="https://bom.so/LitsTivi" list1="https://tth.vn/tv360" list2="https://iptv.pro.vn/phimiptv/" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
+#PLAYLISTINF:DinhLap version="v11" url="https://bom.so/LitsTivi" list1="https://tth.vn/tv360" list2="https://iptv.pro.vn/phimiptv/" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/vtv1.m3u8
@@ -23,9 +23,13 @@ https://live.fptplay53.net/live/media/v9abr/live247-hls-avc/v9abr-avc1_5600000=1
 https://live.fptplay53.net/live/media/v10abr/live247-hls-avc/v10abr-avc1_5600000=10000-mp4a_131600=20000.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",QPVN HD
 https://live.fptplay53.net/live/media/quocphongvn/live-hls-avc/quocphongvn-avc1_4000000=10000-mp4a_131600=20000.m3u8
+#EXTINF:0 tvg-id="vntoday" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vietnamtoday_logo.png",VietNam Today
+https://live.fptplay53.net/fnxhd1/vntoday_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0 tvg-id="antvhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/ANTV_logo.png",An Ninh TV
+https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
 
 #vtvdự phòng
-#EXTINF:0 tvg-id="vntoday" group-title="VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vietnam_Today_Logo.png/330px-Vietnam_Today_Logo.png",VietNam Today
+#EXTINF:0 tvg-id="vntoday" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vietnamtoday_logo.png",VietNam Today
 https://live.fptplay53.net/fnxhd1/vntoday_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
 https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_5600000=10000-mp4a_131600=20000.m3u8
@@ -74,7 +78,7 @@ https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist.m3u8
 http://125hvt.ddns.net:21585/vtv9/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",QPVN HD
 https://live.fptplay53.net/fnxhd2/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0 tvg-id="antvhd" group-title="VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/35/ANTV_HD_logo_2016.png/revision/latest?cb=20210924092419&path-prefix=vi",An Ninh TV
+#EXTINF:0 tvg-id="antvhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/ANTV_logo.png",An Ninh TV
 https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
 https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
 
