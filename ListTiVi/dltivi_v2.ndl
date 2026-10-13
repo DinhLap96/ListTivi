@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="https://vnepg.site/epg.xml"
-#PLAYLISTINF:DinhLap version="v2" url="https://bom.so/LitsTivi" list1="https://1.org.vn/vmttv" list2="https://263.org.vn/vmttv" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
+#PLAYLISTINF:DinhLap version="v3" url="https://bom.so/LitsTivi" list1="https://1.org.vn/vmttv" list2="https://263.org.vn/vmttv" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.imgur.com/63dG6wi.png",VTV1
 https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1.m3u8
