@@ -1,54 +1,55 @@
 ﻿#EXTM3U url-tvg="https://vnepg.site/epg.xml"
-#PLAYLISTINF:DinhLap version="v03" url="https://bom.so/LitsTivi" list1="https://1.org.vn/vmttv" list2="https://tinyurl.com./vmt47" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
+#PLAYLISTINF:DinhLap version="v04" url="https://bom.so/LitsTivi" list1="https://1.org.vn/vmttv" list2="https://tinyurl.com./vmt47" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.imgur.com/63dG6wi.png",VTV1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv1/master.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/O1lByjT.png",VTV2
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/vtv2.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv2/master.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.imgur.com/3mXVW13.png",VTV3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv3/master.m3u8
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/5rgaQhX.png",VTV4
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/vtv4.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv4/master.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/0ZGdD4I.png",VTV5
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/vtv5.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv5/master.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/Yf4YMXK.png",VTV5 Tây Nam Bộ
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv5tnb/master.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.imgur.com/tKidqX2.png",VTV5 Tây Nguyên
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/vtv5tn.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv5tnb/master.m3u8
 #EXTINF:0 tvg-id="vtv6hd" tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.imgur.com/lNz42Q7.png",VTV6
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/vtv6.m3u8
+https://vtvgolivepre-vtv02.vtvdigital.vn/hls/vtv/live/vtv6/index.m3u8
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.imgur.com/mMSyhyc.png",VTV7
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/vtv7.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv7/master.m3u8
 #EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://i.imgur.com/7gPf8KR.png",VTV8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv8/live-hls-avc/vtv8.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv8/master.m3u8
 #EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.imgur.com/Ux61y3r.png",VTV9
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv9/live247-hls-avc/vtv9.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv9/master.m3u8
 #EXTINF:-1 tvg-id="vtv10hd" group-title="VTV" tvg-logo="https://i.imgur.com/380qIt5.png",VTV10
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/vtv10.m3u8
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv6/master.m3u8
 #EXTINF:-1 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://i.imgur.com/OOopwU1.png",QPVN HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/quocphongvn/live-hls-avc/index.m3u8
+https://liveh12.vtvprime.vn/hls/QPTV/index.m3u8
 #EXTINF:-1 tvg-id="antvhd" group-title="VTV" tvg-logo="https://i.imgur.com/pB100CM.png",An Ninh TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/antv/live-hls-avc/index.m3u8
+https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
 #EXTINF:-1 tvg-id="vietnamtoday" group-title="VTV" tvg-logo="https://i.imgur.com/GSb80Ej.png",Vietnam Today
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
-https://vips-livecdn.fptplay.net/live/media/vietnamtoday/live-hls-avc/index.m3u8
+https://amagi-live.ondemandkorea.com/amgplt0456.m3u8
 
 #vtvdự phòng
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
+https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1.m3u8
 https://live.fptplay53.net/live/media/v1abr/live247-hls-avc/1.m3u8
 https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
 https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/vtv3.m3u8
