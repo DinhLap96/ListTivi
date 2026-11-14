@@ -51,48 +51,62 @@ https://vtvgo.vn/channel/vtvgo-phim-truyen
 
 #vtvdự phòng
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
+https://freem3u.xyz/api/live/play.m3u8?vid=2
+https://vmttv.dpdns.org/tv360/?id=vtv1
+https://vtvgo.vn/channel/vtv1
 #https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1.m3u8
 #https://live.fptplay53.net/live/media/v1abr/live247-hls-avc/1.m3u8
 #https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/vtv3.m3u8
 #https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
-https://vtvgo.vn/channel/vtv1
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
+https://vmttv.dpdns.org/tv360/?id=vtv2
 https://vtvgo.vn/channel/vtv2
 #https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8
 #https://live.fptplay53.net/live/media/v2abr/live247-hls-avc/v2abr.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
+https://vmttv.dpdns.org/tv360/?id=vtv3
 https://vtvgo.vn/channel/vtv3
 #https://live.fptplay53.net/fnxch2/vtv3hd_abr.smil/chunklist.m3u8
 #https://live.fptplay53.net/live/media/v3abr/live247-hls-avc/v3abr.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
+https://vmttv.dpdns.org/tv360/?id=vtv4
 https://vtvgo.vn/channel/vtv4
 #https://live.fptplay53.net/fnxhd1/vtv4hd_vhls.smil/chunklist.m3u8
 #https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist.m3u8
 #https://live.fptplay53.net/live/media/v43abr/live247-hls-avc/v4abr.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
+https://freem3u.xyz/api/live/play.m3u8?vid=110
+https://vmttv.dpdns.org/tv360/?id=vtv5
 https://vtvgo.vn/channel/vtv5
 #https://live.fptplay53.net/live/media/v5abr/live247-hls-avc/v5abr.m3u8
 #https://live.fptplay53.net/epzhd1/vtv5hd_vhls.smil/chunklist.m3u8
 #https://live.fptplay53.net/epzch2/vtv5hd_abr.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5tnb_logo.png", VTV5 Tây Nam Bộ
+https://vmttv.dpdns.org/tv360/?id=vtv5-tay-nam-bo
 https://vtvgo.vn/channel/vtv5-tay-nam-bo
 #https://live.fptplay53.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5taynguyen_logo.png", VTV5 Tây Nguyên
+https://vmttv.dpdns.org/tv360/?id=vtv5-tay-nguyen
 https://vtvgo.vn/channel/vtv5-tay-nguyen
 #https://live.fptplay53.net/live/media/vtv5tn/live-hls-avc/vtv5tn.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV6_logo.png",VTV6
+https://vmttv.dpdns.org/tv360/?id=vtv
 https://vtvgo.vn/channel/vtv6
 #https://live.fptplay53.net/live/media/vtv6/live247-hls-avc/vtv6.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
+https://vmttv.dpdns.org/tv360/?id=vtv7
 https://vtvgo.vn/channel/vtv7
 #https://e8.endpoint.cdn.sctvonline.vn/hls/vtv7/index.m3u8
 #https://e8.endpoint.cdn.sctvonline.vn/hls/vtv7hd/index.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
+https://vmttv.dpdns.org/tv360/?id=vtv8
 https://vtvgo.vn/channel/vtv8
 #https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist.m3u8
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
+https://vmttv.dpdns.org/tv360/?id=vtv9
 https://vtvgo.vn/channel/vtv9
 #EXTINF:-1 tvg-id="vtv10hd" group-title="VTV" tvg-logo="https://i.imgur.com/380qIt5.png",VTV10
+https://vmttv.dpdns.org/tv360/?id=vtv10
 https://vtvgo.vn/channel/vtv10
 #https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist.m3u8
 #https://live.fptplay53.net/live/media/v9abr/live247-hls-avc/v9abr.m3u8
