@@ -1,5 +1,5 @@
 ﻿#EXTM3U url-tvg="https://vnepg.site/epg.xml"
-#PLAYLISTINF:DinhLap version="v06" url="https://bom.so/LitsTivi" list1="https://1.org.vn/vmttv" list2="https://tinyurl.com./vmt47" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
+#PLAYLISTINF:DinhLap version="v07" url="https://bom.so/LitsTivi" list1="https://1.org.vn/vmttv" list2="https://tinyurl.com./vmt47" https://263.org.vn/vmttv https://hqth.me/vietngatv http://s.id/khichtivi
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.imgur.com/63dG6wi.png",VTV1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
@@ -46,55 +46,67 @@ https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
 #EXTINF:-1 tvg-id="vietnamtoday" group-title="VTV" tvg-logo="https://i.imgur.com/GSb80Ej.png",Vietnam Today
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
 https://amagi-live.ondemandkorea.com/amgplt0456.m3u8
+#EXTINF:-1 tvg-id="vtvgophim" group-title="VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9c/VTVgo_logo_2015-2026.png/revision/latest?cb=20220627071056&path-prefix=vi",VTVGo Phim
+https://vtvgo.vn/channel/vtvgo-phim-truyen
 
 #vtvdự phòng
 #EXTINF:0 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV1_logo.png",VTV1
-https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1.m3u8
-https://live.fptplay53.net/live/media/v1abr/live247-hls-avc/1.m3u8
-https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
-https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/vtv3.m3u8
+#https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1.m3u8
+#https://live.fptplay53.net/live/media/v1abr/live247-hls-avc/1.m3u8
+#https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/vtv3.m3u8
 #https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
+https://vtvgo.vn/channel/vtv1
 #EXTINF:0 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV2_logo.png",VTV2
-https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8
-https://live.fptplay53.net/live/media/v2abr/live247-hls-avc/v2abr.m3u8
+https://vtvgo.vn/channel/vtv2
+#https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8
+#https://live.fptplay53.net/live/media/v2abr/live247-hls-avc/v2abr.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV3_logo.png",VTV3
-https://live.fptplay53.net/fnxch2/vtv3hd_abr.smil/chunklist.m3u8
-https://live.fptplay53.net/live/media/v3abr/live247-hls-avc/v3abr.m3u8
+https://vtvgo.vn/channel/vtv3
+#https://live.fptplay53.net/fnxch2/vtv3hd_abr.smil/chunklist.m3u8
+#https://live.fptplay53.net/live/media/v3abr/live247-hls-avc/v3abr.m3u8
 #EXTINF:0 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV4_logo.png",VTV4
-https://live.fptplay53.net/fnxhd1/vtv4hd_vhls.smil/chunklist.m3u8
-https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist.m3u8
-https://live.fptplay53.net/live/media/v43abr/live247-hls-avc/v4abr.m3u8
+https://vtvgo.vn/channel/vtv4
+#https://live.fptplay53.net/fnxhd1/vtv4hd_vhls.smil/chunklist.m3u8
+#https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist.m3u8
+#https://live.fptplay53.net/live/media/v43abr/live247-hls-avc/v4abr.m3u8
 #EXTINF:0 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5_logo.png",VTV5
-https://live.fptplay53.net/live/media/v5abr/live247-hls-avc/v5abr.m3u8
-https://live.fptplay53.net/epzhd1/vtv5hd_vhls.smil/chunklist.m3u8
+https://vtvgo.vn/channel/vtv5
+#https://live.fptplay53.net/live/media/v5abr/live247-hls-avc/v5abr.m3u8
+#https://live.fptplay53.net/epzhd1/vtv5hd_vhls.smil/chunklist.m3u8
 #https://live.fptplay53.net/epzch2/vtv5hd_abr.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5tnb_logo.png", VTV5 Tây Nam Bộ
-https://live.fptplay53.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb.m3u8
+https://vtvgo.vn/channel/vtv5-tay-nam-bo
+#https://live.fptplay53.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV5taynguyen_logo.png", VTV5 Tây Nguyên
-https://live.fptplay53.net/fnxhd1/vtv5taynguyen_vhls.smil/chunklist.m3u8
-https://live.fptplay53.net/live/media/vtv5tn/live-hls-avc/vtv5tn.m3u8
+https://vtvgo.vn/channel/vtv5-tay-nguyen
+#https://live.fptplay53.net/live/media/vtv5tn/live-hls-avc/vtv5tn.m3u8
 #EXTINF:0 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV6_logo.png",VTV6
-https://live.fptplay53.net/live/media/vtv6/live247-hls-avc/vtv6.m3u8
-https://dethich.pw/vtv6/index.m3u8
+https://vtvgo.vn/channel/vtv6
+#https://live.fptplay53.net/live/media/vtv6/live247-hls-avc/vtv6.m3u8
 #EXTINF:0 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV7_logo.png",VTV7
+https://vtvgo.vn/channel/vtv7
 #https://e8.endpoint.cdn.sctvonline.vn/hls/vtv7/index.m3u8
 #https://e8.endpoint.cdn.sctvonline.vn/hls/vtv7hd/index.m3u8
 #EXTINF:0 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV8_logo.png",VTV8
+https://vtvgo.vn/channel/vtv8
 #https://live.fptplay53.net/epzhd1/vtv8hd_vhls.smil/chunklist.m3u8
-
 #EXTINF:0 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/VTV9_logo.png",VTV9
-https://live.fptplay53.net/fnxhd1/vtv9hd_vhls.smil/chunklist.m3u8
-https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist.m3u8
-https://live.fptplay53.net/live/media/v9abr/live247-hls-avc/v9abr.m3u8
+https://vtvgo.vn/channel/vtv9
+#EXTINF:-1 tvg-id="vtv10hd" group-title="VTV" tvg-logo="https://i.imgur.com/380qIt5.png",VTV10
+https://vtvgo.vn/channel/vtv10
+#https://live.fptplay53.net/fnxhd1/vtv9_vhls.smil/chunklist.m3u8
+#https://live.fptplay53.net/live/media/v9abr/live247-hls-avc/v9abr.m3u8
 #EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",QPVN HD
-https://live.fptplay53.net/live/media/v10abr/live247-hls-avc/v10abr.m3u8
-#EXTINF:0 tvg-id="qpvnhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/QPAN_logo.png",QPVN HD
-https://live.fptplay53.net/fnxhd2/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
-https://freem3u.xyz/api/live/play.m3u8?vid=20
+https://vtvgo.vn/channel/truyen-hinh-quoc-phong-viet-nam
+#https://live.fptplay53.net/live/media/v10abr/live247-hls-avc/v10abr.m3u8
+#https://live.fptplay53.net/fnxhd2/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
+#https://freem3u.xyz/api/live/play.m3u8?vid=20
 #EXTINF:0 tvg-id="antvhd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/ANTV_logo.png",An Ninh TV
-https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
+https://vtvgo.vn/channel/truyen-hinh-cong-an-nhan-dan
+#https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
 #EXTINF:0 tvg-id="vietnamtoday" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/DinhLap96/ListTivi/main/ListTiVi/Logo/vietnamtoday_logo.png",VietNam Today
-https://live.fptplay53.net/fnxhd1/vntoday_vhls.smil/chunklist.m3u8
+https://vtvgo.vn/channel/vietnam-today
+#https://live.fptplay53.net/fnxhd1/vntoday_vhls.smil/chunklist.m3u8
 
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://vtvgo-images.vtvdigital.vn/images/20230615/52a9c209-cb9e-455a-8e1d-b25a9ac34bb2.jpg",An Giang 1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246"
